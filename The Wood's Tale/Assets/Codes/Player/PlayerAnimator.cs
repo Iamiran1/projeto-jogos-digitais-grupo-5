@@ -23,8 +23,13 @@ public class PlayerAnimator : MonoBehaviour
         bool isRunning = isMoving && Input.GetKey(KeyCode.LeftShift);
         bool isFalling = rb.linearVelocity.y < -0.1f;
         bool isJumping = rb.linearVelocity.y > 0.1f;
+        bool isCrouching = isGrounded && (
+            Input.GetKey(KeyCode.LeftControl)  ||
+            Input.GetKey(KeyCode.RightControl) ||
+            Input.GetKey(KeyCode.S)            ||
+            Input.GetKey(KeyCode.DownArrow)
+        );
 
-        // Raycast para baixo detecta chão antes de tocar
         bool nearGround = Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundLayer);
 
         if (isJumping || isFalling)
@@ -37,6 +42,7 @@ public class PlayerAnimator : MonoBehaviour
             anim.SetBool("walk",   false);
             anim.SetBool("run",    false);
             anim.SetBool("ground", false);
+            anim.SetBool("crouch", false);
         }
         else if (isFalling && !nearGround)
         {
@@ -45,21 +51,33 @@ public class PlayerAnimator : MonoBehaviour
             anim.SetBool("walk",   false);
             anim.SetBool("run",    false);
             anim.SetBool("ground", false);
+            anim.SetBool("crouch", false);
         }
         else if (isFalling && nearGround)
         {
-            // prestes a tocar o chão
             anim.SetBool("ground", true);
             anim.SetBool("fall",   false);
             anim.SetBool("jump",   false);
+            anim.SetBool("walk",   false);
+            anim.SetBool("crouch", false);
+        }
+        else if (isGrounded && isCrouching)
+        {
+            anim.SetBool("crouch", true);
+            anim.SetBool("walk",   isMoving);
+            anim.SetBool("run",    false);
+            anim.SetBool("jump",   false);
+            anim.SetBool("fall",   false);
+            anim.SetBool("ground", false);
         }
         else if (isGrounded)
         {
             anim.SetBool("jump",   false);
             anim.SetBool("fall",   false);
             anim.SetBool("ground", true);
-            anim.SetBool("run",    isRunning);
+            anim.SetBool("crouch", false);
             anim.SetBool("walk",   isMoving);
+            anim.SetBool("run",    isRunning);
         }
     }
 
