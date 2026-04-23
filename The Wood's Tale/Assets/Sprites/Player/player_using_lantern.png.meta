@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: dd39e09e64ad5de42a81c88fa09e2547
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4142432292905705446
+    second: player_using_lantern_0
+  - first:
+      213: -1736316929491357501
+    second: player_using_lantern_1
+  - first:
+      213: -8508471214384868979
+    second: player_using_lantern_2
+  - first:
+      213: 705934512151775936
+    second: player_using_lantern_3
+  - first:
+      213: 3005287055196569927
+    second: player_using_lantern_4
+  - first:
+      213: -5471065615700927352
+    second: player_using_lantern_5
+  - first:
+      213: 4685071927019347146
+    second: player_using_lantern_6
+  - first:
+      213: 7031048012561660921
+    second: player_using_lantern_7
+  - first:
+      213: -7276332772441914406
+    second: player_using_lantern_8
+  - first:
+      213: -8666458672696509481
+    second: player_using_lantern_9
+  - first:
+      213: -6512773176412640864
+    second: player_using_lantern_10
+  - first:
+      213: -1956355455836068770
+    second: player_using_lantern_11
+  - first:
+      213: 2149669769047796160
+    second: player_using_lantern_12
+  - first:
+      213: -7592887136624882988
+    second: player_using_lantern_13
+  - first:
+      213: 1628583392692788919
+    second: player_using_lantern_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player_using_lantern_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1198
+        width: 236
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10af33f6cf1386c0800000000000000
+      internalID: -4142432292905705446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_using_lantern_1
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1197
+        width: 216
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0bb28b3fc57e7e0800000000000000
+      internalID: -1736316929491357501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_using_lantern_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1202
+        width: 212
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8114f4a286dbe980800000000000000
+      internalID: -8508471214384868979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_using_lantern_3
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1198
+        width: 215
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cace77d2bbfbc900800000000000000
+      internalID: 705934512151775936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_using_lantern_4
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1201
+        width: 215
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741421d67ace4b920800000000000000
+      internalID: 3005287055196569927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_using_lantern_5
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1200
+        width: 211
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cda493fced214b0800000000000000
+      internalID: -5471065615700927352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_using_lantern_6
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1198
+        width: 214
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc94255818b40140800000000000000
+      internalID: 4685071927019347146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_using_lantern_7
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 729
+        width: 211
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb34735aec439160800000000000000
+      internalID: 7031048012561660921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_using_lantern_8
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 730
+        width: 214
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3011725e5450b90800000000000000
+      internalID: -7276332772441914406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_using_lantern_9
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 731
+        width: 229
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db325901cd8ab780800000000000000
+      internalID: -8666458672696509481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_using_lantern_10
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 730
+        width: 247
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a96b3d5d4bfd95a0800000000000000
+      internalID: -6512773176412640864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_using_lantern_11
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 732
+        width: 249
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e546e700411a9d4e0800000000000000
+      internalID: -1956355455836068770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_using_lantern_12
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 735
+        width: 250
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c96d78f34925dd10800000000000000
+      internalID: 2149669769047796160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_using_lantern_14
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 5
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bedd8097f3e99610800000000000000
+      internalID: 1628583392692788919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 02218390c5b0e974faaec93a5c38c228
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      player_using_lantern_0: -4142432292905705446
+      player_using_lantern_1: -1736316929491357501
+      player_using_lantern_10: -6512773176412640864
+      player_using_lantern_11: -1956355455836068770
+      player_using_lantern_12: 2149669769047796160
+      player_using_lantern_13: -7592887136624882988
+      player_using_lantern_14: 1628583392692788919
+      player_using_lantern_2: -8508471214384868979
+      player_using_lantern_3: 705934512151775936
+      player_using_lantern_4: 3005287055196569927
+      player_using_lantern_5: -5471065615700927352
+      player_using_lantern_6: 4685071927019347146
+      player_using_lantern_7: 7031048012561660921
+      player_using_lantern_8: -7276332772441914406
+      player_using_lantern_9: -8666458672696509481
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
