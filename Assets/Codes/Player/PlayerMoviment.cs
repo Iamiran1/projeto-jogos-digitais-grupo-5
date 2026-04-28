@@ -8,14 +8,14 @@ public class PlayerMoviment : MonoBehaviour
     public float jumpForce = 10f;
 
     private Rigidbody2D rb;
-    private Animator anim;
+    private PlayerPush playerPush;
     private bool isGrounded;
     private float originalHeight;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        playerPush = GetComponent<PlayerPush>();
         var sr = GetComponent<SpriteRenderer>();
         originalHeight = sr != null ? sr.bounds.size.y : 1f;
     }
@@ -30,8 +30,10 @@ public class PlayerMoviment : MonoBehaviour
                            Input.GetKey(KeyCode.LeftControl)  ||
                            Input.GetKey(KeyCode.RightControl));
 
-        bool isRunning = Input.GetKey(KeyCode.LeftShift) && moveX != 0 && !isCrouching;
+        bool isPushing   = playerPush != null && playerPush.IsPushing;
+        bool isRunning   = Input.GetKey(KeyCode.LeftShift) && moveX != 0 && !isCrouching && !isPushing;
         float currentSpeed = isRunning ? runSpeed : walkSpeed;
+        if (isPushing) currentSpeed *= playerPush.pushSpeedMultiplier;
 
         rb.linearVelocity = new Vector2(moveX * currentSpeed, rb.linearVelocity.y);
 
@@ -53,19 +55,26 @@ public class PlayerMoviment : MonoBehaviour
         if (moveX > 0) transform.localScale = new Vector3(1f,  transform.localScale.y, 1f);
         if (moveX < 0) transform.localScale = new Vector3(-1f, transform.localScale.y, 1f);
 
-        anim.SetBool("walk", moveX != 0 && !isRunning && !isCrouching);
-        anim.SetBool("run",  isRunning);
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    void FixedUpdate()
+    {
+        isGrounded = false;
+    }
+
+    void OnCollisionStay2D(Collision2D col)
     {
         if (col.gameObject.CompareTag("Ground"))
+        {
             isGrounded = true;
-    }
-
-    void OnCollisionExit2D(Collision2D col)
-    {
-        if (col.gameObject.CompareTag("Ground"))
-            isGrounded = false;
+            return;
+        }
+        if (col.gameObject.CompareTag("Box"))
+        {
+            foreach (ContactPoint2D contact in col.contacts)
+            {
+                if (contact.normal.y > 0.5f) { isGrounded = true; return; }
+            }
+        }
     }
 }

@@ -4,6 +4,7 @@ public class PlayerAnimator : MonoBehaviour
 {
     private Animator anim;
     private Rigidbody2D rb;
+    private PlayerPush playerPush;
     private bool isGrounded;
 
     [Header("Chão")]
@@ -14,6 +15,7 @@ public class PlayerAnimator : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        playerPush = GetComponent<PlayerPush>();
     }
 
     void Update()
@@ -27,13 +29,11 @@ public class PlayerAnimator : MonoBehaviour
             Input.GetKey(KeyCode.S)            ||
             Input.GetKey(KeyCode.DownArrow)
         );
-        bool isFalling = rb.linearVelocity.y < -0.1f && !isCrouching;
-        bool isJumping = rb.linearVelocity.y > 0.1f  && !isCrouching;
+        bool isPushing  = playerPush != null && playerPush.IsPushing;
+        bool isFalling  = rb.linearVelocity.y < -0.1f && !isCrouching;
+        bool isJumping  = rb.linearVelocity.y > 0.1f  && !isCrouching;
 
         bool nearGround = Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundLayer);
-
-        if (isJumping || isFalling)
-            isGrounded = false;
 
         if (isJumping)
         {
@@ -44,6 +44,7 @@ public class PlayerAnimator : MonoBehaviour
             anim.SetBool("ground",     false);
             anim.SetBool("squat",      false);
             anim.SetBool("squat_walk", false);
+            anim.SetBool("push",       false);
         }
         else if (isFalling && !nearGround)
         {
@@ -54,6 +55,7 @@ public class PlayerAnimator : MonoBehaviour
             anim.SetBool("ground",     false);
             anim.SetBool("squat",      false);
             anim.SetBool("squat_walk", false);
+            anim.SetBool("push",       false);
         }
         else if (isFalling && nearGround)
         {
@@ -63,6 +65,7 @@ public class PlayerAnimator : MonoBehaviour
             anim.SetBool("walk",       false);
             anim.SetBool("squat",      false);
             anim.SetBool("squat_walk", false);
+            anim.SetBool("push",       false);
         }
         else if (isGrounded && isCrouching)
         {
@@ -73,28 +76,39 @@ public class PlayerAnimator : MonoBehaviour
             anim.SetBool("jump",       false);
             anim.SetBool("fall",       false);
             anim.SetBool("ground",     false);
+            anim.SetBool("push",       false);
         }
         else if (isGrounded)
         {
             anim.SetBool("jump",       false);
             anim.SetBool("fall",       false);
-            anim.SetBool("ground",     true);
+            anim.SetBool("ground",     !isPushing);
             anim.SetBool("squat",      false);
             anim.SetBool("squat_walk", false);
-            anim.SetBool("walk",       isMoving);
-            anim.SetBool("run",        isRunning);
+            anim.SetBool("push",       isPushing);
+            anim.SetBool("walk",       isMoving && !isPushing);
+            anim.SetBool("run",        isRunning && !isPushing);
         }
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    void FixedUpdate()
     {
-        if (col.gameObject.CompareTag("Ground"))
-            isGrounded = true;
+        isGrounded = false;
     }
 
-    void OnCollisionExit2D(Collision2D col)
+    void OnCollisionStay2D(Collision2D col)
     {
         if (col.gameObject.CompareTag("Ground"))
-            isGrounded = false;
+        {
+            isGrounded = true;
+            return;
+        }
+        if (col.gameObject.CompareTag("Box"))
+        {
+            foreach (ContactPoint2D contact in col.contacts)
+            {
+                if (contact.normal.y > 0.5f) { isGrounded = true; return; }
+            }
+        }
     }
 }
