@@ -10,21 +10,25 @@ public class PlayerMoviment : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private bool isGrounded;
+    private float originalHeight;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        var sr = GetComponent<SpriteRenderer>();
+        originalHeight = sr != null ? sr.bounds.size.y : 1f;
     }
 
     void Update()
     {
         float moveX = Input.GetAxisRaw("Horizontal");
 
-        bool isCrouching = Input.GetKey(KeyCode.S)            ||
+        bool isCrouching = isGrounded && (
+                           Input.GetKey(KeyCode.S)            ||
                            Input.GetKey(KeyCode.DownArrow)    ||
                            Input.GetKey(KeyCode.LeftControl)  ||
-                           Input.GetKey(KeyCode.RightControl);
+                           Input.GetKey(KeyCode.RightControl));
 
         bool isRunning = Input.GetKey(KeyCode.LeftShift) && moveX != 0 && !isCrouching;
         float currentSpeed = isRunning ? runSpeed : walkSpeed;
@@ -36,11 +40,14 @@ public class PlayerMoviment : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
 
-        // Agachar
-        if (isCrouching)
-            transform.localScale = new Vector3(transform.localScale.x, 0.5f, 1f);
-        else
-            transform.localScale = new Vector3(transform.localScale.x, 1f, 1f);
+        // Agachar - reduz pelo topo mantendo os pés no lugar
+        float targetScaleY = isCrouching ? 0.5f : 1f;
+        if (!Mathf.Approximately(transform.localScale.y, targetScaleY))
+        {
+            float feetY = transform.position.y - transform.localScale.y * originalHeight / 2f;
+            transform.localScale = new Vector3(transform.localScale.x, targetScaleY, 1f);
+            transform.position = new Vector3(transform.position.x, feetY + targetScaleY * originalHeight / 2f, transform.position.z);
+        }
 
         // Virar o sprite
         if (moveX > 0) transform.localScale = new Vector3(1f,  transform.localScale.y, 1f);
