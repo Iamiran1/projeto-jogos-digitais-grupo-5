@@ -15,21 +15,34 @@ public class CameraFollow : MonoBehaviour
 
     private float camHalfHeight;
     private float camHalfWidth;
+    private float standingHalfHeight;
 
     void Start()
     {
         var cam = GetComponent<Camera>();
         camHalfHeight = cam.orthographicSize;
         camHalfWidth  = camHalfHeight * cam.aspect;
+
+        if (target != null)
+        {
+            var sr = target.GetComponentInChildren<SpriteRenderer>();
+            if (sr != null)
+                standingHalfHeight = sr.bounds.size.y / 2f;
+        }
     }
 
     void LateUpdate()
     {
         if (target == null) return;
 
+        // Compensate for crouch: when localScale.y < 1 the center moves down,
+        // so we shift the target Y back up to keep the camera at standing height.
+        float scaleY   = target.localScale.y;
+        float targetY  = target.position.y + standingHalfHeight * (1f - scaleY);
+
         Vector3 desired = new Vector3(
             target.position.x + offset.x,
-            target.position.y + offset.y,
+            targetY + offset.y,
             transform.position.z
         );
 
