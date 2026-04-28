@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAnimator : MonoBehaviour
@@ -5,11 +6,13 @@ public class PlayerAnimator : MonoBehaviour
     private Animator anim;
     private Rigidbody2D rb;
     private PlayerPush playerPush;
-    private bool isGrounded;
 
     [Header("Chão")]
     public float rayDistance = 0.3f;
     public LayerMask groundLayer;
+
+    private readonly HashSet<Collider2D> groundContacts = new HashSet<Collider2D>();
+    private bool isGrounded => groundContacts.Count > 0;
 
     void Start()
     {
@@ -23,15 +26,14 @@ public class PlayerAnimator : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         bool isMoving = moveX != 0;
         bool isRunning = isMoving && Input.GetKey(KeyCode.LeftShift);
-        bool isCrouching = isGrounded && (
-            Input.GetKey(KeyCode.LeftControl)  ||
-            Input.GetKey(KeyCode.RightControl) ||
-            Input.GetKey(KeyCode.S)            ||
-            Input.GetKey(KeyCode.DownArrow)
-        );
+        bool crouchInput = Input.GetKey(KeyCode.LeftControl)  ||
+                           Input.GetKey(KeyCode.RightControl) ||
+                           Input.GetKey(KeyCode.S)            ||
+                           Input.GetKey(KeyCode.DownArrow);
+        bool isCrouching = isGrounded && crouchInput;
         bool isPushing  = playerPush != null && playerPush.IsPushing;
-        bool isFalling  = rb.linearVelocity.y < -0.1f && !isCrouching;
-        bool isJumping  = rb.linearVelocity.y > 0.1f  && !isCrouching;
+        bool isFalling  = rb.linearVelocity.y < -0.1f && !crouchInput;
+        bool isJumping  = rb.linearVelocity.y > 0.1f  && !crouchInput;
 
         bool nearGround = Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundLayer);
 
@@ -91,24 +93,24 @@ public class PlayerAnimator : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
-    {
-        isGrounded = false;
-    }
-
-    void OnCollisionStay2D(Collision2D col)
+    void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.CompareTag("Ground"))
         {
-            isGrounded = true;
+            groundContacts.Add(col.collider);
             return;
         }
         if (col.gameObject.CompareTag("Box"))
         {
             foreach (ContactPoint2D contact in col.contacts)
             {
-                if (contact.normal.y > 0.5f) { isGrounded = true; return; }
+                if (contact.normal.y > 0.5f) { groundContacts.Add(col.collider); return; }
             }
         }
+    }
+
+    void OnCollisionExit2D(Collision2D col)
+    {
+        groundContacts.Remove(col.collider);
     }
 }

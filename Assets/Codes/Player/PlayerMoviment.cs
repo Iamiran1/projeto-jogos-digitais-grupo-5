@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMoviment : MonoBehaviour
@@ -9,8 +10,12 @@ public class PlayerMoviment : MonoBehaviour
 
     private Rigidbody2D rb;
     private PlayerPush playerPush;
-    private bool isGrounded;
     private float originalHeight;
+
+    // Rastreia quais colisores estão sustentando o personagem.
+    // Adiciona só contatos válidos (chão ou topo de caixa); remove em qualquer Exit.
+    private readonly HashSet<Collider2D> groundContacts = new HashSet<Collider2D>();
+    private bool isGrounded => groundContacts.Count > 0;
 
     void Start()
     {
@@ -38,9 +43,7 @@ public class PlayerMoviment : MonoBehaviour
         rb.linearVelocity = new Vector2(moveX * currentSpeed, rb.linearVelocity.y);
 
         if (Input.GetButtonDown("Jump") && isGrounded && !isCrouching)
-        {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        }
 
         // Agachar - reduz pelo topo mantendo os pés no lugar
         float targetScaleY = isCrouching ? 0.5f : 1f;
@@ -48,33 +51,32 @@ public class PlayerMoviment : MonoBehaviour
         {
             float feetY = transform.position.y - transform.localScale.y * originalHeight / 2f;
             transform.localScale = new Vector3(transform.localScale.x, targetScaleY, 1f);
-            transform.position = new Vector3(transform.position.x, feetY + targetScaleY * originalHeight / 2f, transform.position.z);
+            transform.position   = new Vector3(transform.position.x, feetY + targetScaleY * originalHeight / 2f, transform.position.z);
         }
 
         // Virar o sprite
         if (moveX > 0) transform.localScale = new Vector3(1f,  transform.localScale.y, 1f);
         if (moveX < 0) transform.localScale = new Vector3(-1f, transform.localScale.y, 1f);
-
     }
 
-    void FixedUpdate()
-    {
-        isGrounded = false;
-    }
-
-    void OnCollisionStay2D(Collision2D col)
+    void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.CompareTag("Ground"))
         {
-            isGrounded = true;
+            groundContacts.Add(col.collider);
             return;
         }
         if (col.gameObject.CompareTag("Box"))
         {
             foreach (ContactPoint2D contact in col.contacts)
             {
-                if (contact.normal.y > 0.5f) { isGrounded = true; return; }
+                if (contact.normal.y > 0.5f) { groundContacts.Add(col.collider); return; }
             }
         }
+    }
+
+    void OnCollisionExit2D(Collision2D col)
+    {
+        groundContacts.Remove(col.collider);
     }
 }
