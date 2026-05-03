@@ -1,52 +1,49 @@
 fileFormatVersion: 2
-guid: dd39e09e64ad5de42a81c88fa09e2547
+guid: 073aa9d0901fe2a4790e4f93e537ad1d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4142432292905705446
-    second: player_using_lantern_0
+      213: -3279018544451352394
+    second: squat_0
   - first:
-      213: -1736316929491357501
-    second: player_using_lantern_1
+      213: 3365342575286287690
+    second: squat_1
   - first:
-      213: -8508471214384868979
-    second: player_using_lantern_2
+      213: -4459848681745350931
+    second: squat_2
   - first:
-      213: 705934512151775936
-    second: player_using_lantern_3
+      213: 8038207276314200428
+    second: squat_3
   - first:
-      213: 3005287055196569927
-    second: player_using_lantern_4
+      213: 5082014062994562268
+    second: squat_4
   - first:
-      213: -5471065615700927352
-    second: player_using_lantern_5
+      213: -6534550074762151852
+    second: squat_5
   - first:
-      213: 4685071927019347146
-    second: player_using_lantern_6
+      213: 3278954303308634947
+    second: squat_6
   - first:
-      213: 7031048012561660921
-    second: player_using_lantern_7
+      213: 353194188846342519
+    second: squat_7
   - first:
-      213: -7276332772441914406
-    second: player_using_lantern_8
+      213: -6280996443930742023
+    second: squat_8
   - first:
-      213: -8666458672696509481
-    second: player_using_lantern_9
+      213: -7927206319670740712
+    second: squat_9
   - first:
-      213: -6512773176412640864
-    second: player_using_lantern_10
+      213: 3912211292168714734
+    second: squat_10
   - first:
-      213: -1956355455836068770
-    second: player_using_lantern_11
+      213: 2401413648517590549
+    second: squat_11
   - first:
-      213: 2149669769047796160
-    second: player_using_lantern_12
+      213: -4474611083214291020
+    second: squat_12
   - first:
-      213: -7592887136624882988
-    second: player_using_lantern_13
-  - first:
-      213: 1628583392692788919
-    second: player_using_lantern_14
+      213: -4293637306280460418
+    second: squat_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -79,7 +76,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -89,7 +86,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -168,309 +165,309 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_using_lantern_0
+      name: squat_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 1198
-        width: 236
-        height: 342
+        x: 52
+        y: 651
+        width: 136
+        height: 179
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a10af33f6cf1386c0800000000000000
-      internalID: -4142432292905705446
+      spriteID: 6b80f0eb1069e72d0800000000000000
+      internalID: -3279018544451352394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_using_lantern_1
+      name: squat_1
       rect:
         serializedVersion: 2
-        x: 267
-        y: 1197
-        width: 216
-        height: 345
+        x: 242
+        y: 652
+        width: 151
+        height: 159
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c0bb28b3fc57e7e0800000000000000
-      internalID: -1736316929491357501
+      spriteID: a4dff6bed3914be20800000000000000
+      internalID: 3365342575286287690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_using_lantern_2
+      name: squat_2
       rect:
         serializedVersion: 2
-        x: 522
-        y: 1202
-        width: 212
-        height: 338
+        x: 439
+        y: 651
+        width: 145
+        height: 135
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8114f4a286dbe980800000000000000
-      internalID: -8508471214384868979
+      spriteID: deef294d04f6b12c0800000000000000
+      internalID: -4459848681745350931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_using_lantern_3
+      name: squat_3
       rect:
         serializedVersion: 2
-        x: 778
-        y: 1198
-        width: 215
-        height: 342
+        x: 640
+        y: 651
+        width: 143
+        height: 132
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0cace77d2bbfbc900800000000000000
-      internalID: 705934512151775936
+      spriteID: c690ba7fde27d8f60800000000000000
+      internalID: 8038207276314200428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_using_lantern_4
+      name: squat_4
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 1201
-        width: 215
-        height: 341
+        x: 841
+        y: 650
+        width: 144
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 741421d67ace4b920800000000000000
-      internalID: 3005287055196569927
+      spriteID: cdc94585dd0f68640800000000000000
+      internalID: 5082014062994562268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_using_lantern_5
+      name: squat_5
       rect:
         serializedVersion: 2
-        x: 1279
-        y: 1200
-        width: 211
-        height: 342
+        x: 1038
+        y: 651
+        width: 142
+        height: 127
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88cda493fced214b0800000000000000
-      internalID: -5471065615700927352
+      spriteID: 458bcca145d9055a0800000000000000
+      internalID: -6534550074762151852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_using_lantern_6
+      name: squat_6
       rect:
         serializedVersion: 2
-        x: 1532
-        y: 1198
-        width: 214
-        height: 345
+        x: 1226
+        y: 651
+        width: 139
+        height: 127
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: acc94255818b40140800000000000000
-      internalID: 4685071927019347146
+      spriteID: 34b1373f09f218d20800000000000000
+      internalID: 3278954303308634947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_using_lantern_7
+      name: squat_7
       rect:
         serializedVersion: 2
-        x: 275
-        y: 729
-        width: 211
-        height: 368
+        x: 44
+        y: 297
+        width: 151
+        height: 147
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9fb34735aec439160800000000000000
-      internalID: 7031048012561660921
+      spriteID: 7712be25e3cc6e400800000000000000
+      internalID: 353194188846342519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_using_lantern_8
+      name: squat_8
       rect:
         serializedVersion: 2
-        x: 522
-        y: 730
-        width: 214
-        height: 363
+        x: 233
+        y: 298
+        width: 156
+        height: 150
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad3011725e5450b90800000000000000
-      internalID: -7276332772441914406
+      spriteID: 9f2340c230b65d8a0800000000000000
+      internalID: -6280996443930742023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_using_lantern_9
+      name: squat_9
       rect:
         serializedVersion: 2
-        x: 754
-        y: 731
-        width: 229
-        height: 345
+        x: 429
+        y: 297
+        width: 151
+        height: 143
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7db325901cd8ab780800000000000000
-      internalID: -8666458672696509481
+      spriteID: 8193bc63ad7ecf190800000000000000
+      internalID: -7927206319670740712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_using_lantern_10
+      name: squat_10
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 730
-        width: 247
-        height: 348
+        x: 631
+        y: 297
+        width: 148
+        height: 142
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a96b3d5d4bfd95a0800000000000000
-      internalID: -6512773176412640864
+      spriteID: ee9fcf34177fa4630800000000000000
+      internalID: 3912211292168714734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_using_lantern_11
+      name: squat_11
       rect:
         serializedVersion: 2
-        x: 1288
-        y: 732
-        width: 249
-        height: 346
+        x: 843
+        y: 297
+        width: 135
+        height: 141
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e546e700411a9d4e0800000000000000
-      internalID: -1956355455836068770
+      spriteID: 51e6aa67df8835120800000000000000
+      internalID: 2401413648517590549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_using_lantern_12
+      name: squat_12
       rect:
         serializedVersion: 2
-        x: 1546
-        y: 735
-        width: 250
-        height: 343
+        x: 1028
+        y: 297
+        width: 155
+        height: 137
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c96d78f34925dd10800000000000000
-      internalID: 2149669769047796160
+      spriteID: 4bf7cf46decf6e1c0800000000000000
+      internalID: -4474611083214291020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_using_lantern_14
+      name: squat_13
       rect:
         serializedVersion: 2
-        x: 1565
-        y: 5
-        width: 15
-        height: 10
+        x: 1228
+        y: 297
+        width: 149
+        height: 137
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7bedd8097f3e99610800000000000000
-      internalID: 1628583392692788919
+      spriteID: e7fb9cc5e9fe964c0800000000000000
+      internalID: -4293637306280460418
       vertices: []
       indices: 
       edges: []
@@ -479,7 +476,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 02218390c5b0e974faaec93a5c38c228
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -489,21 +486,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      player_using_lantern_0: -4142432292905705446
-      player_using_lantern_1: -1736316929491357501
-      player_using_lantern_10: -6512773176412640864
-      player_using_lantern_11: -1956355455836068770
-      player_using_lantern_12: 2149669769047796160
-      player_using_lantern_13: -7592887136624882988
-      player_using_lantern_14: 1628583392692788919
-      player_using_lantern_2: -8508471214384868979
-      player_using_lantern_3: 705934512151775936
-      player_using_lantern_4: 3005287055196569927
-      player_using_lantern_5: -5471065615700927352
-      player_using_lantern_6: 4685071927019347146
-      player_using_lantern_7: 7031048012561660921
-      player_using_lantern_8: -7276332772441914406
-      player_using_lantern_9: -8666458672696509481
+      squat_0: -3279018544451352394
+      squat_1: 3365342575286287690
+      squat_10: 3912211292168714734
+      squat_11: 2401413648517590549
+      squat_12: -4474611083214291020
+      squat_13: -4293637306280460418
+      squat_2: -4459848681745350931
+      squat_3: 8038207276314200428
+      squat_4: 5082014062994562268
+      squat_5: -6534550074762151852
+      squat_6: 3278954303308634947
+      squat_7: 353194188846342519
+      squat_8: -6280996443930742023
+      squat_9: -7927206319670740712
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

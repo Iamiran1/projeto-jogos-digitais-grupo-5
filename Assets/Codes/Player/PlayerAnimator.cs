@@ -16,7 +16,7 @@ public class PlayerAnimator : MonoBehaviour
 
     void Start()
     {
-        anim = GetComponent<Animator>();
+        anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
         playerPush = GetComponent<PlayerPush>();
     }
@@ -71,7 +71,7 @@ public class PlayerAnimator : MonoBehaviour
         }
         else if (isGrounded && isCrouching)
         {
-            anim.SetBool("squat",      true);
+            anim.SetBool("squat",      !isMoving);
             anim.SetBool("squat_walk", isMoving);
             anim.SetBool("walk",       false);
             anim.SetBool("run",        false);
@@ -108,9 +108,19 @@ public class PlayerAnimator : MonoBehaviour
             }
         }
     }
-
     void OnCollisionExit2D(Collision2D col)
     {
         groundContacts.Remove(col.collider);
+    }
+    public void TriggerJump()
+    {
+        anim.SetBool("jump",       true);
+        anim.SetBool("fall",       false);
+        anim.SetBool("ground",     false);
+        anim.SetBool("walk",       false);
+        anim.SetBool("run",        false);
+        anim.SetBool("squat",      false);
+        anim.SetBool("squat_walk", false);
+        anim.SetBool("push",       false);
     }
 }
