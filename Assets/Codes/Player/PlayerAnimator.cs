@@ -23,15 +23,20 @@ public class PlayerAnimator : MonoBehaviour
 
         bool isGrounded = playerMoviment.IsGrounded;
         bool isCrouching = playerMoviment.IsCrouching;
+        bool isSliding = playerMoviment.IsWallSliding;
 
         bool isMoving = moveX != 0;
         bool isRunning = isMoving && Input.GetKey(KeyCode.LeftShift);
         bool isPushing = playerPush != null && playerPush.IsPushing;
 
-        bool isJumping = rb.linearVelocity.y > 0.1f && !isGrounded;
-        bool isFalling = rb.linearVelocity.y < -0.1f && !isGrounded;
+        bool isJumping = rb.linearVelocity.y > 0.1f && !isGrounded && !isSliding;
+        bool isFalling = rb.linearVelocity.y < -0.1f && !isGrounded && !isSliding;
 
-        if (isJumping)
+        if (isSliding)
+        {
+            SetState(sliding: true);
+        }
+        else if (isJumping)
         {
             SetState(jump: true);
         }
@@ -65,7 +70,8 @@ public class PlayerAnimator : MonoBehaviour
         bool ground = false,
         bool squat = false,
         bool squatWalk = false,
-        bool push = false
+        bool push = false,
+        bool sliding = false
     )
     {
         anim.SetBool("jump", jump);
@@ -76,6 +82,7 @@ public class PlayerAnimator : MonoBehaviour
         anim.SetBool("squat", squat);
         anim.SetBool("squat_walk", squatWalk);
         anim.SetBool("push", push);
+        anim.SetBool("sliding", sliding);
     }
 
     public void TriggerJump()
