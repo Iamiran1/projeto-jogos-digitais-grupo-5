@@ -14,7 +14,7 @@ TagManager:
   - Water
   - UI
   - Enemy
-  - 
+  - PlataformaCaindo
   - 
   - 
   - 
@@ -51,6 +51,9 @@ TagManager:
     locked: 0
   - name: Frente
     uniqueID: 1484756743
+    locked: 0
+  - name: Frente de tudo
+    uniqueID: 3185749761
     locked: 0
   m_RenderingLayers:
   - Default
