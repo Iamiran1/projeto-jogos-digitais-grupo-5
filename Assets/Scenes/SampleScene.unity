@@ -6551,11 +6551,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 207833849941693082, guid: 146e44419b8ca504c87188d693811dab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.71
+      value: 20.7
       objectReference: {fileID: 0}
     - target: {fileID: 207833849941693082, guid: 146e44419b8ca504c87188d693811dab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.45
+      value: -4.56501
       objectReference: {fileID: 0}
     - target: {fileID: 207833849941693082, guid: 146e44419b8ca504c87188d693811dab, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6593,13 +6593,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2198614382240677404, guid: 146e44419b8ca504c87188d693811dab, type: 3}
+      propertyPath: yOffset
+      value: -0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 2204651015423645307, guid: 146e44419b8ca504c87188d693811dab, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 2204651015423645307, guid: 146e44419b8ca504c87188d693811dab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.29
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6275744811558286811, guid: 146e44419b8ca504c87188d693811dab, type: 3}
       propertyPath: groundLayer.m_Bits
