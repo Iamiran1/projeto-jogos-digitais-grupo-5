@@ -86,14 +86,10 @@ public class PlayerPush : MonoBehaviour
         {
             playerCollider.size = pushingSize;
             playerCollider.offset = new Vector2(
-                normalOffset.x + pushingOffsetX * facingDirection,
+                normalOffset.x + pushingOffsetX,
                 normalOffset.y
             );
         }
-        else
-        {
-            playerCollider.size = normalSize;
-            playerCollider.offset = normalOffset;
-        }
+        // Quando não está empurrando, PlayerMoviment cuida do collider
     }
 }

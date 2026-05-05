@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMoviment : MonoBehaviour
@@ -15,6 +14,10 @@ public class PlayerMoviment : MonoBehaviour
     [Range(0.1f, 1f)]
     public float crouchHeightMultiplier = 0.5f;
 
+    [Header("Detecção de chão")]
+    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private float groundExtraDistance = 0.08f;
+
     private Rigidbody2D rb;
     private BoxCollider2D col2d;
     private PlayerPush playerPush;
@@ -23,9 +26,12 @@ public class PlayerMoviment : MonoBehaviour
     private Vector2 originalColliderSize;
     private Vector2 originalColliderOffset;
 
-    private readonly HashSet<Collider2D> groundContacts = new HashSet<Collider2D>();
-    private bool isGrounded => groundContacts.Count > 0;
+    private bool isGrounded;
     private bool isCrouching = false;
+
+    public bool IsGrounded => isGrounded;
+    public bool IsCrouching => isCrouching;
+    private float distanceToGround;
 
     void Start()
     {
@@ -38,11 +44,15 @@ public class PlayerMoviment : MonoBehaviour
         {
             originalColliderSize = col2d.size;
             originalColliderOffset = col2d.offset;
+
+            distanceToGround = col2d.bounds.extents.y;
         }
     }
 
     void Update()
     {
+        CheckGround();
+
         float moveX = Input.GetAxisRaw("Horizontal");
 
         bool crouchKeyHeld = Input.GetKey(KeyCode.S) ||
@@ -73,18 +83,16 @@ public class PlayerMoviment : MonoBehaviour
 
         rb.linearVelocity = new Vector2(moveX * currentSpeed, rb.linearVelocity.y);
 
-        if (Input.GetButtonDown("Jump") && isGrounded && !isCrouching)
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isCrouching)
         {
             if (playerAnimator != null)
                 playerAnimator.TriggerJump();
 
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            groundContacts.Clear();
         }
 
         ApplyCrouchCollider();
 
-        // Virar o sprite/Player
         if (moveX > 0)
             transform.localScale = new Vector3(1f, transform.localScale.y, 1f);
 
@@ -92,9 +100,46 @@ public class PlayerMoviment : MonoBehaviour
             transform.localScale = new Vector3(-1f, transform.localScale.y, 1f);
     }
 
-    private void ApplyCrouchCollider()
+    private void CheckGround()
+    {
+        if (col2d == null)
+        {
+            isGrounded = false;
+            return;
+        }
+
+        distanceToGround = col2d.bounds.extents.y;
+
+        RaycastHit2D hit = Physics2D.Raycast(
+            col2d.bounds.center,
+            Vector2.down,
+            distanceToGround + groundExtraDistance,
+            groundLayer
+        );
+
+        isGrounded = hit.collider != null;
+
+        Debug.DrawRay(
+            col2d.bounds.center,
+            Vector2.down * (distanceToGround + groundExtraDistance),
+            isGrounded ? Color.green : Color.red
+        );
+
+        Debug.Log("Grounded: " + isGrounded + " | Hit: " +
+                  (hit.collider != null ? hit.collider.gameObject.name : "Nada"));
+    }
+
+    void FixedUpdate()
+    {
+        ApplyCrouchCollider();
+    }
+
+    public void ApplyCrouchCollider()
     {
         if (col2d == null) return;
+
+        bool isPushing = playerPush != null && playerPush.IsPushing;
+        if (isPushing) return;
 
         if (isCrouching)
         {
@@ -103,7 +148,6 @@ public class PlayerMoviment : MonoBehaviour
 
             col2d.size = new Vector2(originalColliderSize.x, newHeight);
 
-            // Diminui o collider pelo topo, mantendo o bottom no mesmo lugar
             col2d.offset = new Vector2(
                 originalColliderOffset.x,
                 originalColliderOffset.y - heightDifference / 2f
@@ -116,29 +160,16 @@ public class PlayerMoviment : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    private void OnDrawGizmosSelected()
     {
-        if (col.gameObject.CompareTag("Ground"))
-        {
-            groundContacts.Add(col.collider);
-            return;
-        }
+        BoxCollider2D box = GetComponent<BoxCollider2D>();
+        if (box == null) return;
 
-        if (col.gameObject.CompareTag("Box"))
-        {
-            foreach (ContactPoint2D contact in col.contacts)
-            {
-                if (contact.normal.y > 0.5f)
-                {
-                    groundContacts.Add(col.collider);
-                    return;
-                }
-            }
-        }
-    }
+        float rayDistance = box.bounds.extents.y + groundExtraDistance;
 
-    void OnCollisionExit2D(Collision2D col)
-    {
-        groundContacts.Remove(col.collider);
+        Gizmos.DrawLine(
+            box.bounds.center,
+            box.bounds.center + Vector3.down * rayDistance
+        );
     }
 }
