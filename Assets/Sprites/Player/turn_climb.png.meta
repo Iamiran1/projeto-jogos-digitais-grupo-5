@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4e6e7ec6cdfa1964395437b2efcfed3e
+guid: ede9681535aff144e9e4da52491d7125
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -32,12 +32,6 @@ TextureImporter:
   - first:
       213: 6807682424169804639
     second: turn_climb_9
-  - first:
-      213: 4526687250163021504
-    second: turn_climb_10
-  - first:
-      213: -2363112751966010368
-    second: turn_climb_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 130
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -162,12 +156,12 @@ TextureImporter:
       name: turn_climb_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 603
-        width: 239
-        height: 483
+        x: 83
+        y: 651
+        width: 157
+        height: 308
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -184,12 +178,12 @@ TextureImporter:
       name: turn_climb_1
       rect:
         serializedVersion: 2
-        x: 311
-        y: 602
-        width: 168
-        height: 339
+        x: 344
+        y: 651
+        width: 154
+        height: 308
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,12 +200,12 @@ TextureImporter:
       name: turn_climb_2
       rect:
         serializedVersion: 2
-        x: 547
-        y: 603
-        width: 161
-        height: 337
+        x: 627
+        y: 646
+        width: 158
+        height: 313
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -228,12 +222,12 @@ TextureImporter:
       name: turn_climb_3
       rect:
         serializedVersion: 2
-        x: 769
-        y: 602
-        width: 154
-        height: 338
+        x: 893
+        y: 646
+        width: 156
+        height: 313
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -250,12 +244,12 @@ TextureImporter:
       name: turn_climb_4
       rect:
         serializedVersion: 2
-        x: 985
-        y: 600
-        width: 164
-        height: 337
+        x: 1149
+        y: 648
+        width: 157
+        height: 313
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -272,12 +266,12 @@ TextureImporter:
       name: turn_climb_5
       rect:
         serializedVersion: 2
-        x: 1217
-        y: 603
-        width: 231
-        height: 483
+        x: 91
+        y: 214
+        width: 157
+        height: 309
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -294,12 +288,12 @@ TextureImporter:
       name: turn_climb_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 236
-        height: 481
+        x: 356
+        y: 218
+        width: 159
+        height: 303
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -316,12 +310,12 @@ TextureImporter:
       name: turn_climb_7
       rect:
         serializedVersion: 2
-        x: 324
-        y: 150
-        width: 152
-        height: 329
+        x: 633
+        y: 217
+        width: 154
+        height: 305
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -338,12 +332,12 @@ TextureImporter:
       name: turn_climb_8
       rect:
         serializedVersion: 2
-        x: 546
-        y: 149
-        width: 150
-        height: 329
+        x: 898
+        y: 217
+        width: 159
+        height: 305
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -360,12 +354,12 @@ TextureImporter:
       name: turn_climb_9
       rect:
         serializedVersion: 2
-        x: 761
-        y: 149
-        width: 153
-        height: 329
+        x: 1151
+        y: 217
+        width: 159
+        height: 305
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -378,55 +372,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: turn_climb_10
-      rect:
-        serializedVersion: 2
-        x: 997
-        y: 147
-        width: 156
-        height: 328
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c6b143121602de30800000000000000
-      internalID: 4526687250163021504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: turn_climb_11
-      rect:
-        serializedVersion: 2
-        x: 1209
-        y: 0
-        width: 239
-        height: 474
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 004cedee879843fd0800000000000000
-      internalID: -2363112751966010368
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 69806f60d5d48c64f85608b1aa799bc1
     internalID: 0
     vertices: []
     indices: 
@@ -438,8 +388,6 @@ TextureImporter:
     nameFileIdTable:
       turn_climb_0: -5428135403052925094
       turn_climb_1: -7352976663462486743
-      turn_climb_10: 4526687250163021504
-      turn_climb_11: -2363112751966010368
       turn_climb_2: 4298116628401172479
       turn_climb_3: -5807750062933879383
       turn_climb_4: -6262740300623231611

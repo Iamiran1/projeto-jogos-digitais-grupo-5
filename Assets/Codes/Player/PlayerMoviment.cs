@@ -32,9 +32,10 @@ public class PlayerMoviment : MonoBehaviour
     [SerializeField] private float wallSlideSpeed = 1.5f;
     [SerializeField] private Vector2 wallJumpForce = new Vector2(8f, 10f);
     [SerializeField] private float wallJumpLockTime = 0.15f;
+    [SerializeField] private float wallCoyoteTime = 0.15f;
 
     private Rigidbody2D rb;
-    private BoxCollider2D col2d;
+    private CapsuleCollider2D col2d;
     private PlayerPush playerPush;
     private PlayerAnimator playerAnimator;
 
@@ -50,7 +51,9 @@ public class PlayerMoviment : MonoBehaviour
     private bool isWallJumping;
 
     private int wallDirection;
+    private int lastWallDirection;
     private float wallJumpLockCounter;
+    private float wallCoyoteTimeCounter;
 
     private float coyoteTimeCounter;
     private float jumpBufferCounter;
@@ -63,7 +66,7 @@ public class PlayerMoviment : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        col2d = GetComponent<BoxCollider2D>();
+        col2d = GetComponent<CapsuleCollider2D>();
         playerPush = GetComponent<PlayerPush>();
         playerAnimator = GetComponent<PlayerAnimator>();
 
@@ -128,12 +131,11 @@ public class PlayerMoviment : MonoBehaviour
             isWallSliding = false;
             isJumping = true;
 
+            wallCoyoteTimeCounter = 0f;
             wallJumpLockCounter = wallJumpLockTime;
 
-            rb.linearVelocity = new Vector2(
-                -wallDirection * wallJumpForce.x,
-                wallJumpForce.y
-            );
+            int jumpDir = isTouchingWall ? wallDirection : lastWallDirection;
+            rb.linearVelocity = new Vector2(-jumpDir * wallJumpForce.x, wallJumpForce.y);
 
             if (playerAnimator != null)
                 playerAnimator.TriggerJump();
@@ -213,15 +215,29 @@ public class PlayerMoviment : MonoBehaviour
             (wallDirection == 1 && moveX > 0) ||
             (wallDirection == -1 && moveX < 0);
 
-        isWallSliding = isTouchingWall &&
-                        !isGrounded &&
-                        pressingIntoWall &&
-                        rb.linearVelocity.y <= 0f &&
-                        !isCrouching;
+        bool activelySliding = isTouchingWall &&
+                               !isGrounded &&
+                               pressingIntoWall &&
+                               rb.linearVelocity.y <= 0f &&
+                               !isCrouching;
 
-        if (isWallSliding)
+        if (activelySliding)
         {
+            lastWallDirection = wallDirection;
+            wallCoyoteTimeCounter = wallCoyoteTime;
+            isWallSliding = true;
             rb.linearVelocity = new Vector2(0f, -wallSlideSpeed);
+        }
+        else if (wallCoyoteTimeCounter > 0f && !isGrounded)
+        {
+            wallCoyoteTimeCounter -= Time.deltaTime;
+            isWallSliding = true;
+            // fora da parede: deixa a gravidade agir normalmente
+        }
+        else
+        {
+            wallCoyoteTimeCounter = 0f;
+            isWallSliding = false;
         }
     }
 
@@ -337,8 +353,14 @@ private void CheckWall()
 
     private void FlipPlayer(float moveX)
     {
-        if (isWallSliding) return;
+        if (isWallSliding && isTouchingWall)
+        {
+            // Vira para longe da parede automaticamente
+            transform.localScale = new Vector3(-wallDirection, transform.localScale.y, 1f);
+            return;
+        }
 
+        // Durante o coyote time (acabou de sair da parede) ou no chão: vira normal
         if (moveX > 0)
             transform.localScale = new Vector3(1f, transform.localScale.y, 1f);
 
@@ -348,7 +370,7 @@ private void CheckWall()
 
     private void OnDrawGizmosSelected()
     {
-        BoxCollider2D box = GetComponent<BoxCollider2D>();
+        CapsuleCollider2D box = GetComponent<CapsuleCollider2D>();
         if (box == null) return;
 
         float groundRayDistance = box.bounds.extents.y + groundExtraDistance;

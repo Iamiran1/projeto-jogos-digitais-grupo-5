@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class AlignVisualToColliderBottom : MonoBehaviour
 {
-    [SerializeField] private BoxCollider2D boxCollider;
+    [SerializeField] private CapsuleCollider2D boxCollider;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Transform visual;
 
@@ -12,7 +12,7 @@ public class AlignVisualToColliderBottom : MonoBehaviour
     private void Awake()
     {
         if (boxCollider == null)
-            boxCollider = GetComponent<BoxCollider2D>();
+            boxCollider = GetComponent<CapsuleCollider2D>();
 
         if (spriteRenderer == null)
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();

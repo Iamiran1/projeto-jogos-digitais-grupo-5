@@ -9,7 +9,7 @@ public class PlayerPush : MonoBehaviour
     public float pushSpeedMultiplier = 0.5f;
 
     [Header("Collider ao empurrar")]
-    [SerializeField] private BoxCollider2D playerCollider;
+    [SerializeField] private CapsuleCollider2D playerCollider;
 
     [SerializeField] private Vector2 normalSize = new Vector2(0.75f, 1.55f);
     [SerializeField] private Vector2 normalOffset = new Vector2(0f, 0.05f);
@@ -25,7 +25,7 @@ public class PlayerPush : MonoBehaviour
     void Awake()
     {
         if (playerCollider == null)
-            playerCollider = GetComponent<BoxCollider2D>();
+            playerCollider = GetComponent<CapsuleCollider2D>();
 
         if (playerCollider != null)
         {
