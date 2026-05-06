@@ -104,6 +104,12 @@ public class PlayerMoviment : MonoBehaviour
     {
         if (isWallSliding) return;
 
+        if (!isGrounded && moveX != 0f && IsMovingIntoWall(moveX))
+        {
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+            return;
+        }
+
         bool isPushing = playerPush != null && playerPush.IsPushing;
 
         bool isRunning = Input.GetKey(KeyCode.LeftShift) &&
@@ -194,6 +200,30 @@ public class PlayerMoviment : MonoBehaviour
         }
     }
 
+    private bool IsMovingIntoWall(float moveX)
+    {
+        var contacts = new ContactPoint2D[6];
+        int count = rb.GetContacts(contacts);
+
+        float playerBottom = col2d.bounds.min.y;
+        float playerHeight = col2d.bounds.size.y;
+        float edgeThreshold = playerBottom + playerHeight * 0.25f;
+
+        for (int i = 0; i < count; i++)
+        {
+            // Ignora contatos no quarto inferior do collider — são bordas de plataforma
+            if (contacts[i].point.y < edgeThreshold) continue;
+
+            float nx = contacts[i].normal.x;
+            if (Mathf.Abs(nx) > 0.7f)
+            {
+                bool movingInto = (nx < 0f && moveX > 0f) || (nx > 0f && moveX < 0f);
+                if (movingInto) return true;
+            }
+        }
+        return false;
+    }
+
     private void HandleCrouch()
     {
         bool crouchKeyHeld = Input.GetKey(KeyCode.S) ||
@@ -203,10 +233,29 @@ public class PlayerMoviment : MonoBehaviour
 
         if (crouchKeyHeld && isGrounded)
             isCrouching = true;
+        else if (isCrouching && HasCeilingAbove())
+            isCrouching = true;
         else
             isCrouching = false;
 
         ApplyCrouchCollider();
+    }
+
+    private bool HasCeilingAbove()
+    {
+        if (col2d == null) return false;
+
+        float crouchedHeight = originalColliderSize.y * crouchHeightMultiplier;
+        float checkDistance = originalColliderSize.y - crouchedHeight;
+
+        Vector2 origin = new Vector2(col2d.bounds.center.x, col2d.bounds.max.y);
+
+        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.up, checkDistance, groundLayer);
+
+        Debug.DrawRay(origin, Vector2.up * checkDistance,
+            hit.collider != null ? Color.yellow : Color.white);
+
+        return hit.collider != null;
     }
 
     private void HandleWallSlide(float moveX)
