@@ -1,0 +1,5785 @@
+fileFormatVersion: 2
+guid: cff700188d895e446b256f24be40063f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9220190721838232776
+    second: Armadilha_0
+  - first:
+      213: -676466485504156991
+    second: Armadilha_1
+  - first:
+      213: 8430214624140170819
+    second: Armadilha_2
+  - first:
+      213: 1750988969970674884
+    second: Armadilha_3
+  - first:
+      213: -5957749142694194545
+    second: Armadilha_4
+  - first:
+      213: 340061625645712982
+    second: Armadilha_5
+  - first:
+      213: 7020569595181141095
+    second: Armadilha_6
+  - first:
+      213: -3620888510829967645
+    second: Armadilha_7
+  - first:
+      213: 3399197875543049672
+    second: Armadilha_8
+  - first:
+      213: 4246243289391354957
+    second: Armadilha_9
+  - first:
+      213: -4252326387460571717
+    second: Armadilha_10
+  - first:
+      213: 2892734293025901410
+    second: Armadilha_11
+  - first:
+      213: 5307746538598564076
+    second: Armadilha_12
+  - first:
+      213: -7052102957745677249
+    second: Armadilha_13
+  - first:
+      213: 2077973754714215074
+    second: Armadilha_14
+  - first:
+      213: -8766191137983287400
+    second: Armadilha_15
+  - first:
+      213: -4965973859063105632
+    second: Armadilha_16
+  - first:
+      213: -8906679819889202073
+    second: Armadilha_17
+  - first:
+      213: -3579702059205030951
+    second: Armadilha_18
+  - first:
+      213: -73828645360644631
+    second: Armadilha_19
+  - first:
+      213: -5277127611383954789
+    second: Armadilha_20
+  - first:
+      213: 7653183731553016229
+    second: Armadilha_21
+  - first:
+      213: 701978082976189438
+    second: Armadilha_22
+  - first:
+      213: -494283038591654813
+    second: Armadilha_23
+  - first:
+      213: -1063515604096394496
+    second: Armadilha_24
+  - first:
+      213: -4255288278809558831
+    second: Armadilha_25
+  - first:
+      213: 4636803964893725446
+    second: Armadilha_26
+  - first:
+      213: 8878510300064950918
+    second: Armadilha_27
+  - first:
+      213: -3026719813783783863
+    second: Armadilha_28
+  - first:
+      213: 6414533396185512481
+    second: Armadilha_29
+  - first:
+      213: -2571800788817691430
+    second: Armadilha_30
+  - first:
+      213: -6347627436736611969
+    second: Armadilha_31
+  - first:
+      213: 3169013076005455640
+    second: Armadilha_32
+  - first:
+      213: 7670035551500501425
+    second: Armadilha_33
+  - first:
+      213: -8201863907859078332
+    second: Armadilha_34
+  - first:
+      213: 8943930030922863121
+    second: Armadilha_35
+  - first:
+      213: 2346431067451351631
+    second: Armadilha_36
+  - first:
+      213: -1532192514510174195
+    second: Armadilha_37
+  - first:
+      213: -5016656327189872293
+    second: Armadilha_38
+  - first:
+      213: 1499054799742664663
+    second: Armadilha_39
+  - first:
+      213: -6678715882371733965
+    second: Armadilha_40
+  - first:
+      213: 6504922968674610563
+    second: Armadilha_41
+  - first:
+      213: -4832926741554778356
+    second: Armadilha_42
+  - first:
+      213: -6013769785216874764
+    second: Armadilha_43
+  - first:
+      213: -8650857171031570296
+    second: Armadilha_44
+  - first:
+      213: 9014877798805145184
+    second: Armadilha_45
+  - first:
+      213: 1624930065945592045
+    second: Armadilha_46
+  - first:
+      213: 2408858129237703719
+    second: Armadilha_47
+  - first:
+      213: -4739335301450819412
+    second: Armadilha_48
+  - first:
+      213: -1367324787754451705
+    second: Armadilha_49
+  - first:
+      213: 2612963423853576589
+    second: Armadilha_50
+  - first:
+      213: -3085643082917670537
+    second: Armadilha_51
+  - first:
+      213: -655424893095929869
+    second: Armadilha_52
+  - first:
+      213: -7997631948953542520
+    second: Armadilha_53
+  - first:
+      213: -6970924876927678038
+    second: Armadilha_54
+  - first:
+      213: 5506136122772418007
+    second: Armadilha_55
+  - first:
+      213: 6044262413670059264
+    second: Armadilha_56
+  - first:
+      213: 4570606412823496842
+    second: Armadilha_57
+  - first:
+      213: -8283429392450310631
+    second: Armadilha_58
+  - first:
+      213: 8878727127845185501
+    second: Armadilha_59
+  - first:
+      213: 1022276095148768857
+    second: Armadilha_60
+  - first:
+      213: 877953273970075418
+    second: Armadilha_61
+  - first:
+      213: -809430522653744029
+    second: Armadilha_62
+  - first:
+      213: -2425291841413026924
+    second: Armadilha_63
+  - first:
+      213: 1184174029005708701
+    second: Armadilha_64
+  - first:
+      213: -7118468485392831370
+    second: Armadilha_65
+  - first:
+      213: -409055950657111022
+    second: Armadilha_66
+  - first:
+      213: -2618130804769554152
+    second: Armadilha_67
+  - first:
+      213: -3907627168019208050
+    second: Armadilha_68
+  - first:
+      213: 3577978584869003480
+    second: Armadilha_69
+  - first:
+      213: -8238051610886284163
+    second: Armadilha_70
+  - first:
+      213: -8895461043227880327
+    second: Armadilha_71
+  - first:
+      213: -479417878482726325
+    second: Armadilha_72
+  - first:
+      213: -8039026446581405388
+    second: Armadilha_73
+  - first:
+      213: 4875841696133725731
+    second: Armadilha_74
+  - first:
+      213: -5111134765407195963
+    second: Armadilha_75
+  - first:
+      213: -5972752031900410858
+    second: Armadilha_76
+  - first:
+      213: 3432694387902247426
+    second: Armadilha_77
+  - first:
+      213: -600444856323627118
+    second: Armadilha_78
+  - first:
+      213: 6298525334574710065
+    second: Armadilha_79
+  - first:
+      213: 2910917968712064814
+    second: Armadilha_80
+  - first:
+      213: 69114498441336816
+    second: Armadilha_81
+  - first:
+      213: 7562231866994198769
+    second: Armadilha_82
+  - first:
+      213: -8758667328357366086
+    second: Armadilha_83
+  - first:
+      213: 8769495466346486704
+    second: Armadilha_84
+  - first:
+      213: -4269780474625913173
+    second: Armadilha_85
+  - first:
+      213: -8586582313144944581
+    second: Armadilha_86
+  - first:
+      213: 6093240796206625278
+    second: Armadilha_87
+  - first:
+      213: 5440063466146766010
+    second: Armadilha_88
+  - first:
+      213: -851392547729332921
+    second: Armadilha_89
+  - first:
+      213: 8929795995325963969
+    second: Armadilha_90
+  - first:
+      213: 476260004335748143
+    second: Armadilha_91
+  - first:
+      213: 7194265411868912771
+    second: Armadilha_92
+  - first:
+      213: -4429214315651052867
+    second: Armadilha_93
+  - first:
+      213: -8572230338536473731
+    second: Armadilha_94
+  - first:
+      213: 1583508718394856782
+    second: Armadilha_95
+  - first:
+      213: -648312362129131472
+    second: Armadilha_96
+  - first:
+      213: 8024716830798557822
+    second: Armadilha_97
+  - first:
+      213: 6378677239817455859
+    second: Armadilha_98
+  - first:
+      213: 7069707797620941243
+    second: Armadilha_99
+  - first:
+      213: 2312712643896732059
+    second: Armadilha_100
+  - first:
+      213: 6719028088022587168
+    second: Armadilha_101
+  - first:
+      213: -4201895852105373896
+    second: Armadilha_102
+  - first:
+      213: 4365772279620031436
+    second: Armadilha_103
+  - first:
+      213: -4562205863494104177
+    second: Armadilha_104
+  - first:
+      213: -4666920902492296165
+    second: Armadilha_105
+  - first:
+      213: -3473404142745630255
+    second: Armadilha_106
+  - first:
+      213: 6094914320596472226
+    second: Armadilha_107
+  - first:
+      213: 7436688135433605076
+    second: Armadilha_108
+  - first:
+      213: 9200243552499772278
+    second: Armadilha_109
+  - first:
+      213: 5230665311855569295
+    second: Armadilha_110
+  - first:
+      213: 2307440642470243476
+    second: Armadilha_111
+  - first:
+      213: 458620791894001746
+    second: Armadilha_112
+  - first:
+      213: 1628385675237199220
+    second: Armadilha_113
+  - first:
+      213: -236208999083743556
+    second: Armadilha_114
+  - first:
+      213: -4876108710369937379
+    second: Armadilha_115
+  - first:
+      213: 6122763103050857444
+    second: Armadilha_116
+  - first:
+      213: -7570686231346011639
+    second: Armadilha_117
+  - first:
+      213: 8360617419455756497
+    second: Armadilha_118
+  - first:
+      213: 124827989912238947
+    second: Armadilha_119
+  - first:
+      213: 7074849656663732069
+    second: Armadilha_120
+  - first:
+      213: -385429787869788869
+    second: Armadilha_121
+  - first:
+      213: 171632473988548017
+    second: Armadilha_122
+  - first:
+      213: 3102782938616812271
+    second: Armadilha_123
+  - first:
+      213: -5137912413708442661
+    second: Armadilha_124
+  - first:
+      213: 1865691725004361805
+    second: Armadilha_125
+  - first:
+      213: -2628211049568065315
+    second: Armadilha_126
+  - first:
+      213: 2967180235174665501
+    second: Armadilha_127
+  - first:
+      213: -4353716956354147018
+    second: Armadilha_128
+  - first:
+      213: -8847368967331835899
+    second: Armadilha_129
+  - first:
+      213: -5937403731109944402
+    second: Armadilha_130
+  - first:
+      213: -1723418951786648807
+    second: Armadilha_131
+  - first:
+      213: 823454738659860707
+    second: Armadilha_132
+  - first:
+      213: -6429302565297020938
+    second: Armadilha_133
+  - first:
+      213: -4612046628706622710
+    second: Armadilha_134
+  - first:
+      213: 652135320003677217
+    second: Armadilha_135
+  - first:
+      213: -7084449427236324700
+    second: Armadilha_136
+  - first:
+      213: -5699562581217821214
+    second: Armadilha_137
+  - first:
+      213: -5845526099715150330
+    second: Armadilha_138
+  - first:
+      213: 215396788692237898
+    second: Armadilha_139
+  - first:
+      213: 3684817567797861244
+    second: Armadilha_140
+  - first:
+      213: -4184846435295998620
+    second: Armadilha_141
+  - first:
+      213: 5180212500497210916
+    second: Armadilha_142
+  - first:
+      213: -8794696167828621606
+    second: Armadilha_143
+  - first:
+      213: -3170535301356216199
+    second: Armadilha_144
+  - first:
+      213: 2958541540879692280
+    second: Armadilha_145
+  - first:
+      213: -2293203322049413425
+    second: Armadilha_146
+  - first:
+      213: -8828565347822856943
+    second: Armadilha_147
+  - first:
+      213: -4713765080334100075
+    second: Armadilha_148
+  - first:
+      213: 5462668276870109127
+    second: Armadilha_149
+  - first:
+      213: -2058054330668188726
+    second: Armadilha_150
+  - first:
+      213: -2224872823530399068
+    second: Armadilha_151
+  - first:
+      213: 4887155122099496210
+    second: Armadilha_152
+  - first:
+      213: 5834847930795508271
+    second: Armadilha_153
+  - first:
+      213: -1493977585379400656
+    second: Armadilha_154
+  - first:
+      213: -4070795094438285072
+    second: Armadilha_155
+  - first:
+      213: -6869453172834809219
+    second: Armadilha_156
+  - first:
+      213: 8217504211919355539
+    second: Armadilha_157
+  - first:
+      213: -739500794556534692
+    second: Armadilha_158
+  - first:
+      213: 5606207566577776551
+    second: Armadilha_159
+  - first:
+      213: -7310251636826081571
+    second: Armadilha_160
+  - first:
+      213: -1852663047542895242
+    second: Armadilha_161
+  - first:
+      213: 8984683937630804061
+    second: Armadilha_162
+  - first:
+      213: -1569847635522528128
+    second: Armadilha_163
+  - first:
+      213: -2527461857078308833
+    second: Armadilha_164
+  - first:
+      213: -6148589597730832006
+    second: Armadilha_165
+  - first:
+      213: -8048853829367784164
+    second: Armadilha_166
+  - first:
+      213: 1827668600917827966
+    second: Armadilha_167
+  - first:
+      213: -6590788890404718353
+    second: Armadilha_168
+  - first:
+      213: 8874399904018598683
+    second: Armadilha_169
+  - first:
+      213: 829292451834791189
+    second: Armadilha_170
+  - first:
+      213: -981659650712588839
+    second: Armadilha_171
+  - first:
+      213: 5621184047736890018
+    second: Armadilha_172
+  - first:
+      213: 3672312689927360623
+    second: Armadilha_173
+  - first:
+      213: 5986269592175567531
+    second: Armadilha_174
+  - first:
+      213: 3718452529363520431
+    second: Armadilha_175
+  - first:
+      213: 7861006978245554461
+    second: Armadilha_176
+  - first:
+      213: 6573022608947384103
+    second: Armadilha_177
+  - first:
+      213: 6764442684573400212
+    second: Armadilha_178
+  - first:
+      213: -340662293708559914
+    second: Armadilha_179
+  - first:
+      213: -5083509270417164690
+    second: Armadilha_180
+  - first:
+      213: 1009990428588717443
+    second: Armadilha_181
+  - first:
+      213: -3266813325724768885
+    second: Armadilha_182
+  - first:
+      213: -2959304007876693208
+    second: Armadilha_183
+  - first:
+      213: 8176743728237007523
+    second: Armadilha_184
+  - first:
+      213: 2806633379473047231
+    second: Armadilha_185
+  - first:
+      213: -2377976243430010994
+    second: Armadilha_186
+  - first:
+      213: -3810666158366499560
+    second: Armadilha_187
+  - first:
+      213: -3512320860014730886
+    second: Armadilha_188
+  - first:
+      213: -7924305078875791152
+    second: Armadilha_189
+  - first:
+      213: -6610281055519761952
+    second: Armadilha_190
+  - first:
+      213: 4581357222352238342
+    second: Armadilha_191
+  - first:
+      213: -3789692738145471019
+    second: Armadilha_192
+  - first:
+      213: 2546390591237374833
+    second: Armadilha_193
+  - first:
+      213: 2024785210374829393
+    second: Armadilha_194
+  - first:
+      213: -4924597641648248208
+    second: Armadilha_195
+  - first:
+      213: 7327822267271268560
+    second: Armadilha_196
+  - first:
+      213: 3125245296736349274
+    second: Armadilha_197
+  - first:
+      213: -2241227723888473806
+    second: Armadilha_198
+  - first:
+      213: 6882394955407385285
+    second: Armadilha_199
+  - first:
+      213: -5342686383275769531
+    second: Armadilha_200
+  - first:
+      213: -9055284355325383726
+    second: Armadilha_201
+  - first:
+      213: 4509520773774493476
+    second: Armadilha_202
+  - first:
+      213: -1458841615195095438
+    second: Armadilha_203
+  - first:
+      213: -1641959078898021718
+    second: Armadilha_204
+  - first:
+      213: -4572802209608981530
+    second: Armadilha_205
+  - first:
+      213: -255238510252322659
+    second: Armadilha_206
+  - first:
+      213: 4901197427518878192
+    second: Armadilha_207
+  - first:
+      213: -7259500271541484552
+    second: Armadilha_208
+  - first:
+      213: -6460125296186801972
+    second: Armadilha_209
+  - first:
+      213: 2786277358286210679
+    second: Armadilha_210
+  - first:
+      213: -8114118855946027990
+    second: Armadilha_211
+  - first:
+      213: -1093036778094267845
+    second: Armadilha_212
+  - first:
+      213: 2298582048390618352
+    second: Armadilha_213
+  - first:
+      213: 2117310769319520811
+    second: Armadilha_214
+  - first:
+      213: -4079043656221813511
+    second: Armadilha_215
+  - first:
+      213: 6708940302832791179
+    second: Armadilha_216
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armadilha_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1045
+        width: 265
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c435806c92b4ff70800000000000000
+      internalID: 9220190721838232776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_1
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 951
+        width: 73
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca5115c055bc96f0800000000000000
+      internalID: -676466485504156991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_2
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1045
+        width: 334
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3469d2419832ef470800000000000000
+      internalID: 8430214624140170819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_3
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 957
+        width: 158
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ccaab8e033cc4810800000000000000
+      internalID: 1750988969970674884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 949
+        width: 134
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8213d068b2d15da0800000000000000
+      internalID: -5957749142694194545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 948
+        width: 245
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656ca5e2f3428b400800000000000000
+      internalID: 340061625645712982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_6
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 951
+        width: 33
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c0ea9a9d21e6160800000000000000
+      internalID: 7020569595181141095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_7
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 952
+        width: 37
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6cfac651500cdc0800000000000000
+      internalID: -3620888510829967645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_8
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 952
+        width: 36
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5810545706c2f20800000000000000
+      internalID: 3399197875543049672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_9
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 951
+        width: 94
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44de0e26cfadea30800000000000000
+      internalID: 4246243289391354957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_10
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 951
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd746e2ea3bcf4c0800000000000000
+      internalID: -4252326387460571717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 955
+        width: 95
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b466d538e052820800000000000000
+      internalID: 2892734293025901410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_12
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 955
+        width: 153
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce00afeea57e8a940800000000000000
+      internalID: 5307746538598564076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_13
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 955
+        width: 99
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c561c39b5e12e90800000000000000
+      internalID: -7052102957745677249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_14
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 956
+        width: 138
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2535ece1276dc10800000000000000
+      internalID: 2077973754714215074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_15
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 853
+        width: 71
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f2453fa9b385680800000000000000
+      internalID: -8766191137983287400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_16
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 853
+        width: 79
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7faa60611551bb0800000000000000
+      internalID: -4965973859063105632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_17
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 853
+        width: 145
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c2d57b4ed156480800000000000000
+      internalID: -8906679819889202073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_18
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 939
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db895771f7525ec0800000000000000
+      internalID: -3579702059205030951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_19
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 939
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edc70bfc35b9fef0800000000000000
+      internalID: -73828645360644631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_20
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 939
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92cd099560e3c6b0800000000000000
+      internalID: -5277127611383954789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_21
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 939
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a914083e02953a60800000000000000
+      internalID: 7653183731553016229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_22
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 939
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbc7e3e85dedb900800000000000000
+      internalID: 701978082976189438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_23
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 939
+        width: 51
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3646e3af134f329f0800000000000000
+      internalID: -494283038591654813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_24
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 939
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bdfbc5132ad31f0800000000000000
+      internalID: -1063515604096394496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_25
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 940
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d04cac1bdd22f4c0800000000000000
+      internalID: -4255288278809558831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_26
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 939
+        width: 51
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6030d94a3ac395040800000000000000
+      internalID: 4636803964893725446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_27
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 939
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68aa40ad31ec63b70800000000000000
+      internalID: 8878510300064950918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_28
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 940
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946f7c89d5eeef5d0800000000000000
+      internalID: -3026719813783783863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_29
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 853
+        width: 136
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a748f5320050950800000000000000
+      internalID: 6414533396185512481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_30
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 853
+        width: 246
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcb37dfec02f4cd0800000000000000
+      internalID: -2571800788817691430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_31
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 853
+        width: 32
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f797aca3a72b8e7a0800000000000000
+      internalID: -6347627436736611969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_32
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 846
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8178fdb3a989afb20800000000000000
+      internalID: 3169013076005455640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_33
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 846
+        width: 160
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b10ecd42b0717a60800000000000000
+      internalID: 7670035551500501425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_34
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 846
+        width: 111
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44366fb2b302d2e80800000000000000
+      internalID: -8201863907859078332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_35
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 847
+        width: 290
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1121b15e9f83f1c70800000000000000
+      internalID: 8943930030922863121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_36
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 833
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42e069bf92309020800000000000000
+      internalID: 2346431067451351631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_37
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 833
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08cb15a60f8cbae0800000000000000
+      internalID: -1532192514510174195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_38
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 832
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51c1a956a1416ab0800000000000000
+      internalID: -5016656327189872293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_39
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 833
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df7185e566bdc410800000000000000
+      internalID: 1499054799742664663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_40
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 832
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33629735a4f6053a0800000000000000
+      internalID: -6678715882371733965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_41
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 833
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d2127b9f0264a50800000000000000
+      internalID: 6504922968674610563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_42
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 833
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f24280cbefdecb0800000000000000
+      internalID: -4832926741554778356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_43
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 832
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6cb2f1e3cca8ca0800000000000000
+      internalID: -6013769785216874764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_44
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 833
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888c506bc3bf1f780800000000000000
+      internalID: -8650857171031570296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_45
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 833
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066065b58974b1d70800000000000000
+      internalID: 9014877798805145184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_46
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 832
+        width: 51
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de00a852949ec8610800000000000000
+      internalID: 1624930065945592045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_47
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 790
+        width: 281
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c7683b4bbfd6120800000000000000
+      internalID: 2408858129237703719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_48
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 651
+        width: 237
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca81e8547af7a3eb0800000000000000
+      internalID: -4739335301450819412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_49
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 786
+        width: 259
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d3f459959460de0800000000000000
+      internalID: -1367324787754451705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 707
+        width: 144
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8181e1d36c134420800000000000000
+      internalID: 2612963423853576589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_51
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 706
+        width: 146
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7711d0be6f79d25d0800000000000000
+      internalID: -3085643082917670537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_52
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 706
+        width: 139
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f79116488677e6f0800000000000000
+      internalID: -655424893095929869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_53
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 648
+        width: 160
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8802f4e9d14b20190800000000000000
+      internalID: -7997631948953542520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_54
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 732
+        width: 115
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9caca02cc424f90800000000000000
+      internalID: -6970924876927678038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_55
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 634
+        width: 35
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddebc281a9b96c40800000000000000
+      internalID: 5506136122772418007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_56
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 627
+        width: 50
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d8c0034a881e350800000000000000
+      internalID: 6044262413670059264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_57
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 636
+        width: 31
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88877cf05e0e6f30800000000000000
+      internalID: 4570606412823496842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_58
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 636
+        width: 54
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e28f4ead85b0d80800000000000000
+      internalID: -8283429392450310631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_59
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 691
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd726d00843973b70800000000000000
+      internalID: 8878727127845185501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_60
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 691
+        width: 69
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e37b931badf2e00800000000000000
+      internalID: 1022276095148768857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_61
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 691
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17a060e9dd1f2c00800000000000000
+      internalID: 877953273970075418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_62
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 609
+        width: 146
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3646dda6a3354c4f0800000000000000
+      internalID: -809430522653744029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_63
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 610
+        width: 131
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b6ce38be1a75ed0800000000000000
+      internalID: -2425291841413026924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_64
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 610
+        width: 131
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dd02f51080f6010800000000000000
+      internalID: 1184174029005708701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_65
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 610
+        width: 127
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ce857b0ae163d90800000000000000
+      internalID: -7118468485392831370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_66
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 637
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cb2d7b7cdb25af0800000000000000
+      internalID: -409055950657111022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_67
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 637
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811043e87e78aabd0800000000000000
+      internalID: -2618130804769554152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_68
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 636
+        width: 68
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88ac8f4bc155c9c0800000000000000
+      internalID: -3907627168019208050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_69
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 631
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d06215e09887a130800000000000000
+      internalID: 3577978584869003480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_70
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 631
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cd9cbf4bf8cad80800000000000000
+      internalID: -8238051610886284163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_71
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 631
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9749315bf49fc8480800000000000000
+      internalID: -8895461043227880327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_72
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 638
+        width: 123
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42d016caf3c859f0800000000000000
+      internalID: -479417878482726325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_73
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 621
+        width: 52
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4396b871a04af6090800000000000000
+      internalID: -8039026446581405388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_74
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 621
+        width: 57
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32eb61770387aa340800000000000000
+      internalID: 4875841696133725731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_75
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 621
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc21c4c20a9119b0800000000000000
+      internalID: -5111134765407195963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_76
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 597
+        width: 45
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c55170ca58c1da0800000000000000
+      internalID: -5972752031900410858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_77
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 597
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202f36dcb5163af20800000000000000
+      internalID: 3432694387902247426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_78
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 597
+        width: 46
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297ae9f959acaa7f0800000000000000
+      internalID: -600444856323627118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_79
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 597
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dbf18bb6bd86750800000000000000
+      internalID: 6298525334574710065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_80
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 597
+        width: 41
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f52674878a56820800000000000000
+      internalID: 2910917968712064814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_81
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 597
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7dc68254b85f000800000000000000
+      internalID: 69114498441336816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_82
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 597
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8045d01d172f860800000000000000
+      internalID: 7562231866994198769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_83
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 597
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab680736876f27680800000000000000
+      internalID: -8758667328357366086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_84
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 419
+        width: 346
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb1bf2f9a183b970800000000000000
+      internalID: 8769495466346486704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_85
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 428
+        width: 205
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae0605d741beb4c0800000000000000
+      internalID: -4269780474625913173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_86
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 446
+        width: 58
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38f75e31e456d880800000000000000
+      internalID: -8586582313144944581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_87
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 446
+        width: 55
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef170d4883a8f8450800000000000000
+      internalID: 6093240796206625278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_88
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 433
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc124756ecfe7b40800000000000000
+      internalID: 5440063466146766010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_89
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 431
+        width: 414
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745ad2c1dfe3f24f0800000000000000
+      internalID: -851392547729332921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_90
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 435
+        width: 282
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce1c1a45220deb70800000000000000
+      internalID: 8929795995325963969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_91
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 433
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24882b53f30c9600800000000000000
+      internalID: 476260004335748143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_92
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 417
+        width: 73
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c6356764a27d360800000000000000
+      internalID: 7194265411868912771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_93
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 418
+        width: 48
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba4b810c054882c0800000000000000
+      internalID: -4429214315651052867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_94
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 418
+        width: 48
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bf4babce1590980800000000000000
+      internalID: -8572230338536473731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_95
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 418
+        width: 51
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45d8a22ac0c9f510800000000000000
+      internalID: 1583508718394856782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_96
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 417
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0387ccf675bb007f0800000000000000
+      internalID: -648312362129131472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_97
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 418
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72b8dad0758d5f60800000000000000
+      internalID: 8024716830798557822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_98
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 416
+        width: 53
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f84038672d958850800000000000000
+      internalID: 6378677239817455859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_99
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 416
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb16107f8c5ac1260800000000000000
+      internalID: 7069707797620941243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_100
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 418
+        width: 44
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99e40775e7681020800000000000000
+      internalID: 2312712643896732059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_101
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 376
+        width: 297
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02755767278ce3d50800000000000000
+      internalID: 6719028088022587168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_102
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 374
+        width: 212
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83762103cfddfa5c0800000000000000
+      internalID: -4201895852105373896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_103
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 368
+        width: 317
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3dff8e1c6569c30800000000000000
+      internalID: 4365772279620031436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_104
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 298
+        width: 84
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bca3250f9cfa0c0800000000000000
+      internalID: -4562205863494104177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_105
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 298
+        width: 162
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ce9146a24cb3fb0800000000000000
+      internalID: -4666920902492296165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_106
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 299
+        width: 144
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9c646c55dfbcfc0800000000000000
+      internalID: -3473404142745630255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_107
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 298
+        width: 136
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a11897484c759450800000000000000
+      internalID: 6094914320596472226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_108
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 311
+        width: 168
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfc1e9357c643760800000000000000
+      internalID: 7436688135433605076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_109
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 311
+        width: 166
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ba3d914c4ddaf70800000000000000
+      internalID: 9200243552499772278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_110
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 232
+        width: 153
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89eb1c436e079840800000000000000
+      internalID: 5230665311855569295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_111
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 229
+        width: 104
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cecbaf90da50020800000000000000
+      internalID: 2307440642470243476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_112
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 331
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258437b2e295d5600800000000000000
+      internalID: 458620791894001746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_113
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 229
+        width: 196
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d09d1e420399610800000000000000
+      internalID: 1628385675237199220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_114
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 302
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6ecd4ba21d8bcf0800000000000000
+      internalID: -236208999083743556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_115
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 301
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18363076f4945cb0800000000000000
+      internalID: -4876108710369937379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_116
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 296
+        width: 66
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebf6393a9c68f450800000000000000
+      internalID: 6122763103050857444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_117
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 295
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9022eaadbf48fe690800000000000000
+      internalID: -7570686231346011639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_118
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 298
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d87a9d1f31e60470800000000000000
+      internalID: 8360617419455756497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_119
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 283
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bbebc356a7bb100800000000000000
+      internalID: 124827989912238947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_120
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 270
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f6cb0574aee2260800000000000000
+      internalID: 7074849656663732069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_121
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 283
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35ca2866ada6aaf0800000000000000
+      internalID: -385429787869788869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_122
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 283
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5420463d2c16200800000000000000
+      internalID: 171632473988548017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_123
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 283
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2d567b4ac4f0b20800000000000000
+      internalID: 3102782938616812271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_124
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 205
+        width: 179
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3a6dda1e772b8b0800000000000000
+      internalID: -5137912413708442661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_125
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 283
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4055413db444e910800000000000000
+      internalID: 1865691725004361805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_126
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 283
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd82dbba9f7b68bd0800000000000000
+      internalID: -2628211049568065315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_127
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 283
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d552ef3ba8d2920800000000000000
+      internalID: 2967180235174665501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_128
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 283
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d8ae3ce7d7493c0800000000000000
+      internalID: -4353716956354147018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_129
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 283
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5001f51bcc4d73580800000000000000
+      internalID: -8847368967331835899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_130
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 222
+        width: 149
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3ec17a3ca1a9da0800000000000000
+      internalID: -5937403731109944402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_131
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 222
+        width: 101
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ba49b289f2518e0800000000000000
+      internalID: -1723418951786648807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_132
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 205
+        width: 181
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0ee62d8bf7d6b00800000000000000
+      internalID: 823454738659860707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_133
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 205
+        width: 158
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff96f9716786c6a0800000000000000
+      internalID: -6429302565297020938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_134
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 225
+        width: 77
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a036760e608beffb0800000000000000
+      internalID: -4612046628706622710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_135
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 261
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c0e4e4e99dc0900800000000000000
+      internalID: 652135320003677217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_136
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 260
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aafb5ce7cafead90800000000000000
+      internalID: -7084449427236324700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_137
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 207
+        width: 48
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed376ba70617e0b0800000000000000
+      internalID: -5699562581217821214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_138
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 206
+        width: 72
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e2435bbf480eea0800000000000000
+      internalID: -5845526099715150330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_139
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 216
+        width: 53
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4eb2c3fc3e3df200800000000000000
+      internalID: 215396788692237898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_140
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 202
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7bd5be0e0a132330800000000000000
+      internalID: 3684817567797861244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_141
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 216
+        width: 66
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d4f90e6507ce5c0800000000000000
+      internalID: -4184846435295998620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_142
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 207
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e9c21c2dfc3e740800000000000000
+      internalID: 5180212500497210916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_143
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 207
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6f5118e66f2f580800000000000000
+      internalID: -8794696167828621606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_144
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 207
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970a3de01fefff3d0800000000000000
+      internalID: -3170535301356216199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_145
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 207
+        width: 53
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1fe5d3bd9de0920800000000000000
+      internalID: 2958541540879692280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_146
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 207
+        width: 72
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcebf7f7ab7ec20e0800000000000000
+      internalID: -2293203322049413425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_147
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 206
+        width: 49
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11512b68792aa7580800000000000000
+      internalID: -8828565347822856943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_148
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 190
+        width: 51
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5999b0052a7559eb0800000000000000
+      internalID: -4713765080334100075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_149
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 190
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c753a8fadb4fcb40800000000000000
+      internalID: 5462668276870109127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_150
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 189
+        width: 49
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb71148d725073e0800000000000000
+      internalID: -2058054330668188726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_151
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 190
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aadc0374f9af11e0800000000000000
+      internalID: -2224872823530399068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_152
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 190
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215a8f6b0b9a2d340800000000000000
+      internalID: 4887155122099496210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_153
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 190
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f224d79574b89f050800000000000000
+      internalID: 5834847930795508271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_154
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 190
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034a0113d43544be0800000000000000
+      internalID: -1493977585379400656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_155
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 190
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f07a9afd61a187c0800000000000000
+      internalID: -4070795094438285072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 349
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a40083cbccaa0a0800000000000000
+      internalID: -6869453172834809219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_157
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 43
+        width: 33
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ebab3ea807a0270800000000000000
+      internalID: 8217504211919355539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_158
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 40
+        width: 26
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50b65502f3ccb5f0800000000000000
+      internalID: -739500794556534692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_159
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 142
+        width: 342
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7b9fe24104dcd40800000000000000
+      internalID: 5606207566577776551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_160
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 44
+        width: 42
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd673402ed4cc8a90800000000000000
+      internalID: -7310251636826081571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_161
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 53
+        width: 74
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d86ba26c40a46e0800000000000000
+      internalID: -1852663047542895242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_162
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 50
+        width: 112
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5854a9307200bc70800000000000000
+      internalID: 8984683937630804061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_163
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 48
+        width: 138
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c513594e7c63ae0800000000000000
+      internalID: -1569847635522528128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_164
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 45
+        width: 29
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f109f7105d6acecd0800000000000000
+      internalID: -2527461857078308833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_165
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 88
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7187956652dbaaa0800000000000000
+      internalID: -6148589597730832006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_166
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 50
+        width: 100
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d9d7b361abc4090800000000000000
+      internalID: -8048853829367784164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_167
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 55
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71a7dcb8ee2d5910800000000000000
+      internalID: 1827668600917827966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_168
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 43
+        width: 36
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8f5d57c60d884a0800000000000000
+      internalID: -6590788890404718353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_169
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 43
+        width: 38
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b0ac1b1b3382b70800000000000000
+      internalID: 8874399904018598683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_170
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 43
+        width: 25
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5158686571d328b00800000000000000
+      internalID: 829292451834791189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_171
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 43
+        width: 26
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd21fcafb17062f0800000000000000
+      internalID: -981659650712588839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_172
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 43
+        width: 57
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2237eeb15720e40800000000000000
+      internalID: 5621184047736890018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_173
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 44
+        width: 28
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60974b4feca6f230800000000000000
+      internalID: 3672312689927360623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_174
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 43
+        width: 17
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2e85b3a70831350800000000000000
+      internalID: 5986269592175567531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_175
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 44
+        width: 16
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab8ddecfd89a9330800000000000000
+      internalID: 3718452529363520431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_176
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 45
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1171338238e71d60800000000000000
+      internalID: 7861006978245554461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_177
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 47
+        width: 23
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f8beacc31183b50800000000000000
+      internalID: 6573022608947384103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_178
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 26
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cbc7538c020ed50800000000000000
+      internalID: 6764442684573400212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_179
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 28
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9a123e279b54bf0800000000000000
+      internalID: -340662293708559914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_180
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 28
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66316c804fb379b0800000000000000
+      internalID: -5083509270417164690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_181
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 28
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385339291f4340e00800000000000000
+      internalID: 1009990428588717443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_182
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 28
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85a9aca692f9a2d0800000000000000
+      internalID: -3266813325724768885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_183
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 26
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823be141fa07ee6d0800000000000000
+      internalID: -2959304007876693208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_184
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 27
+        width: 45
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a258fc3911a97170800000000000000
+      internalID: 8176743728237007523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_185
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 22
+        width: 53
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbebe3e303a23f620800000000000000
+      internalID: 2806633379473047231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_186
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 22
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f4906a43bbffed0800000000000000
+      internalID: -2377976243430010994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_187
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 29
+        width: 56
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d56f8915bcd1bc0800000000000000
+      internalID: -3810666158366499560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_188
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 15
+        width: 47
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71a0a179cab14fc0800000000000000
+      internalID: -3512320860014730886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_189
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 29
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0e8c9f386370290800000000000000
+      internalID: -7924305078875791152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_190
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 29
+        width: 57
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9104c17609344a0800000000000000
+      internalID: -6610281055519761952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_191
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 14
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607b973ee10449f30800000000000000
+      internalID: 4581357222352238342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_192
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 29
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d536f6888e486bc0800000000000000
+      internalID: -3789692738145471019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_193
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 25
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173c91a50c8965320800000000000000
+      internalID: 2546390591237374833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_194
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 25
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1553bdacb6b791c10800000000000000
+      internalID: 2024785210374829393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_195
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 25
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a64db598058abb0800000000000000
+      internalID: -4924597641648248208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_196
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 25
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8c6e11787a1b560800000000000000
+      internalID: 7327822267271268560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_197
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 25
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c2ee30a0a1f5b20800000000000000
+      internalID: 3125245296736349274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_198
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 25
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239ced8724f85e0e0800000000000000
+      internalID: -2241227723888473806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_199
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 25
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c26ff85fbd238f50800000000000000
+      internalID: 6882394955407385285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_200
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 25
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541088a8a07fad5b0800000000000000
+      internalID: -5342686383275769531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_201
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 25
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbada41bda255280800000000000000
+      internalID: -9055284355325383726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_202
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 25
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427c2145049059e30800000000000000
+      internalID: 4509520773774493476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_203
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 25
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e3dbeb74721cbe0800000000000000
+      internalID: -1458841615195095438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_204
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 25
+        width: 50
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa4e8ecae69639e0800000000000000
+      internalID: -1641959078898021718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_205
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 62
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3a22c3e942a80c0800000000000000
+      internalID: -4572802209608981530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_206
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 14
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90196f5de5357cf0800000000000000
+      internalID: -255238510252322659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_207
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 14
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f13259b71d840440800000000000000
+      internalID: 4901197427518878192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_208
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 11
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f30beb27f2114b90800000000000000
+      internalID: -7259500271541484552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_209
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 11
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0454435460956a0800000000000000
+      internalID: -6460125296186801972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_210
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 11
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7760d5abe78daa620800000000000000
+      internalID: 2786277358286210679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_211
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 11
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2cb90614ebd46f80800000000000000
+      internalID: -8114118855946027990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_212
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 11
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32f04b67d0c4d0f0800000000000000
+      internalID: -1093036778094267845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_213
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 10
+        width: 50
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc9961d13436ef10800000000000000
+      internalID: 2298582048390618352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_214
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 10
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a266c3de2326d10800000000000000
+      internalID: 2117310769319520811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_215
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 11
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4969708635467c0800000000000000
+      internalID: -4079043656221813511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadilha_216
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 0
+        width: 49
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e66a1f8a1fa1d50800000000000000
+      internalID: 6708940302832791179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Armadilha_0: 9220190721838232776
+      Armadilha_1: -676466485504156991
+      Armadilha_10: -4252326387460571717
+      Armadilha_100: 2312712643896732059
+      Armadilha_101: 6719028088022587168
+      Armadilha_102: -4201895852105373896
+      Armadilha_103: 4365772279620031436
+      Armadilha_104: -4562205863494104177
+      Armadilha_105: -4666920902492296165
+      Armadilha_106: -3473404142745630255
+      Armadilha_107: 6094914320596472226
+      Armadilha_108: 7436688135433605076
+      Armadilha_109: 9200243552499772278
+      Armadilha_11: 2892734293025901410
+      Armadilha_110: 5230665311855569295
+      Armadilha_111: 2307440642470243476
+      Armadilha_112: 458620791894001746
+      Armadilha_113: 1628385675237199220
+      Armadilha_114: -236208999083743556
+      Armadilha_115: -4876108710369937379
+      Armadilha_116: 6122763103050857444
+      Armadilha_117: -7570686231346011639
+      Armadilha_118: 8360617419455756497
+      Armadilha_119: 124827989912238947
+      Armadilha_12: 5307746538598564076
+      Armadilha_120: 7074849656663732069
+      Armadilha_121: -385429787869788869
+      Armadilha_122: 171632473988548017
+      Armadilha_123: 3102782938616812271
+      Armadilha_124: -5137912413708442661
+      Armadilha_125: 1865691725004361805
+      Armadilha_126: -2628211049568065315
+      Armadilha_127: 2967180235174665501
+      Armadilha_128: -4353716956354147018
+      Armadilha_129: -8847368967331835899
+      Armadilha_13: -7052102957745677249
+      Armadilha_130: -5937403731109944402
+      Armadilha_131: -1723418951786648807
+      Armadilha_132: 823454738659860707
+      Armadilha_133: -6429302565297020938
+      Armadilha_134: -4612046628706622710
+      Armadilha_135: 652135320003677217
+      Armadilha_136: -7084449427236324700
+      Armadilha_137: -5699562581217821214
+      Armadilha_138: -5845526099715150330
+      Armadilha_139: 215396788692237898
+      Armadilha_14: 2077973754714215074
+      Armadilha_140: 3684817567797861244
+      Armadilha_141: -4184846435295998620
+      Armadilha_142: 5180212500497210916
+      Armadilha_143: -8794696167828621606
+      Armadilha_144: -3170535301356216199
+      Armadilha_145: 2958541540879692280
+      Armadilha_146: -2293203322049413425
+      Armadilha_147: -8828565347822856943
+      Armadilha_148: -4713765080334100075
+      Armadilha_149: 5462668276870109127
+      Armadilha_15: -8766191137983287400
+      Armadilha_150: -2058054330668188726
+      Armadilha_151: -2224872823530399068
+      Armadilha_152: 4887155122099496210
+      Armadilha_153: 5834847930795508271
+      Armadilha_154: -1493977585379400656
+      Armadilha_155: -4070795094438285072
+      Armadilha_156: -6869453172834809219
+      Armadilha_157: 8217504211919355539
+      Armadilha_158: -739500794556534692
+      Armadilha_159: 5606207566577776551
+      Armadilha_16: -4965973859063105632
+      Armadilha_160: -7310251636826081571
+      Armadilha_161: -1852663047542895242
+      Armadilha_162: 8984683937630804061
+      Armadilha_163: -1569847635522528128
+      Armadilha_164: -2527461857078308833
+      Armadilha_165: -6148589597730832006
+      Armadilha_166: -8048853829367784164
+      Armadilha_167: 1827668600917827966
+      Armadilha_168: -6590788890404718353
+      Armadilha_169: 8874399904018598683
+      Armadilha_17: -8906679819889202073
+      Armadilha_170: 829292451834791189
+      Armadilha_171: -981659650712588839
+      Armadilha_172: 5621184047736890018
+      Armadilha_173: 3672312689927360623
+      Armadilha_174: 5986269592175567531
+      Armadilha_175: 3718452529363520431
+      Armadilha_176: 7861006978245554461
+      Armadilha_177: 6573022608947384103
+      Armadilha_178: 6764442684573400212
+      Armadilha_179: -340662293708559914
+      Armadilha_18: -3579702059205030951
+      Armadilha_180: -5083509270417164690
+      Armadilha_181: 1009990428588717443
+      Armadilha_182: -3266813325724768885
+      Armadilha_183: -2959304007876693208
+      Armadilha_184: 8176743728237007523
+      Armadilha_185: 2806633379473047231
+      Armadilha_186: -2377976243430010994
+      Armadilha_187: -3810666158366499560
+      Armadilha_188: -3512320860014730886
+      Armadilha_189: -7924305078875791152
+      Armadilha_19: -73828645360644631
+      Armadilha_190: -6610281055519761952
+      Armadilha_191: 4581357222352238342
+      Armadilha_192: -3789692738145471019
+      Armadilha_193: 2546390591237374833
+      Armadilha_194: 2024785210374829393
+      Armadilha_195: -4924597641648248208
+      Armadilha_196: 7327822267271268560
+      Armadilha_197: 3125245296736349274
+      Armadilha_198: -2241227723888473806
+      Armadilha_199: 6882394955407385285
+      Armadilha_2: 8430214624140170819
+      Armadilha_20: -5277127611383954789
+      Armadilha_200: -5342686383275769531
+      Armadilha_201: -9055284355325383726
+      Armadilha_202: 4509520773774493476
+      Armadilha_203: -1458841615195095438
+      Armadilha_204: -1641959078898021718
+      Armadilha_205: -4572802209608981530
+      Armadilha_206: -255238510252322659
+      Armadilha_207: 4901197427518878192
+      Armadilha_208: -7259500271541484552
+      Armadilha_209: -6460125296186801972
+      Armadilha_21: 7653183731553016229
+      Armadilha_210: 2786277358286210679
+      Armadilha_211: -8114118855946027990
+      Armadilha_212: -1093036778094267845
+      Armadilha_213: 2298582048390618352
+      Armadilha_214: 2117310769319520811
+      Armadilha_215: -4079043656221813511
+      Armadilha_216: 6708940302832791179
+      Armadilha_22: 701978082976189438
+      Armadilha_23: -494283038591654813
+      Armadilha_24: -1063515604096394496
+      Armadilha_25: -4255288278809558831
+      Armadilha_26: 4636803964893725446
+      Armadilha_27: 8878510300064950918
+      Armadilha_28: -3026719813783783863
+      Armadilha_29: 6414533396185512481
+      Armadilha_3: 1750988969970674884
+      Armadilha_30: -2571800788817691430
+      Armadilha_31: -6347627436736611969
+      Armadilha_32: 3169013076005455640
+      Armadilha_33: 7670035551500501425
+      Armadilha_34: -8201863907859078332
+      Armadilha_35: 8943930030922863121
+      Armadilha_36: 2346431067451351631
+      Armadilha_37: -1532192514510174195
+      Armadilha_38: -5016656327189872293
+      Armadilha_39: 1499054799742664663
+      Armadilha_4: -5957749142694194545
+      Armadilha_40: -6678715882371733965
+      Armadilha_41: 6504922968674610563
+      Armadilha_42: -4832926741554778356
+      Armadilha_43: -6013769785216874764
+      Armadilha_44: -8650857171031570296
+      Armadilha_45: 9014877798805145184
+      Armadilha_46: 1624930065945592045
+      Armadilha_47: 2408858129237703719
+      Armadilha_48: -4739335301450819412
+      Armadilha_49: -1367324787754451705
+      Armadilha_5: 340061625645712982
+      Armadilha_50: 2612963423853576589
+      Armadilha_51: -3085643082917670537
+      Armadilha_52: -655424893095929869
+      Armadilha_53: -7997631948953542520
+      Armadilha_54: -6970924876927678038
+      Armadilha_55: 5506136122772418007
+      Armadilha_56: 6044262413670059264
+      Armadilha_57: 4570606412823496842
+      Armadilha_58: -8283429392450310631
+      Armadilha_59: 8878727127845185501
+      Armadilha_6: 7020569595181141095
+      Armadilha_60: 1022276095148768857
+      Armadilha_61: 877953273970075418
+      Armadilha_62: -809430522653744029
+      Armadilha_63: -2425291841413026924
+      Armadilha_64: 1184174029005708701
+      Armadilha_65: -7118468485392831370
+      Armadilha_66: -409055950657111022
+      Armadilha_67: -2618130804769554152
+      Armadilha_68: -3907627168019208050
+      Armadilha_69: 3577978584869003480
+      Armadilha_7: -3620888510829967645
+      Armadilha_70: -8238051610886284163
+      Armadilha_71: -8895461043227880327
+      Armadilha_72: -479417878482726325
+      Armadilha_73: -8039026446581405388
+      Armadilha_74: 4875841696133725731
+      Armadilha_75: -5111134765407195963
+      Armadilha_76: -5972752031900410858
+      Armadilha_77: 3432694387902247426
+      Armadilha_78: -600444856323627118
+      Armadilha_79: 6298525334574710065
+      Armadilha_8: 3399197875543049672
+      Armadilha_80: 2910917968712064814
+      Armadilha_81: 69114498441336816
+      Armadilha_82: 7562231866994198769
+      Armadilha_83: -8758667328357366086
+      Armadilha_84: 8769495466346486704
+      Armadilha_85: -4269780474625913173
+      Armadilha_86: -8586582313144944581
+      Armadilha_87: 6093240796206625278
+      Armadilha_88: 5440063466146766010
+      Armadilha_89: -851392547729332921
+      Armadilha_9: 4246243289391354957
+      Armadilha_90: 8929795995325963969
+      Armadilha_91: 476260004335748143
+      Armadilha_92: 7194265411868912771
+      Armadilha_93: -4429214315651052867
+      Armadilha_94: -8572230338536473731
+      Armadilha_95: 1583508718394856782
+      Armadilha_96: -648312362129131472
+      Armadilha_97: 8024716830798557822
+      Armadilha_98: 6378677239817455859
+      Armadilha_99: 7069707797620941243
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: aa4325cee898246448363b76ee5a3eb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7195330486301111623
+    second: Cena 2_0
+  - first:
+      213: 4646333215454735985
+    second: Cena 2_1
+  - first:
+      213: 5707280565758694236
+    second: Cena 2_2
+  - first:
+      213: 3750787761691105043
+    second: Cena 2_3
+  - first:
+      213: -846625752257561498
+    second: Cena 2_4
+  - first:
+      213: 193236293254058661
+    second: Cena 2_5
+  - first:
+      213: 3366885460921620443
+    second: Cena 2_6
+  - first:
+      213: 3238349541849423075
+    second: Cena 2_7
+  - first:
+      213: -2075388308416095237
+    second: Cena 2_8
+  - first:
+      213: 530412990616040396
+    second: Cena 2_9
+  - first:
+      213: -3651340743587896547
+    second: Cena 2_10
+  - first:
+      213: -3859793667150063014
+    second: Cena 2_11
+  - first:
+      213: -8443897529010621176
+    second: Cena 2_12
+  - first:
+      213: -4605051487681854425
+    second: Cena 2_13
+  - first:
+      213: -1399147450132069058
+    second: Cena 2_14
+  - first:
+      213: 4776472205248768257
+    second: Cena 2_15
+  - first:
+      213: 4798347195485773271
+    second: Cena 2_16
+  - first:
+      213: 5894103720942401682
+    second: Cena 2_17
+  - first:
+      213: 5057482412184629731
+    second: Cena 2_18
+  - first:
+      213: -8212967321440405532
+    second: Cena 2_19
+  - first:
+      213: -2527061737817176637
+    second: Cena 2_20
+  - first:
+      213: -7640831885533451632
+    second: Cena 2_21
+  - first:
+      213: -6536666124720535590
+    second: Cena 2_22
+  - first:
+      213: -7738545360809284884
+    second: Cena 2_23
+  - first:
+      213: 7587038972801902490
+    second: Cena 2_24
+  - first:
+      213: 3159689798797897282
+    second: Cena 2_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cena 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 1448
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745348d64f2fad360800000000000000
+      internalID: 7195330486301111623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 611
+        width: 1407
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e274f21771b7040800000000000000
+      internalID: 4646333215454735985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 388
+        width: 161
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c539983af65543f40800000000000000
+      internalID: 5707280565758694236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 442
+        width: 519
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3171b73c8997d0430800000000000000
+      internalID: 3750787761691105043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 388
+        width: 473
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c7dfa2d5e2044f0800000000000000
+      internalID: -846625752257561498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_5
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 388
+        width: 538
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a21f1982638ea200800000000000000
+      internalID: 193236293254058661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_6
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 387
+        width: 453
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd719a9fc7499be20800000000000000
+      internalID: 3366885460921620443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_7
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 429
+        width: 208
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecdb7430cde0fc20800000000000000
+      internalID: 3238349541849423075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 281
+        width: 103
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb1cd1545db233e0800000000000000
+      internalID: -2075388308416095237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 282
+        width: 82
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3fbe10ec76c5700800000000000000
+      internalID: 530412990616040396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 284
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13688870f4d35dc0800000000000000
+      internalID: -3651340743587896547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 281
+        width: 105
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ad73b1c124f6ac0800000000000000
+      internalID: -3859793667150063014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_12
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 282
+        width: 103
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805f58f5fef31da80800000000000000
+      internalID: -8443897529010621176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_13
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 282
+        width: 96
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724c65012129710c0800000000000000
+      internalID: -4605051487681854425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_14
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 285
+        width: 59
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e350c7e9eca359ce0800000000000000
+      internalID: -1399147450132069058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_15
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 282
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1092161f920794240800000000000000
+      internalID: 4776472205248768257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_16
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 284
+        width: 84
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dddbeff957279240800000000000000
+      internalID: 4798347195485773271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_17
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 284
+        width: 115
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298741c1b101cc150800000000000000
+      internalID: 5894103720942401682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_18
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 284
+        width: 76
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1fc0c4579cf2640800000000000000
+      internalID: 5057482412184629731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_19
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 284
+        width: 91
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e737ad3cbda50e80800000000000000
+      internalID: -8212967321440405532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_20
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 285
+        width: 212
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c50de70db21eecd0800000000000000
+      internalID: -2527061737817176637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 774
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09aec4a02ef46f590800000000000000
+      internalID: -7640831885533451632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 50
+        width: 356
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad704b4dac81945a0800000000000000
+      internalID: -6536666124720535590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_23
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 149
+        width: 85
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea27b2bef92b9490800000000000000
+      internalID: -7738545360809284884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_24
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 49
+        width: 147
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97e6e67fb39a4960800000000000000
+      internalID: 7587038972801902490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 2_25
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 51
+        width: 102
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e26c9912979db20800000000000000
+      internalID: 3159689798797897282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cena 2_0: 7195330486301111623
+      Cena 2_1: 4646333215454735985
+      Cena 2_10: -3651340743587896547
+      Cena 2_11: -3859793667150063014
+      Cena 2_12: -8443897529010621176
+      Cena 2_13: -4605051487681854425
+      Cena 2_14: -1399147450132069058
+      Cena 2_15: 4776472205248768257
+      Cena 2_16: 4798347195485773271
+      Cena 2_17: 5894103720942401682
+      Cena 2_18: 5057482412184629731
+      Cena 2_19: -8212967321440405532
+      Cena 2_2: 5707280565758694236
+      Cena 2_20: -2527061737817176637
+      Cena 2_21: -7640831885533451632
+      Cena 2_22: -6536666124720535590
+      Cena 2_23: -7738545360809284884
+      Cena 2_24: 7587038972801902490
+      Cena 2_25: 3159689798797897282
+      Cena 2_3: 3750787761691105043
+      Cena 2_4: -846625752257561498
+      Cena 2_5: 193236293254058661
+      Cena 2_6: 3366885460921620443
+      Cena 2_7: 3238349541849423075
+      Cena 2_8: -2075388308416095237
+      Cena 2_9: 530412990616040396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

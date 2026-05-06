@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: 4119dc24c9d11804f850223f657207f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8126272826933159758
+    second: Cena 5_0
+  - first:
+      213: 7034396365588304818
+    second: Cena 5_1
+  - first:
+      213: 2610915354289534160
+    second: Cena 5_2
+  - first:
+      213: 2381264467914816574
+    second: Cena 5_3
+  - first:
+      213: -1551927370038562125
+    second: Cena 5_4
+  - first:
+      213: 4029412740462252206
+    second: Cena 5_5
+  - first:
+      213: 6142986535389006478
+    second: Cena 5_6
+  - first:
+      213: 367349340064687891
+    second: Cena 5_7
+  - first:
+      213: -7760300490386235986
+    second: Cena 5_8
+  - first:
+      213: -1183992148928574029
+    second: Cena 5_9
+  - first:
+      213: 1277629662330209962
+    second: Cena 5_10
+  - first:
+      213: 4758620815380879826
+    second: Cena 5_11
+  - first:
+      213: -9211961394371225708
+    second: Cena 5_12
+  - first:
+      213: -7116338565276106083
+    second: Cena 5_13
+  - first:
+      213: -4062496812681320341
+    second: Cena 5_14
+  - first:
+      213: -6239193274800429251
+    second: Cena 5_15
+  - first:
+      213: 6132761597928699012
+    second: Cena 5_16
+  - first:
+      213: 5781097788236965754
+    second: Cena 5_17
+  - first:
+      213: -3053475166415623907
+    second: Cena 5_18
+  - first:
+      213: -363730418268381758
+    second: Cena 5_19
+  - first:
+      213: 9092686196406141768
+    second: Cena 5_20
+  - first:
+      213: -6239546109626510593
+    second: Cena 5_21
+  - first:
+      213: 8440504660331415550
+    second: Cena 5_22
+  - first:
+      213: 155536186623879836
+    second: Cena 5_23
+  - first:
+      213: -5327543686068389071
+    second: Cena 5_24
+  - first:
+      213: -7313748762132126197
+    second: Cena 5_25
+  - first:
+      213: 7957977939893746109
+    second: Cena 5_26
+  - first:
+      213: -208324361701547235
+    second: Cena 5_27
+  - first:
+      213: 4908291238297840680
+    second: Cena 5_28
+  - first:
+      213: 8287731900106728720
+    second: Cena 5_29
+  - first:
+      213: -2308580656514702095
+    second: Cena 5_30
+  - first:
+      213: -1203375673031993939
+    second: Cena 5_31
+  - first:
+      213: 6187687346697898478
+    second: Cena 5_32
+  - first:
+      213: -2649559285973953167
+    second: Cena 5_33
+  - first:
+      213: 9098866316318888897
+    second: Cena 5_34
+  - first:
+      213: -1750294644212332674
+    second: Cena 5_35
+  - first:
+      213: -513420619643797138
+    second: Cena 5_36
+  - first:
+      213: -1646348958205741052
+    second: Cena 5_37
+  - first:
+      213: 4689712158636819276
+    second: Cena 5_38
+  - first:
+      213: -1679950133663791505
+    second: Cena 5_39
+  - first:
+      213: 3261404107695313586
+    second: Cena 5_40
+  - first:
+      213: 1973251860601743270
+    second: Cena 5_41
+  - first:
+      213: -9004659784674063510
+    second: Cena 5_42
+  - first:
+      213: -5608972471469587876
+    second: Cena 5_43
+  - first:
+      213: 5024780784969824568
+    second: Cena 5_44
+  - first:
+      213: -129086049570948404
+    second: Cena 5_45
+  - first:
+      213: 5296028733458481283
+    second: Cena 5_46
+  - first:
+      213: 3935036253965067560
+    second: Cena 5_47
+  - first:
+      213: 1529504664482177994
+    second: Cena 5_48
+  - first:
+      213: 6345087182722929507
+    second: Cena 5_49
+  - first:
+      213: -6082523623135056032
+    second: Cena 5_50
+  - first:
+      213: 8950244216295660336
+    second: Cena 5_51
+  - first:
+      213: 1547179502519158170
+    second: Cena 5_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cena 5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 1448
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47a24dc41256c070800000000000000
+      internalID: 8126272826933159758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 365
+        width: 1430
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3903489323f9160800000000000000
+      internalID: 7034396365588304818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 128
+        width: 419
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d47a077ea5db3420800000000000000
+      internalID: 2610915354289534160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_3
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 224
+        width: 70
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c7256ca63fb0120800000000000000
+      internalID: 2381264467914816574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_4
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 248
+        width: 166
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b235a78742767ae0800000000000000
+      internalID: -1551927370038562125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_5
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 117
+        width: 315
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea09fa8e9895be730800000000000000
+      internalID: 4029412740462252206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_6
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 232
+        width: 310
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a8eddf4b5404550800000000000000
+      internalID: 6142986535389006478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_7
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 221
+        width: 225
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317a70b4746191500800000000000000
+      internalID: 367349340064687891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_8
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 197
+        width: 200
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead1d30e1dfdd4490800000000000000
+      internalID: -7760300490386235986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_9
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 129
+        width: 84
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdc242e96d919fe0800000000000000
+      internalID: -1183992148928574029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_10
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 103
+        width: 151
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6c1b1a86d0bb110800000000000000
+      internalID: 1277629662330209962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_11
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 113
+        width: 214
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d99e895b640a0240800000000000000
+      internalID: 4758620815380879826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_12
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 72
+        width: 210
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49714eb3be9882080800000000000000
+      internalID: -9211961394371225708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_13
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 98
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d920e4367cfad3d90800000000000000
+      internalID: -7116338565276106083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_14
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 99
+        width: 33
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6829f24cac1f97c0800000000000000
+      internalID: -4062496812681320341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 66
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37a382f5cee969a0800000000000000
+      internalID: -6239193274800429251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 67
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48472b83e22fb1550800000000000000
+      internalID: 6132761597928699012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 67
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7729af0fc59a3050800000000000000
+      internalID: 5781097788236965754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_18
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 67
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19e15f9380ef95d0800000000000000
+      internalID: -3053475166415623907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 67
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cddb199c15c3faf0800000000000000
+      internalID: -363730418268381758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_20
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 68
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843c2e6abe5bf2e70800000000000000
+      internalID: 9092686196406141768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 67
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff29a003fdda869a0800000000000000
+      internalID: -6239546109626510593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_22
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 67
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef74514d442b22570800000000000000
+      internalID: 8440504660331415550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_23
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 67
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a6f617653982200800000000000000
+      internalID: 155536186623879836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_24
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 67
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bb48a7e33c016b0800000000000000
+      internalID: -5327543686068389071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_25
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 68
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0669a03048508a90800000000000000
+      internalID: -7313748762132126197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_26
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 68
+        width: 114
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9f2cde5ca607e60800000000000000
+      internalID: 7957977939893746109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_27
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 68
+        width: 58
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1328b6c812eb1df0800000000000000
+      internalID: -208324361701547235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_28
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 68
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ca7e040e0cd1440800000000000000
+      internalID: 4908291238297840680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_29
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 67
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015e88bb040f30370800000000000000
+      internalID: 8287731900106728720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_30
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 68
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f46a11df1646ffd0800000000000000
+      internalID: -2308580656514702095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_31
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 67
+        width: 60
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5d49d7330cc4fe0800000000000000
+      internalID: -1203375673031993939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_32
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 13
+        width: 47
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee98b19abd41fd550800000000000000
+      internalID: 6187687346697898478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_33
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 13
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1755f2c0edfda3bd0800000000000000
+      internalID: -2649559285973953167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_34
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 13
+        width: 136
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c354f2f4baa54e70800000000000000
+      internalID: 9098866316318888897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_35
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 13
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7784776b44b5b7e0800000000000000
+      internalID: -1750294644212332674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6145c9aaa6ffd8f0800000000000000
+      internalID: -513420619643797138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_37
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 13
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408ffc1685ef629e0800000000000000
+      internalID: -1646348958205741052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_38
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 13
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43c0627c54351140800000000000000
+      internalID: 4689712158636819276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_39
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 13
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f668992114e9fa8e0800000000000000
+      internalID: -1679950133663791505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_40
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 13
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2dd2c91c5d24d20800000000000000
+      internalID: 3261404107695313586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_41
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 13
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7ab8bcc16626b10800000000000000
+      internalID: 1973251860601743270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_42
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 13
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bc14372a5090380800000000000000
+      internalID: -9004659784674063510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_43
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 13
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c524c1b314de822b0800000000000000
+      internalID: -5608972471469587876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_44
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 13
+        width: 72
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839b552608b9bb540800000000000000
+      internalID: 5024780784969824568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_45
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 13
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca7dddfbe4653ef0800000000000000
+      internalID: -129086049570948404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_46
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 13
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3800e02d2164f7940800000000000000
+      internalID: 5296028733458481283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_47
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 13
+        width: 79
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8252fdfcf9e0c9630800000000000000
+      internalID: 3935036253965067560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_48
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 13
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac363c08364e93510800000000000000
+      internalID: 1529504664482177994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_49
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 13
+        width: 98
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363951bcc274e0850800000000000000
+      internalID: 6345087182722929507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_50
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 13
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fec19cdf8869ba0800000000000000
+      internalID: -6082523623135056032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_51
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 13
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b1c4db1b7a53c70800000000000000
+      internalID: 8950244216295660336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cena 5_52
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 13
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a958b6b6f8fa87510800000000000000
+      internalID: 1547179502519158170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cena 5_0: 8126272826933159758
+      Cena 5_1: 7034396365588304818
+      Cena 5_10: 1277629662330209962
+      Cena 5_11: 4758620815380879826
+      Cena 5_12: -9211961394371225708
+      Cena 5_13: -7116338565276106083
+      Cena 5_14: -4062496812681320341
+      Cena 5_15: -6239193274800429251
+      Cena 5_16: 6132761597928699012
+      Cena 5_17: 5781097788236965754
+      Cena 5_18: -3053475166415623907
+      Cena 5_19: -363730418268381758
+      Cena 5_2: 2610915354289534160
+      Cena 5_20: 9092686196406141768
+      Cena 5_21: -6239546109626510593
+      Cena 5_22: 8440504660331415550
+      Cena 5_23: 155536186623879836
+      Cena 5_24: -5327543686068389071
+      Cena 5_25: -7313748762132126197
+      Cena 5_26: 7957977939893746109
+      Cena 5_27: -208324361701547235
+      Cena 5_28: 4908291238297840680
+      Cena 5_29: 8287731900106728720
+      Cena 5_3: 2381264467914816574
+      Cena 5_30: -2308580656514702095
+      Cena 5_31: -1203375673031993939
+      Cena 5_32: 6187687346697898478
+      Cena 5_33: -2649559285973953167
+      Cena 5_34: 9098866316318888897
+      Cena 5_35: -1750294644212332674
+      Cena 5_36: -513420619643797138
+      Cena 5_37: -1646348958205741052
+      Cena 5_38: 4689712158636819276
+      Cena 5_39: -1679950133663791505
+      Cena 5_4: -1551927370038562125
+      Cena 5_40: 3261404107695313586
+      Cena 5_41: 1973251860601743270
+      Cena 5_42: -9004659784674063510
+      Cena 5_43: -5608972471469587876
+      Cena 5_44: 5024780784969824568
+      Cena 5_45: -129086049570948404
+      Cena 5_46: 5296028733458481283
+      Cena 5_47: 3935036253965067560
+      Cena 5_48: 1529504664482177994
+      Cena 5_49: 6345087182722929507
+      Cena 5_5: 4029412740462252206
+      Cena 5_50: -6082523623135056032
+      Cena 5_51: 8950244216295660336
+      Cena 5_52: 1547179502519158170
+      Cena 5_6: 6142986535389006478
+      Cena 5_7: 367349340064687891
+      Cena 5_8: -7760300490386235986
+      Cena 5_9: -1183992148928574029
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
