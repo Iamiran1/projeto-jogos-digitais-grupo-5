@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: 48ad47eb141197548824356c1db72533
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8357032436491248363
+    second: Tocha_0
+  - first:
+      213: 7900480247089802851
+    second: Tocha_1
+  - first:
+      213: 8990005605296999225
+    second: Tocha_2
+  - first:
+      213: 8674727072410419072
+    second: Tocha_3
+  - first:
+      213: 4678735573698997739
+    second: Tocha_4
+  - first:
+      213: -7171365503820795228
+    second: Tocha_5
+  - first:
+      213: -3935552663062967437
+    second: Tocha_6
+  - first:
+      213: -7532243083242325313
+    second: Tocha_7
+  - first:
+      213: -4553885975371728503
+    second: Tocha_8
+  - first:
+      213: -8946028672305952918
+    second: Tocha_9
+  - first:
+      213: 8419233201471173860
+    second: Tocha_10
+  - first:
+      213: 5453832477699204124
+    second: Tocha_11
+  - first:
+      213: 6088767535910850336
+    second: Tocha_12
+  - first:
+      213: -2160948713213039314
+    second: Tocha_13
+  - first:
+      213: 4158480504243605904
+    second: Tocha_14
+  - first:
+      213: 9163218692089421907
+    second: Tocha_15
+  - first:
+      213: -2807145551964980187
+    second: Tocha_16
+  - first:
+      213: 7892350954956673716
+    second: Tocha_17
+  - first:
+      213: -7027544746466340720
+    second: Tocha_18
+  - first:
+      213: 5276806628242228978
+    second: Tocha_19
+  - first:
+      213: 2851254602475432843
+    second: Tocha_20
+  - first:
+      213: 7082411030943070622
+    second: Tocha_21
+  - first:
+      213: 1073110124157996033
+    second: Tocha_22
+  - first:
+      213: -1097443323331462503
+    second: Tocha_23
+  - first:
+      213: 7784269487851676424
+    second: Tocha_24
+  - first:
+      213: -8210014555982095422
+    second: Tocha_25
+  - first:
+      213: -2853369140987079649
+    second: Tocha_26
+  - first:
+      213: -132782537047856918
+    second: Tocha_27
+  - first:
+      213: -6674544849063758792
+    second: Tocha_28
+  - first:
+      213: -6586231486251306422
+    second: Tocha_29
+  - first:
+      213: -7355486314402941342
+    second: Tocha_30
+  - first:
+      213: -6525196351381878500
+    second: Tocha_31
+  - first:
+      213: 2591404901737751644
+    second: Tocha_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tocha_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 344
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be26a7939b42af370800000000000000
+      internalID: 8357032436491248363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_1
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 643
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e27ca1de424ad60800000000000000
+      internalID: 7900480247089802851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_2
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 631
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b8f78877ae2cc70800000000000000
+      internalID: 8990005605296999225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_3
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 662
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fbc7acf42d26870800000000000000
+      internalID: 8674727072410419072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_4
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 650
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedef4c17353ee040800000000000000
+      internalID: 4678735573698997739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_5
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 650
+        width: 163
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2754ed1113a7c90800000000000000
+      internalID: -7171365503820795228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_6
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 631
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b0a4354bb1269c0800000000000000
+      internalID: -3935552663062967437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 643
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbab275c2d8187790800000000000000
+      internalID: -7532243083242325313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 606
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989b55a35d85dc0c0800000000000000
+      internalID: -4553885975371728503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_9
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 637
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a678eb4125259d380800000000000000
+      internalID: -8946028672305952918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_10
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 631
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e43dde5dff17d470800000000000000
+      internalID: 8419233201471173860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_11
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 638
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14efb92eb7efab40800000000000000
+      internalID: 5453832477699204124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_12
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 612
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f85e170d5af7450800000000000000
+      internalID: 6088767535910850336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_13
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 612
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d69133894c202e0800000000000000
+      internalID: -2160948713213039314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_14
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 63
+        width: 275
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091d3dc6cf3e5b930800000000000000
+      internalID: 4158480504243605904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_15
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 600
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350a5350ada4a2f70800000000000000
+      internalID: 9163218692089421907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_16
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 619
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c3f4e4ef30b09d0800000000000000
+      internalID: -2807145551964980187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_17
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 625
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b258e8c063478d60800000000000000
+      internalID: 7892350954956673716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_18
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 612
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09016bf5945297e90800000000000000
+      internalID: -7027544746466340720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_19
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 625
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f60ec0bbabfa3940800000000000000
+      internalID: 5276806628242228978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_20
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 586
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8beeb054f0b19720800000000000000
+      internalID: 2851254602475432843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_21
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 587
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e997ba4fe47c94260800000000000000
+      internalID: 7082411030943070622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_22
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 63
+        width: 273
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c005be8f374ee00800000000000000
+      internalID: 1073110124157996033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_23
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 581
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a34b7ac1915c0f0800000000000000
+      internalID: -1097443323331462503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_24
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 593
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803af4b3bd7470c60800000000000000
+      internalID: 7784269487851676424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_25
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 581
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb96e5824b201e80800000000000000
+      internalID: -8210014555982095422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_26
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 63
+        width: 274
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14576252ebc668d0800000000000000
+      internalID: -2853369140987079649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_27
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 580
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae823ee6cf2482ef0800000000000000
+      internalID: -132782537047856918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_28
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 568
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8343422b2d04f53a0800000000000000
+      internalID: -6674544849063758792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_29
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 572
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a427f7dcb510994a0800000000000000
+      internalID: -6586231486251306422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_30
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 63
+        width: 278
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266f3c70b201ce990800000000000000
+      internalID: -7355486314402941342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_31
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 549
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19453a8d78d175a0800000000000000
+      internalID: -6525196351381878500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tocha_32
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 63
+        width: 274
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54e84d370586f320800000000000000
+      internalID: 2591404901737751644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tocha_0: 8357032436491248363
+      Tocha_1: 7900480247089802851
+      Tocha_10: 8419233201471173860
+      Tocha_11: 5453832477699204124
+      Tocha_12: 6088767535910850336
+      Tocha_13: -2160948713213039314
+      Tocha_14: 4158480504243605904
+      Tocha_15: 9163218692089421907
+      Tocha_16: -2807145551964980187
+      Tocha_17: 7892350954956673716
+      Tocha_18: -7027544746466340720
+      Tocha_19: 5276806628242228978
+      Tocha_2: 8990005605296999225
+      Tocha_20: 2851254602475432843
+      Tocha_21: 7082411030943070622
+      Tocha_22: 1073110124157996033
+      Tocha_23: -1097443323331462503
+      Tocha_24: 7784269487851676424
+      Tocha_25: -8210014555982095422
+      Tocha_26: -2853369140987079649
+      Tocha_27: -132782537047856918
+      Tocha_28: -6674544849063758792
+      Tocha_29: -6586231486251306422
+      Tocha_3: 8674727072410419072
+      Tocha_30: -7355486314402941342
+      Tocha_31: -6525196351381878500
+      Tocha_32: 2591404901737751644
+      Tocha_4: 4678735573698997739
+      Tocha_5: -7171365503820795228
+      Tocha_6: -3935552663062967437
+      Tocha_7: -7532243083242325313
+      Tocha_8: -4553885975371728503
+      Tocha_9: -8946028672305952918
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
