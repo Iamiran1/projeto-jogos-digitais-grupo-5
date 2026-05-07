@@ -381,18 +381,30 @@ private void CheckWall()
         return;
     }
 
-    Vector2 origin = col2d.bounds.center;
+    Vector2 center = col2d.bounds.center;
     float rayDistance = col2d.bounds.extents.x + wallCheckDistance;
+    float halfHeight  = col2d.bounds.extents.y * 0.8f;
 
-    RaycastHit2D hitRight = Physics2D.Raycast(origin, Vector2.right, rayDistance, wallLayer);
-    RaycastHit2D hitLeft  = Physics2D.Raycast(origin, Vector2.left,  rayDistance, wallLayer);
+    Vector2 top    = center + Vector2.up   * halfHeight;
+    Vector2 bottom = center + Vector2.down * halfHeight;
 
-    if (hitRight.collider != null)
+    bool rightTop    = Physics2D.Raycast(top,    Vector2.right, rayDistance, wallLayer).collider != null;
+    bool rightMid    = Physics2D.Raycast(center, Vector2.right, rayDistance, wallLayer).collider != null;
+    bool rightBottom = Physics2D.Raycast(bottom, Vector2.right, rayDistance, wallLayer).collider != null;
+
+    bool leftTop     = Physics2D.Raycast(top,    Vector2.left, rayDistance, wallLayer).collider != null;
+    bool leftMid     = Physics2D.Raycast(center, Vector2.left, rayDistance, wallLayer).collider != null;
+    bool leftBottom  = Physics2D.Raycast(bottom, Vector2.left, rayDistance, wallLayer).collider != null;
+
+    bool touchRight = rightTop || rightMid || rightBottom;
+    bool touchLeft  = leftTop  || leftMid  || leftBottom;
+
+    if (touchRight)
     {
         isTouchingWall = true;
         wallDirection = 1;
     }
-    else if (hitLeft.collider != null)
+    else if (touchLeft)
     {
         isTouchingWall = true;
         wallDirection = -1;
@@ -403,8 +415,14 @@ private void CheckWall()
         wallDirection = 0;
     }
 
-    Debug.DrawRay(origin, Vector2.right * rayDistance, hitRight.collider != null ? Color.cyan : Color.red);
-    Debug.DrawRay(origin, Vector2.left  * rayDistance, hitLeft.collider  != null ? Color.cyan : Color.red);
+    Color cr = touchRight ? Color.cyan : Color.red;
+    Color cl = touchLeft  ? Color.cyan : Color.red;
+    Debug.DrawRay(top,    Vector2.right * rayDistance, cr);
+    Debug.DrawRay(center, Vector2.right * rayDistance, cr);
+    Debug.DrawRay(bottom, Vector2.right * rayDistance, cr);
+    Debug.DrawRay(top,    Vector2.left  * rayDistance, cl);
+    Debug.DrawRay(center, Vector2.left  * rayDistance, cl);
+    Debug.DrawRay(bottom, Vector2.left  * rayDistance, cl);
 }
 
     private void ApplyCrouchCollider()
