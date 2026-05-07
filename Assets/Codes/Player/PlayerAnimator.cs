@@ -27,6 +27,7 @@ public class PlayerAnimator : MonoBehaviour
 
         bool isMoving = moveX != 0;
         bool isDashing = playerMoviment.IsDashing;
+        bool isRunning = playerMoviment.IsRunning;
         bool isPushing = playerPush != null && playerPush.IsPushing;
 
         bool isJumping = rb.linearVelocity.y > 0.1f && !isGrounded && !isSliding;
@@ -59,7 +60,8 @@ public class PlayerAnimator : MonoBehaviour
         {
             SetState(
                 ground: !isMoving && !isPushing,
-                walk: isMoving && !isPushing,
+                walk: isMoving && !isRunning && !isPushing,
+                run: isRunning && !isPushing,
                 push: isPushing
             );
         }

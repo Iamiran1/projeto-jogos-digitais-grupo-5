@@ -4,6 +4,8 @@ public class PlayerMoviment : MonoBehaviour
 {
     [Header("Movimentação")]
     public float walkSpeed = 5f;
+    public float runSpeed = 9f;
+    [SerializeField] private float timeToRun = 0.8f;
 
     [Header("Dash")]
     [SerializeField] private float dashSpeed = 20f;
@@ -59,6 +61,10 @@ public class PlayerMoviment : MonoBehaviour
     private float dashCooldownCounter;
     private int dashDirection;
 
+    private float runTimer;
+    private int lastMoveDirection;
+    private bool isRunning;
+
     private int wallDirection;
     private int lastWallDirection;
     private float wallJumpLockCounter;
@@ -72,6 +78,7 @@ public class PlayerMoviment : MonoBehaviour
     public bool IsJumping => isJumping;
     public bool IsWallSliding => isWallSliding;
     public bool IsDashing => isDashing;
+    public bool IsRunning => isRunning;
 
     void Start()
     {
@@ -112,7 +119,12 @@ public class PlayerMoviment : MonoBehaviour
 
     private void HandleMovement(float moveX)
     {
-        if (isWallSliding) return;
+        if (isWallSliding)
+        {
+            runTimer = 0f;
+            isRunning = false;
+            return;
+        }
 
         if (!isGrounded && moveX != 0f && IsMovingIntoWall(moveX))
         {
@@ -122,7 +134,25 @@ public class PlayerMoviment : MonoBehaviour
 
         bool isPushing = playerPush != null && playerPush.IsPushing;
 
-        float currentSpeed = walkSpeed;
+        if (moveX == 0f || isCrouching || isPushing)
+        {
+            runTimer = 0f;
+            lastMoveDirection = 0;
+            isRunning = false;
+        }
+        else
+        {
+            int dir = (int)Mathf.Sign(moveX);
+            if (lastMoveDirection != 0 && dir != lastMoveDirection)
+                runTimer = 0f;
+            else if (isGrounded)
+                runTimer += Time.deltaTime;
+            lastMoveDirection = dir;
+            isRunning = runTimer >= timeToRun;
+        }
+
+        float t = timeToRun > 0f ? Mathf.Clamp01(runTimer / timeToRun) : 1f;
+        float currentSpeed = Mathf.Lerp(walkSpeed, runSpeed, t);
 
         if (isCrouching)
             currentSpeed *= crouchSpeedMultiplier;
