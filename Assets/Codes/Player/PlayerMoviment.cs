@@ -298,22 +298,20 @@ public class PlayerMoviment : MonoBehaviour
             return;
         }
 
-        float distanceToGround = col2d.bounds.extents.y;
+        float rayLen = col2d.bounds.extents.y + groundExtraDistance;
+        Vector2 center = col2d.bounds.center;
+        float halfWidth = col2d.bounds.extents.x * 0.8f;
 
-        RaycastHit2D hit = Physics2D.Raycast(
-            col2d.bounds.center,
-            Vector2.down,
-            distanceToGround + groundExtraDistance,
-            groundLayer
-        );
+        bool hitCenter = Physics2D.Raycast(center,                              Vector2.down, rayLen, groundLayer).collider != null;
+        bool hitLeft   = Physics2D.Raycast(center + Vector2.left  * halfWidth,  Vector2.down, rayLen, groundLayer).collider != null;
+        bool hitRight  = Physics2D.Raycast(center + Vector2.right * halfWidth,  Vector2.down, rayLen, groundLayer).collider != null;
 
-        isGrounded = hit.collider != null;
+        isGrounded = hitCenter || hitLeft || hitRight;
 
-        Debug.DrawRay(
-            col2d.bounds.center,
-            Vector2.down * (distanceToGround + groundExtraDistance),
-            isGrounded ? Color.green : Color.red
-        );
+        Color c = isGrounded ? Color.green : Color.red;
+        Debug.DrawRay(center,                             Vector2.down * rayLen, c);
+        Debug.DrawRay(center + Vector2.left  * halfWidth, Vector2.down * rayLen, c);
+        Debug.DrawRay(center + Vector2.right * halfWidth, Vector2.down * rayLen, c);
     }
 
 private void CheckWall()
@@ -321,60 +319,33 @@ private void CheckWall()
     if (col2d == null)
     {
         isTouchingWall = false;
-        Debug.Log("CheckWall: col2d está null");
         return;
     }
 
     Vector2 origin = col2d.bounds.center;
     float rayDistance = col2d.bounds.extents.x + wallCheckDistance;
 
-    RaycastHit2D hitRight = Physics2D.Raycast(
-        origin,
-        Vector2.right,
-        rayDistance,
-        wallLayer
-    );
-
-    RaycastHit2D hitLeft = Physics2D.Raycast(
-        origin,
-        Vector2.left,
-        rayDistance,
-        wallLayer
-    );
+    RaycastHit2D hitRight = Physics2D.Raycast(origin, Vector2.right, rayDistance, wallLayer);
+    RaycastHit2D hitLeft  = Physics2D.Raycast(origin, Vector2.left,  rayDistance, wallLayer);
 
     if (hitRight.collider != null)
     {
         isTouchingWall = true;
         wallDirection = 1;
-
-        Debug.Log("Parede detectada na DIREITA: " + hitRight.collider.gameObject.name);
     }
     else if (hitLeft.collider != null)
     {
         isTouchingWall = true;
         wallDirection = -1;
-
-        Debug.Log("Parede detectada na ESQUERDA: " + hitLeft.collider.gameObject.name);
     }
     else
     {
         isTouchingWall = false;
         wallDirection = 0;
-
-        Debug.Log("Nenhuma parede detectada");
     }
 
-    Debug.DrawRay(
-        origin,
-        Vector2.right * rayDistance,
-        hitRight.collider != null ? Color.cyan : Color.red
-    );
-
-    Debug.DrawRay(
-        origin,
-        Vector2.left * rayDistance,
-        hitLeft.collider != null ? Color.cyan : Color.red
-    );
+    Debug.DrawRay(origin, Vector2.right * rayDistance, hitRight.collider != null ? Color.cyan : Color.red);
+    Debug.DrawRay(origin, Vector2.left  * rayDistance, hitLeft.collider  != null ? Color.cyan : Color.red);
 }
 
     private void ApplyCrouchCollider()
