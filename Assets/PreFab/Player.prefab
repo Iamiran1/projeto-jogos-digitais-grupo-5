@@ -52,7 +52,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMoviment
   walkSpeed: 5
-  runSpeed: 9
+  dashSpeed: 20
+  dashDuration: 0.15
+  dashCooldown: 0.8
   jumpForce: 10
   coyoteTime: 0.15
   jumpBufferTime: 0.1
@@ -62,7 +64,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
-  groundExtraDistance: 0.08
+  groundExtraDistance: 0.33
   wallLayer:
     serializedVersion: 2
     m_Bits: 512

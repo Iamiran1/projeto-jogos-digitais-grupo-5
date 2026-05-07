@@ -26,13 +26,17 @@ public class PlayerAnimator : MonoBehaviour
         bool isSliding = playerMoviment.IsWallSliding;
 
         bool isMoving = moveX != 0;
-        bool isRunning = isMoving && Input.GetKey(KeyCode.LeftShift);
+        bool isDashing = playerMoviment.IsDashing;
         bool isPushing = playerPush != null && playerPush.IsPushing;
 
         bool isJumping = rb.linearVelocity.y > 0.1f && !isGrounded && !isSliding;
         bool isFalling = rb.linearVelocity.y < -0.1f && !isGrounded && !isSliding;
 
-        if (isSliding)
+        if (isDashing)
+        {
+            SetState(dash: true);
+        }
+        else if (isSliding)
         {
             SetState(sliding: true);
         }
@@ -55,8 +59,7 @@ public class PlayerAnimator : MonoBehaviour
         {
             SetState(
                 ground: !isMoving && !isPushing,
-                walk: isMoving && !isRunning && !isPushing,
-                run: isRunning && !isPushing,
+                walk: isMoving && !isPushing,
                 push: isPushing
             );
         }
@@ -71,7 +74,8 @@ public class PlayerAnimator : MonoBehaviour
         bool squat = false,
         bool squatWalk = false,
         bool push = false,
-        bool sliding = false
+        bool sliding = false,
+        bool dash = false
     )
     {
         anim.SetBool("jump", jump);
@@ -83,6 +87,7 @@ public class PlayerAnimator : MonoBehaviour
         anim.SetBool("squat_walk", squatWalk);
         anim.SetBool("push", push);
         anim.SetBool("sliding", sliding);
+        anim.SetBool("dash", dash);
     }
 
     public void TriggerJump()

@@ -4,7 +4,11 @@ public class PlayerMoviment : MonoBehaviour
 {
     [Header("Movimentação")]
     public float walkSpeed = 5f;
-    public float runSpeed = 9f;
+
+    [Header("Dash")]
+    [SerializeField] private float dashSpeed = 20f;
+    [SerializeField] private float dashDuration = 0.15f;
+    [SerializeField] private float dashCooldown = 0.8f;
 
     [Header("Pulo")]
     public float jumpForce = 10f;
@@ -50,6 +54,11 @@ public class PlayerMoviment : MonoBehaviour
     private bool isWallSliding;
     private bool isWallJumping;
 
+    private bool isDashing;
+    private float dashTimer;
+    private float dashCooldownCounter;
+    private int dashDirection;
+
     private int wallDirection;
     private int lastWallDirection;
     private float wallJumpLockCounter;
@@ -62,6 +71,7 @@ public class PlayerMoviment : MonoBehaviour
     public bool IsCrouching => isCrouching;
     public bool IsJumping => isJumping;
     public bool IsWallSliding => isWallSliding;
+    public bool IsDashing => isDashing;
 
     void Start()
     {
@@ -87,14 +97,14 @@ public class PlayerMoviment : MonoBehaviour
         HandleCrouch();
         HandleWallSlide(moveX);
         HandleJump();
+        HandleDash(moveX);
 
-        if (wallJumpLockCounter > 0f)
+        if (!isDashing)
         {
-            wallJumpLockCounter -= Time.deltaTime;
-        }
-        else
-        {
-            HandleMovement(moveX);
+            if (wallJumpLockCounter > 0f)
+                wallJumpLockCounter -= Time.deltaTime;
+            else
+                HandleMovement(moveX);
         }
 
         FlipPlayer(moveX);
@@ -112,13 +122,7 @@ public class PlayerMoviment : MonoBehaviour
 
         bool isPushing = playerPush != null && playerPush.IsPushing;
 
-        bool isRunning = Input.GetKey(KeyCode.LeftShift) &&
-                         moveX != 0 &&
-                         !isCrouching &&
-                         !isPushing &&
-                         !isWallSliding;
-
-        float currentSpeed = isRunning ? runSpeed : walkSpeed;
+        float currentSpeed = walkSpeed;
 
         if (isCrouching)
             currentSpeed *= crouchSpeedMultiplier;
@@ -127,6 +131,33 @@ public class PlayerMoviment : MonoBehaviour
             currentSpeed *= playerPush.pushSpeedMultiplier;
 
         rb.linearVelocity = new Vector2(moveX * currentSpeed, rb.linearVelocity.y);
+    }
+
+    private void HandleDash(float moveX)
+    {
+        if (dashCooldownCounter > 0f)
+            dashCooldownCounter -= Time.deltaTime;
+
+        if (isDashing)
+        {
+            dashTimer -= Time.deltaTime;
+            rb.linearVelocity = new Vector2(dashDirection * dashSpeed, 0f);
+            if (dashTimer <= 0f)
+                isDashing = false;
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) &&
+            dashCooldownCounter <= 0f &&
+            !isCrouching &&
+            !isWallSliding)
+        {
+            isDashing = true;
+            dashTimer = dashDuration;
+            dashCooldownCounter = dashCooldown;
+            dashDirection = moveX != 0 ? (int)Mathf.Sign(moveX) : (int)Mathf.Sign(transform.localScale.x);
+            rb.linearVelocity = new Vector2(dashDirection * dashSpeed, 0f);
+        }
     }
 
     private void HandleJump()
@@ -227,9 +258,7 @@ public class PlayerMoviment : MonoBehaviour
     private void HandleCrouch()
     {
         bool crouchKeyHeld = Input.GetKey(KeyCode.S) ||
-                             Input.GetKey(KeyCode.DownArrow) ||
-                             Input.GetKey(KeyCode.LeftControl) ||
-                             Input.GetKey(KeyCode.RightControl);
+                             Input.GetKey(KeyCode.DownArrow);
 
         if (crouchKeyHeld && isGrounded)
             isCrouching = true;
