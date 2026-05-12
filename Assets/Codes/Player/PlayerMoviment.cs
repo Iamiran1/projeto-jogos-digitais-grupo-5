@@ -87,6 +87,8 @@ public class PlayerMoviment : MonoBehaviour
         playerPush = GetComponent<PlayerPush>();
         playerAnimator = GetComponent<PlayerAnimator>();
 
+        rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+
         if (col2d != null)
         {
             originalColliderSize = col2d.size;
@@ -126,7 +128,10 @@ public class PlayerMoviment : MonoBehaviour
             return;
         }
 
-        if (!isGrounded && moveX != 0f && IsMovingIntoWall(moveX))
+        bool pressingIntoDetectedWall = isTouchingWall &&
+            ((wallDirection == 1 && moveX > 0) || (wallDirection == -1 && moveX < 0));
+
+        if (!isGrounded && moveX != 0f && (IsMovingIntoWall(moveX) || pressingIntoDetectedWall))
         {
             rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
             return;
@@ -171,9 +176,12 @@ public class PlayerMoviment : MonoBehaviour
         if (isDashing)
         {
             dashTimer -= Time.deltaTime;
-            rb.linearVelocity = new Vector2(dashDirection * dashSpeed, 0f);
-            if (dashTimer <= 0f)
+            if (dashTimer <= 0f || isTouchingWall)
+            {
                 isDashing = false;
+                return;
+            }
+            rb.linearVelocity = new Vector2(dashDirection * dashSpeed, 0f);
             return;
         }
 
@@ -443,8 +451,21 @@ private void CheckWall()
         }
         else
         {
-            col2d.size = originalColliderSize;
-            col2d.offset = originalColliderOffset;
+            // Verifica se o espaço para expandir está livre antes de restaurar o collider
+            Vector2 futureCenter = (Vector2)transform.position + originalColliderOffset;
+            Collider2D overlap = Physics2D.OverlapCapsule(
+                futureCenter,
+                originalColliderSize,
+                col2d.direction,
+                0f,
+                groundLayer
+            );
+
+            if (overlap == null || overlap == col2d)
+            {
+                col2d.size = originalColliderSize;
+                col2d.offset = originalColliderOffset;
+            }
         }
     }
 
