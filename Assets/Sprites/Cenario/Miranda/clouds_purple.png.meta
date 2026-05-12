@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: e8238d72f5883b444b458786d1acde05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8526002105257925565
+    second: clouds_purple_0
+  - first:
+      213: -3821140548429400866
+    second: clouds_purple_1
+  - first:
+      213: 1684190142028413305
+    second: clouds_purple_2
+  - first:
+      213: 3731150696187577587
+    second: clouds_purple_3
+  - first:
+      213: -1743903764311662642
+    second: clouds_purple_4
+  - first:
+      213: 1637158619145448526
+    second: clouds_purple_5
+  - first:
+      213: -7180250444475154994
+    second: clouds_purple_6
+  - first:
+      213: 6521833292695831486
+    second: clouds_purple_7
+  - first:
+      213: -371435662150091907
+    second: clouds_purple_8
+  - first:
+      213: 3357985696889356844
+    second: clouds_purple_9
+  - first:
+      213: -5191504500387292266
+    second: clouds_purple_10
+  - first:
+      213: 7120844189266619531
+    second: clouds_purple_11
+  - first:
+      213: -6144000207215756874
+    second: clouds_purple_12
+  - first:
+      213: 7944281518236691139
+    second: clouds_purple_13
+  - first:
+      213: -4265020835565344016
+    second: clouds_purple_14
+  - first:
+      213: 7581562776571925539
+    second: clouds_purple_15
+  - first:
+      213: -8871911622159943155
+    second: clouds_purple_16
+  - first:
+      213: 3338233023113640541
+    second: clouds_purple_17
+  - first:
+      213: 5445499293308032022
+    second: clouds_purple_18
+  - first:
+      213: -1968441090725844748
+    second: clouds_purple_19
+  - first:
+      213: -6418810234444466717
+    second: clouds_purple_20
+  - first:
+      213: 755977413477656509
+    second: clouds_purple_21
+  - first:
+      213: -4448462413897685705
+    second: clouds_purple_22
+  - first:
+      213: 8354741258004149810
+    second: clouds_purple_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clouds_purple_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1672
+        height: 940
+      alignment: 9
+      pivot: {x: -7.9395046, y: -0.75728124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f446b92ac5b7c330800000000000000
+      internalID: 3731150696187577587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f892ef7f22c8d2244ba3c0bedf351bcf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clouds_purple_0: -8526002105257925565
+      clouds_purple_1: -3821140548429400866
+      clouds_purple_10: -5191504500387292266
+      clouds_purple_11: 7120844189266619531
+      clouds_purple_12: -6144000207215756874
+      clouds_purple_13: 7944281518236691139
+      clouds_purple_14: -4265020835565344016
+      clouds_purple_15: 7581562776571925539
+      clouds_purple_16: -8871911622159943155
+      clouds_purple_17: 3338233023113640541
+      clouds_purple_18: 5445499293308032022
+      clouds_purple_19: -1968441090725844748
+      clouds_purple_2: 1684190142028413305
+      clouds_purple_20: -6418810234444466717
+      clouds_purple_21: 755977413477656509
+      clouds_purple_22: -4448462413897685705
+      clouds_purple_23: 8354741258004149810
+      clouds_purple_3: 3731150696187577587
+      clouds_purple_4: -1743903764311662642
+      clouds_purple_5: 1637158619145448526
+      clouds_purple_6: -7180250444475154994
+      clouds_purple_7: 6521833292695831486
+      clouds_purple_8: -371435662150091907
+      clouds_purple_9: 3357985696889356844
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
