@@ -1,44 +1,52 @@
 using UnityEngine;
+using System.Collections;
 
 public class TrapSandworm : MonoBehaviour
 {
-    private Collider2D damageCollider;
+    private BoxCollider2D damageCollider;
     private Animator anim;
     private bool playerInRange = false;
 
     void Start()
     {
         anim = GetComponent<Animator>();
-        // Pega o Box Collider 2D como collider de dano
         damageCollider = GetComponent<BoxCollider2D>();
         damageCollider.enabled = false;
+        anim.speed = 0;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    public void PlayerEnteredRange()
     {
-        if (other.CompareTag("Player"))
+        playerInRange = true;
+        anim.speed = 1;
+    }
+
+    public void PlayerExitedRange()
+    {
+        playerInRange = false;
+        StartCoroutine(WaitAndStop());
+    }
+
+    private IEnumerator WaitAndStop()
+    {
+        if (!gameObject.activeInHierarchy) yield break;
+
+        AnimatorStateInfo state = anim.GetCurrentAnimatorStateInfo(0);
+        float remainingTime = (1f - state.normalizedTime % 1f) * state.length;
+        yield return new WaitForSeconds(remainingTime);
+
+        if (!playerInRange && gameObject.activeInHierarchy)
         {
-            playerInRange = true;
-            anim.enabled = true;
+            anim.speed = 0;
+            damageCollider.enabled = false;
         }
     }
 
-    void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = false;
-            anim.enabled = false;
-        }
-    }
-
-    // Chamado pelo Animation Event
     public void EnableCollider()
     {
         damageCollider.enabled = true;
     }
 
-    // Chamado pelo Animation Event
     public void DisableCollider()
     {
         damageCollider.enabled = false;

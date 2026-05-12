@@ -24,6 +24,8 @@ public class EnemyAttack : MonoBehaviour
 
         if (player == null)
             player = GameObject.FindWithTag("Player").transform;
+
+        DisableHitbox();
     }
 
     void Update()
@@ -32,17 +34,14 @@ public class EnemyAttack : MonoBehaviour
 
         if (distanceToPlayer <= attackRange)
         {
-            // Para o movimento sempre que estiver no range
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
             enemyMovement.enabled = false;
 
-            // Ataca se o cooldown passou
             if (Time.time >= lastAttackTime + attackCooldown && !isAttacking)
                 Attack();
         }
         else
         {
-            // Fora do range, reativa o movimento
             if (!isAttacking)
                 enemyMovement.enabled = true;
         }
@@ -53,7 +52,6 @@ public class EnemyAttack : MonoBehaviour
         isAttacking = true;
         lastAttackTime = Time.time;
 
-        // Trava completamente o inimigo
         rb.linearVelocity = Vector2.zero;
         rb.constraints = RigidbodyConstraints2D.FreezePositionX |
                          RigidbodyConstraints2D.FreezeRotation;
@@ -65,9 +63,22 @@ public class EnemyAttack : MonoBehaviour
     void FinishAttack()
     {
         isAttacking = false;
-
-        // Destrava o movimento
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        DisableHitbox();
+    }
+
+    public void EnableHitbox()
+    {
+        Transform hitbox = transform.Find("AttackHitbox");
+        if (hitbox != null)
+            hitbox.GetComponent<Collider2D>().enabled = true;
+    }
+
+    public void DisableHitbox()
+    {
+        Transform hitbox = transform.Find("AttackHitbox");
+        if (hitbox != null)
+            hitbox.GetComponent<Collider2D>().enabled = false;
     }
 
     void OnDrawGizmosSelected()

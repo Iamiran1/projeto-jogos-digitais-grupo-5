@@ -22,18 +22,22 @@ public class PlayerDeath : MonoBehaviour
         }
     }
 
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Trap") && !isDead)
+        {
+            isDead = true;
+            StartCoroutine(DeathSequence());
+        }
+    }
+
     private IEnumerator DeathSequence()
     {
-        // Para o movimento do player
         if (playerMoviment != null)
             playerMoviment.enabled = false;
 
-        // Toca animação de morte e desativa o animator script
         if (playerAnimator != null)
-        {
             playerAnimator.TriggerDeath();
-            playerAnimator.enabled = false;
-        }
 
         yield return new WaitForSeconds(2f);
 
