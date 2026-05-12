@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &529213303090365271
+--- !u!1 &327761589266872508
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 986408145546663406}
-  - component: {fileID: 2911446492021186824}
-  - component: {fileID: 4441556557865211223}
-  - component: {fileID: 2730928076215088008}
-  - component: {fileID: 6940958841822685818}
+  - component: {fileID: 3037853348274090109}
+  - component: {fileID: 34800618574326609}
+  - component: {fileID: 156603416323165594}
+  - component: {fileID: 7331600724589999942}
+  - component: {fileID: 6344918988675848818}
   m_Layer: 0
-  m_Name: SawTrap
+  m_Name: FireTrap
   m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &986408145546663406
+--- !u!4 &3037853348274090109
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529213303090365271}
+  m_GameObject: {fileID: 327761589266872508}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.15, y: -15.79, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 21.96, y: -5.99, z: 0}
+  m_LocalScale: {x: 5.5574074, y: 5.5574074, z: 5.5574074}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2911446492021186824
+--- !u!212 &34800618574326609
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529213303090365271}
+  m_GameObject: {fileID: 327761589266872508}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -84,27 +84,27 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 8842544425113762016, guid: 2849a04b9744f07408e2e2837a645440, type: 3}
+  m_Sprite: {fileID: 5217671297236562399, guid: 70a0d15b1188af64399bd2b764787f87, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.125, y: 0.03125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!95 &4441556557865211223
+--- !u!95 &156603416323165594
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529213303090365271}
+  m_GameObject: {fileID: 327761589266872508}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3c176d4a4bb248b4cae70a8b0e34eee2, type: 2}
+  m_Controller: {fileID: 9100000, guid: 584320ffe7d355945a779735f8b625e0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -116,13 +116,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!61 &2730928076215088008
+--- !u!61 &7331600724589999942
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529213303090365271}
+  m_GameObject: {fileID: 327761589266872508}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -150,30 +150,27 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.2654028}
+  m_Offset: {x: 0.0004587471, y: 0.2587132}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.5, y: 1}
+    newSize: {x: 0.125, y: 0.03125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.3813095, y: 0.4740853}
+  m_Size: {x: 0.1590489, y: 0.455725}
   m_EdgeRadius: 0
---- !u!114 &6940958841822685818
+--- !u!114 &6344918988675848818
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529213303090365271}
+  m_GameObject: {fileID: 327761589266872508}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 446112d04d3a916438f490a5e78d605b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9631ac5eb68b45044b9e2aef5266f915, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrapSaw
-  moveSpeed: 1
-  moveDistance: 3
-  moveHorizontal: 1
+  m_EditorClassIdentifier: Assembly-CSharp::TrapFire

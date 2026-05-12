@@ -1,64 +1,58 @@
 fileFormatVersion: 2
-guid: 6ce723d2c5f283e42a2d659468882f64
+guid: 6fc5f610aa9ca57408e650c3713d1fd8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7096291692445818597
-    second: Ceiling Trap - Level 1_0
+      213: 3819612322806175582
+    second: Sandworm trap - Level 2_0
   - first:
-      213: 53915291480777011
-    second: Ceiling Trap - Level 1_1
+      213: -4390754967486527452
+    second: Sandworm trap - Level 2_1
   - first:
-      213: -6738048259528004555
-    second: Ceiling Trap - Level 1_2
+      213: 8327331753741900861
+    second: Sandworm trap - Level 2_2
   - first:
-      213: 7592566278921600391
-    second: Ceiling Trap - Level 1_3
+      213: -5508622919458804290
+    second: Sandworm trap - Level 2_3
   - first:
-      213: 8182591398894936985
-    second: Ceiling Trap - Level 1_4
+      213: -671626665999032350
+    second: Sandworm trap - Level 2_4
   - first:
-      213: 48828574630290930
-    second: Ceiling Trap - Level 1_5
+      213: -6167488286972378368
+    second: Sandworm trap - Level 2_5
   - first:
-      213: 4142838622621012499
-    second: Ceiling Trap - Level 1_6
+      213: -294554507121872708
+    second: Sandworm trap - Level 2_6
   - first:
-      213: 4242293467671257858
-    second: Ceiling Trap - Level 1_7
+      213: -4442447280408240156
+    second: Sandworm trap - Level 2_7
   - first:
-      213: 1110965253717409458
-    second: Ceiling Trap - Level 1_8
+      213: 5946591649506725831
+    second: Sandworm trap - Level 2_8
   - first:
-      213: 1017534689395146256
-    second: Ceiling Trap - Level 1_9
+      213: -5254945695292529075
+    second: Sandworm trap - Level 2_9
   - first:
-      213: 7791667931543937044
-    second: Ceiling Trap - Level 1_10
+      213: -1681933929978643964
+    second: Sandworm trap - Level 2_10
   - first:
-      213: -2711038990403062227
-    second: Ceiling Trap - Level 1_11
+      213: 5929035581829165694
+    second: Sandworm trap - Level 2_11
   - first:
-      213: -7708802802168039793
-    second: Ceiling Trap - Level 1_12
+      213: 977916825747467469
+    second: Sandworm trap - Level 2_12
   - first:
-      213: -7171958058143118225
-    second: Ceiling Trap - Level 1_13
+      213: -9017158615664821015
+    second: Sandworm trap - Level 2_13
   - first:
-      213: -4204230212763867770
-    second: Ceiling Trap - Level 1_14
+      213: 1683905508714266067
+    second: Sandworm trap - Level 2_14
   - first:
-      213: -5612290156861530877
-    second: Ceiling Trap - Level 1_15
+      213: -2832046506890153742
+    second: Sandworm trap - Level 2_15
   - first:
-      213: -1569411083727235808
-    second: Ceiling Trap - Level 1_16
-  - first:
-      213: 249007667214199925
-    second: Ceiling Trap - Level 1_17
-  - first:
-      213: -4957520847570580923
-    second: Ceiling Trap - Level 1_18
+      213: -6210603358931215881
+    second: Sandworm trap - Level 2_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -180,309 +174,287 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ceiling Trap - Level 1_0
+      name: Sandworm trap - Level 2_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 16
         y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5eed9ce42b71b7260800000000000000
-      internalID: 7096291692445818597
+      spriteID: e571190ab2df10530800000000000000
+      internalID: 3819612322806175582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ceiling Trap - Level 1_1
+      name: Sandworm trap - Level 2_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 112
         y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3316ca40cab8fb000800000000000000
-      internalID: 53915291480777011
+      spriteID: 4280f2bce97e013c0800000000000000
+      internalID: -4390754967486527452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ceiling Trap - Level 1_2
+      name: Sandworm trap - Level 2_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 209
         y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53ce463cec4ad72a0800000000000000
-      internalID: -6738048259528004555
+      spriteID: d3cdd942c10a09370800000000000000
+      internalID: 8327331753741900861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ceiling Trap - Level 1_3
+      name: Sandworm trap - Level 2_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 304
         y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78d3bb4bdc63e5960800000000000000
-      internalID: 7592566278921600391
+      spriteID: ebd251404a07d83b0800000000000000
+      internalID: -5508622919458804290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ceiling Trap - Level 1_4
+      name: Sandworm trap - Level 2_4
       rect:
         serializedVersion: 2
-        x: 256
+        x: 400
         y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 993ac4926876e8170800000000000000
-      internalID: 8182591398894936985
+      spriteID: 2ef927f0b17eda6f0800000000000000
+      internalID: -671626665999032350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ceiling Trap - Level 1_5
+      name: Sandworm trap - Level 2_5
       rect:
         serializedVersion: 2
-        x: 320
+        x: 496
         y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f52ab574597da000800000000000000
-      internalID: 48828574630290930
+      spriteID: 00301aa641ea86aa0800000000000000
+      internalID: -6167488286972378368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ceiling Trap - Level 1_6
+      name: Sandworm trap - Level 2_6
       rect:
         serializedVersion: 2
-        x: 384
+        x: 592
         y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 312181f07c15e7930800000000000000
-      internalID: 4142838622621012499
+      spriteID: cb0b2048c3889ebf0800000000000000
+      internalID: -294554507121872708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ceiling Trap - Level 1_7
+      name: Sandworm trap - Level 2_7
       rect:
         serializedVersion: 2
-        x: 448
+        x: 689
         y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2036185ae67afda30800000000000000
-      internalID: 4242293467671257858
+      spriteID: 4efdddd4cb14952c0800000000000000
+      internalID: -4442447280408240156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ceiling Trap - Level 1_8
+      name: Sandworm trap - Level 2_8
       rect:
         serializedVersion: 2
-        x: 512
+        x: 784
         y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2beb0a91301fa6f00800000000000000
-      internalID: 1110965253717409458
+      spriteID: 7cf072d4999868250800000000000000
+      internalID: 5946591649506725831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ceiling Trap - Level 1_9
+      name: Sandworm trap - Level 2_9
       rect:
         serializedVersion: 2
-        x: 576
+        x: 880
         y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01ef80ca8620f1e00800000000000000
-      internalID: 1017534689395146256
+      spriteID: d46ee166bbea217b0800000000000000
+      internalID: -5254945695292529075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ceiling Trap - Level 1_10
+      name: Sandworm trap - Level 2_11
       rect:
         serializedVersion: 2
-        x: 640
+        x: 976
         y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 410aa73a3b0912c60800000000000000
-      internalID: 7791667931543937044
+      spriteID: e723493c27a284250800000000000000
+      internalID: 5929035581829165694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ceiling Trap - Level 1_11
+      name: Sandworm trap - Level 2_13
       rect:
         serializedVersion: 2
-        x: 704
+        x: 1072
         y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d26bac4e664706ad0800000000000000
-      internalID: -2711038990403062227
+      spriteID: 9ecf1f5930e9cd280800000000000000
+      internalID: -9017158615664821015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ceiling Trap - Level 1_12
+      name: Sandworm trap - Level 2_15
       rect:
         serializedVersion: 2
-        x: 768
+        x: 1168
         y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f86fc35c1b4d40590800000000000000
-      internalID: -7708802802168039793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ceiling Trap - Level 1_13
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f6c01601526187c90800000000000000
-      internalID: -7171958058143118225
+      spriteID: 2f03d61f4bc82b8d0800000000000000
+      internalID: -2832046506890153742
       vertices: []
       indices: 
       edges: []
@@ -491,7 +463,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 52fe54f88205b614e8072d8ac0c19158
+    spriteID: 28dd487b469e99e48885ef40532a9e55
     internalID: 0
     vertices: []
     indices: 
@@ -499,24 +471,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":2,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Ceiling Trap - Level 1_0: 7096291692445818597
-      Ceiling Trap - Level 1_1: 53915291480777011
-      Ceiling Trap - Level 1_10: 7791667931543937044
-      Ceiling Trap - Level 1_11: -2711038990403062227
-      Ceiling Trap - Level 1_12: -7708802802168039793
-      Ceiling Trap - Level 1_13: -7171958058143118225
-      Ceiling Trap - Level 1_2: -6738048259528004555
-      Ceiling Trap - Level 1_3: 7592566278921600391
-      Ceiling Trap - Level 1_4: 8182591398894936985
-      Ceiling Trap - Level 1_5: 48828574630290930
-      Ceiling Trap - Level 1_6: 4142838622621012499
-      Ceiling Trap - Level 1_7: 4242293467671257858
-      Ceiling Trap - Level 1_8: 1110965253717409458
-      Ceiling Trap - Level 1_9: 1017534689395146256
+      Sandworm trap - Level 2_0: 3819612322806175582
+      Sandworm trap - Level 2_1: -4390754967486527452
+      Sandworm trap - Level 2_10: -1681933929978643964
+      Sandworm trap - Level 2_11: 5929035581829165694
+      Sandworm trap - Level 2_12: 977916825747467469
+      Sandworm trap - Level 2_13: -9017158615664821015
+      Sandworm trap - Level 2_14: 1683905508714266067
+      Sandworm trap - Level 2_15: -2832046506890153742
+      Sandworm trap - Level 2_16: -6210603358931215881
+      Sandworm trap - Level 2_2: 8327331753741900861
+      Sandworm trap - Level 2_3: -5508622919458804290
+      Sandworm trap - Level 2_4: -671626665999032350
+      Sandworm trap - Level 2_5: -6167488286972378368
+      Sandworm trap - Level 2_6: -294554507121872708
+      Sandworm trap - Level 2_7: -4442447280408240156
+      Sandworm trap - Level 2_8: 5946591649506725831
+      Sandworm trap - Level 2_9: -5254945695292529075
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

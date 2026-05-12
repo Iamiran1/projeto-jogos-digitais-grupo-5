@@ -6,6 +6,7 @@ public class PlayerAnimator : MonoBehaviour
     private Rigidbody2D rb;
     private PlayerPush playerPush;
     private PlayerMoviment playerMoviment;
+    private bool isDead = false;
 
     void Start()
     {
@@ -18,18 +19,16 @@ public class PlayerAnimator : MonoBehaviour
     void Update()
     {
         if (anim == null || rb == null || playerMoviment == null) return;
+        if (isDead) return;
 
         float moveX = Input.GetAxisRaw("Horizontal");
-
         bool isGrounded = playerMoviment.IsGrounded;
         bool isCrouching = playerMoviment.IsCrouching;
         bool isSliding = playerMoviment.IsWallSliding;
-
         bool isMoving = moveX != 0;
         bool isDashing = playerMoviment.IsDashing;
         bool isRunning = playerMoviment.IsRunning;
         bool isPushing = playerPush != null && playerPush.IsPushing;
-
         bool isJumping = rb.linearVelocity.y > 0.1f && !isGrounded && !isSliding;
         bool isFalling = rb.linearVelocity.y < -0.1f && !isGrounded && !isSliding;
 
@@ -95,5 +94,11 @@ public class PlayerAnimator : MonoBehaviour
     public void TriggerJump()
     {
         SetState(jump: true);
+    }
+
+    public void TriggerDeath()
+    {
+        isDead = true;
+        anim.SetTrigger("die");
     }
 }
