@@ -11,7 +11,7 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float smoothTimeY = 0.15f;
 
     [Header("Progresso")]
-    [SerializeField] private bool lockBackward = true;
+    [SerializeField] private bool lockBackward = false;
 
     [Header("Limites do Mapa")]
     public bool useBounds = false;
