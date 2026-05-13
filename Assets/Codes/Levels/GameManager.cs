@@ -3,10 +3,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
-
     private const string MaxLevelKey = "MaxLevelUnlocked";
 
-    /// <summary>Index of the last level the player entered or completed.</summary>
     public static int lastLevelPlayed = 1;
 
     private void Awake()
@@ -16,23 +14,18 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
         instance = this;
         DontDestroyOnLoad(gameObject);
 
-        // Guarantee level 1 is always unlocked.
         if (PlayerPrefs.GetInt(MaxLevelKey, 1) < 1)
             PlayerPrefs.SetInt(MaxLevelKey, 1);
     }
 
-    /// <summary>Returns true if the given level number is unlocked.</summary>
     public static bool IsLevelUnlocked(int level)
     {
-        int max = PlayerPrefs.GetInt(MaxLevelKey, 1);
-        return level <= max;
+        return level <= PlayerPrefs.GetInt(MaxLevelKey, 1);
     }
 
-    /// <summary>Unlocks the level after currentLevel if not already unlocked.</summary>
     public static void UnlockNextLevel(int currentLevel)
     {
         int max = PlayerPrefs.GetInt(MaxLevelKey, 1);
@@ -43,12 +36,28 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /// <summary>Deletes all PlayerPrefs â€” use in debug/testing only.</summary>
+    public static string GetSceneName(int level)
+    {
+        // Mapeia número do nível para nome da cena
+        switch (level)
+        {
+            case 1: return "Level1";
+            case 2: return "Level2";
+            case 3: return "Level3";
+            case 4: return "Level4";
+            case 5: return "Level5";
+            case 6: return "Level6";
+            case 7: return "Level7";
+            case 8: return "Level8";
+            case 9: return "Level9";
+            case 10: return "Level10";
+            default: return "Level1";
+        }
+    }
+
     public static void ResetProgress()
     {
         PlayerPrefs.DeleteAll();
-        PlayerPrefs.SetInt(MaxLevelKey, 1);
         PlayerPrefs.Save();
-        Debug.Log("[GameManager] Progress reset.");
     }
 }
