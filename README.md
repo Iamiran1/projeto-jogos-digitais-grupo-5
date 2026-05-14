@@ -48,6 +48,14 @@ O jogador pode interagir com objetos do cenário ao se aproximar deles: empurrar
 ### Plataformas Móveis
 Algumas plataformas se movem em trajetos fixos, exigindo que o jogador calcule o momento certo para pular e se manter equilibrado. O jogador pode cair caso não sincronize seus movimentos com o deslocamento da plataforma.
 
+### Armadilhas
+Distribuídas pelos níveis, as armadilhas matam o jogador ao contato e exigem leitura do ambiente e timing para serem evitadas:
+
+- **Arrow Trap** — disparador que lança flechas em intervalos fixos.
+- **Saw Trap** — serra que se desloca em um trajeto horizontal ou vertical pré-definido.
+- **Fire Trap** — chama que alterna entre ativa e inativa em ciclos.
+- **Sandworm Trap** — criatura escondida que ataca quando o jogador entra em sua zona de detecção.
+
 ## Estrutura do Jogo
 
 - **Estrutura de Fases:** o jogo é composto por fases lineares ambientadas em diferentes áreas da floresta. Cada fase possui obstáculos, inimigos e puzzles próprios, e termina quando o jogador encontra e utiliza o ponto de saída. A dificuldade aumenta progressivamente ao longo das fases.
@@ -85,6 +93,26 @@ Algumas plataformas se movem em trajetos fixos, exigindo que o jogador calcule o
 - **Leitura do Ambiente** — identificar plataformas seguras, zonas de perigo e possíveis caminhos de fuga. O design dos níveis guia sutilmente o olhar do jogador para os elementos importantes.
 - **Antecipação de Perigos** — antecipar a presença de inimigos e obstáculos através de pistas visuais e sonoras, como mudanças na iluminação, sons específicos e padrões de patrulha.
 - **Noção de Progressão** — perceber claramente o avanço no jogo através das mudanças no cenário, que se torna progressivamente mais sombrio e desafiador.
+
+## Como Jogar
+
+### Requisitos
+- **Unity 6000.3.12f1** (Unity 6) com suporte a build 2D.
+
+### Executando o projeto
+1. Clone o repositório.
+2. Abra o Unity Hub, clique em *Add* e selecione a pasta raiz do projeto.
+3. Abra o projeto na versão indicada acima.
+4. Abra a cena `Assets/Scenes/MenuPrincipal.unity` e dê *Play*.
+
+### Controles
+| Ação | Tecla |
+|------|-------|
+| Mover | `A` / `D` ou setas esquerda/direita |
+| Pular | `Espaço` |
+| Agachar | `S` ou seta para baixo |
+| Dash | `Shift esquerdo` |
+| Wall Jump | `Espaço` enquanto desliza na parede |
 
 ## Equipe
 
