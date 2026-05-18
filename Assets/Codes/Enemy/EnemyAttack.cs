@@ -10,9 +10,16 @@ public class EnemyAttack : MonoBehaviour
     [Header("Referências")]
     public Transform player;
 
+    [Header("Som")]
+    public AudioClip somAtaque;
+    [Range(0f, 1f)]
+    public float volumeAtaque = 1f;
+    public float distanciaMaxSom = 10f;
+
     private EnemyAnimator enemyAnimator;
     private EnemyMovement enemyMovement;
     private Rigidbody2D rb;
+    private AudioSource audioSource;
     private float lastAttackTime;
     private bool isAttacking = false;
 
@@ -24,6 +31,11 @@ public class EnemyAttack : MonoBehaviour
 
         if (player == null)
             player = GameObject.FindWithTag("Player").transform;
+
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.spatialBlend = 0f;
+        audioSource.playOnAwake = false;
+        audioSource.loop = false;
 
         DisableHitbox();
     }
@@ -67,11 +79,22 @@ public class EnemyAttack : MonoBehaviour
         DisableHitbox();
     }
 
+    private float GetVolumeByDistance()
+    {
+        if (player == null) return 0f;
+        float distancia = Vector2.Distance(transform.position, player.position);
+        return Mathf.Clamp01(1f - (distancia / distanciaMaxSom)) * volumeAtaque;
+    }
+
     public void EnableHitbox()
     {
         Transform hitbox = transform.Find("AttackHitbox");
         if (hitbox != null)
             hitbox.GetComponent<Collider2D>().enabled = true;
+
+        // Toca o som no momento do ataque via Animation Event
+        if (somAtaque != null)
+            audioSource.PlayOneShot(somAtaque, GetVolumeByDistance());
     }
 
     public void DisableHitbox()

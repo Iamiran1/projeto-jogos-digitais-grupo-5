@@ -176,6 +176,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc5def8828895947b982e99f1b9c2cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrapSandworm
+  somMinhoca: {fileID: 8300000, guid: 3b84f412162762d449a11266624c7732, type: 3}
+  volume: 1
+  distanciaMaxSom: 8
 --- !u!50 &8754653697629288
 Rigidbody2D:
   serializedVersion: 5

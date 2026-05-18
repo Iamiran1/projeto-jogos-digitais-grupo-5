@@ -108,6 +108,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.1
   destroyDelay: 2
+  somQueda: {fileID: 8300000, guid: f12116da65cfd734d893a40d8236563b, type: 3}
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!50 &455105949812010644
 Rigidbody2D:
   serializedVersion: 5

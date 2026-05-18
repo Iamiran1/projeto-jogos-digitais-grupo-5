@@ -14,17 +14,14 @@ public class PlayerMoviment : MonoBehaviour
 
     [Header("Pulo")]
     public float jumpForce = 10f;
-
     [SerializeField] private float coyoteTime = 0.15f;
     [SerializeField] private float jumpBufferTime = 0.1f;
-
     [Range(0f, 1f)]
     [SerializeField] private float variableJumpMultiplier = 0.5f;
 
     [Header("Agachamento")]
     [Range(0f, 1f)]
     public float crouchSpeedMultiplier = 0.45f;
-
     [Range(0.1f, 1f)]
     public float crouchHeightMultiplier = 0.5f;
 
@@ -40,10 +37,22 @@ public class PlayerMoviment : MonoBehaviour
     [SerializeField] private float wallJumpLockTime = 0.15f;
     [SerializeField] private float wallCoyoteTime = 0.15f;
 
+    [Header("Sons")]
+    public AudioClip somWallSlide;
+    [Range(0f, 1f)]
+    public float volumeWallSlide = 0.7f;
+    public AudioClip somJump;
+    [Range(0f, 1f)]
+    public float volumeJump = 1f;
+    public AudioClip somDash;
+    [Range(0f, 1f)]
+    public float volumeDash = 1f;
+
     private Rigidbody2D rb;
     private CapsuleCollider2D col2d;
     private PlayerPush playerPush;
     private PlayerAnimator playerAnimator;
+    private AudioSource audioSource;
 
     private Vector2 originalColliderSize;
     private Vector2 originalColliderOffset;
@@ -94,6 +103,11 @@ public class PlayerMoviment : MonoBehaviour
             originalColliderSize = col2d.size;
             originalColliderOffset = col2d.offset;
         }
+
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.spatialBlend = 0f;
+        audioSource.playOnAwake = false;
+        audioSource.loop = false;
     }
 
     void Update()
@@ -117,6 +131,38 @@ public class PlayerMoviment : MonoBehaviour
         }
 
         FlipPlayer(moveX);
+        HandleWallSlideSound();
+    }
+
+    private void HandleWallSlideSound()
+    {
+        if (somWallSlide == null || audioSource == null) return;
+
+        if (isWallSliding && (!audioSource.isPlaying || audioSource.clip != somWallSlide))
+        {
+            audioSource.clip = somWallSlide;
+            audioSource.loop = true;
+            audioSource.volume = volumeWallSlide;
+            audioSource.Play();
+        }
+        else if (!isWallSliding && audioSource.clip == somWallSlide)
+        {
+            audioSource.Stop();
+            audioSource.clip = null;
+            audioSource.loop = false;
+        }
+    }
+
+    private void PlayJumpSound()
+    {
+        if (somJump != null && audioSource != null)
+            audioSource.PlayOneShot(somJump, volumeJump);
+    }
+
+    private void PlayDashSound()
+    {
+        if (somDash != null && audioSource != null)
+            audioSource.PlayOneShot(somDash, volumeDash);
     }
 
     private void HandleMovement(float moveX)
@@ -195,6 +241,7 @@ public class PlayerMoviment : MonoBehaviour
             dashCooldownCounter = dashCooldown;
             dashDirection = moveX != 0 ? (int)Mathf.Sign(moveX) : (int)Mathf.Sign(transform.localScale.x);
             rb.linearVelocity = new Vector2(dashDirection * dashSpeed, 0f);
+            PlayDashSound();
         }
     }
 
@@ -215,6 +262,7 @@ public class PlayerMoviment : MonoBehaviour
             if (playerAnimator != null)
                 playerAnimator.TriggerJump();
 
+            PlayJumpSound();
             return;
         }
 
@@ -230,13 +278,9 @@ public class PlayerMoviment : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
-        {
             jumpBufferCounter = jumpBufferTime;
-        }
         else
-        {
             jumpBufferCounter -= Time.deltaTime;
-        }
 
         if (jumpBufferCounter > 0f &&
             coyoteTimeCounter > 0f &&
@@ -253,6 +297,8 @@ public class PlayerMoviment : MonoBehaviour
 
             jumpBufferCounter = 0f;
             coyoteTimeCounter = 0f;
+
+            PlayJumpSound();
         }
 
         if (Input.GetKeyUp(KeyCode.Space) && isJumping)
@@ -264,7 +310,6 @@ public class PlayerMoviment : MonoBehaviour
                     rb.linearVelocity.y * variableJumpMultiplier
                 );
             }
-
             isJumping = false;
         }
     }
@@ -280,7 +325,6 @@ public class PlayerMoviment : MonoBehaviour
 
         for (int i = 0; i < count; i++)
         {
-            // Ignora contatos no quarto inferior do collider — são bordas de plataforma
             if (contacts[i].point.y < edgeThreshold) continue;
 
             float nx = contacts[i].normal.x;
@@ -316,7 +360,6 @@ public class PlayerMoviment : MonoBehaviour
         float checkDistance = originalColliderSize.y - crouchedHeight;
 
         Vector2 origin = new Vector2(col2d.bounds.center.x, col2d.bounds.max.y);
-
         RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.up, checkDistance, groundLayer);
 
         Debug.DrawRay(origin, Vector2.up * checkDistance,
@@ -348,7 +391,6 @@ public class PlayerMoviment : MonoBehaviour
         {
             wallCoyoteTimeCounter -= Time.deltaTime;
             isWallSliding = true;
-            // fora da parede: deixa a gravidade agir normalmente
         }
         else
         {
@@ -369,69 +411,69 @@ public class PlayerMoviment : MonoBehaviour
         Vector2 center = col2d.bounds.center;
         float halfWidth = col2d.bounds.extents.x * 0.8f;
 
-        bool hitCenter = Physics2D.Raycast(center,                              Vector2.down, rayLen, groundLayer).collider != null;
-        bool hitLeft   = Physics2D.Raycast(center + Vector2.left  * halfWidth,  Vector2.down, rayLen, groundLayer).collider != null;
-        bool hitRight  = Physics2D.Raycast(center + Vector2.right * halfWidth,  Vector2.down, rayLen, groundLayer).collider != null;
+        bool hitCenter = Physics2D.Raycast(center, Vector2.down, rayLen, groundLayer).collider != null;
+        bool hitLeft = Physics2D.Raycast(center + Vector2.left * halfWidth, Vector2.down, rayLen, groundLayer).collider != null;
+        bool hitRight = Physics2D.Raycast(center + Vector2.right * halfWidth, Vector2.down, rayLen, groundLayer).collider != null;
 
         isGrounded = hitCenter || hitLeft || hitRight;
 
         Color c = isGrounded ? Color.green : Color.red;
-        Debug.DrawRay(center,                             Vector2.down * rayLen, c);
-        Debug.DrawRay(center + Vector2.left  * halfWidth, Vector2.down * rayLen, c);
+        Debug.DrawRay(center, Vector2.down * rayLen, c);
+        Debug.DrawRay(center + Vector2.left * halfWidth, Vector2.down * rayLen, c);
         Debug.DrawRay(center + Vector2.right * halfWidth, Vector2.down * rayLen, c);
     }
 
-private void CheckWall()
-{
-    if (col2d == null)
+    private void CheckWall()
     {
-        isTouchingWall = false;
-        return;
+        if (col2d == null)
+        {
+            isTouchingWall = false;
+            return;
+        }
+
+        Vector2 center = col2d.bounds.center;
+        float rayDistance = col2d.bounds.extents.x + wallCheckDistance;
+        float halfHeight = col2d.bounds.extents.y * 0.8f;
+
+        Vector2 top = center + Vector2.up * halfHeight;
+        Vector2 bottom = center + Vector2.down * halfHeight;
+
+        bool rightTop = Physics2D.Raycast(top, Vector2.right, rayDistance, wallLayer).collider != null;
+        bool rightMid = Physics2D.Raycast(center, Vector2.right, rayDistance, wallLayer).collider != null;
+        bool rightBottom = Physics2D.Raycast(bottom, Vector2.right, rayDistance, wallLayer).collider != null;
+
+        bool leftTop = Physics2D.Raycast(top, Vector2.left, rayDistance, wallLayer).collider != null;
+        bool leftMid = Physics2D.Raycast(center, Vector2.left, rayDistance, wallLayer).collider != null;
+        bool leftBottom = Physics2D.Raycast(bottom, Vector2.left, rayDistance, wallLayer).collider != null;
+
+        bool touchRight = rightTop || rightMid || rightBottom;
+        bool touchLeft = leftTop || leftMid || leftBottom;
+
+        if (touchRight)
+        {
+            isTouchingWall = true;
+            wallDirection = 1;
+        }
+        else if (touchLeft)
+        {
+            isTouchingWall = true;
+            wallDirection = -1;
+        }
+        else
+        {
+            isTouchingWall = false;
+            wallDirection = 0;
+        }
+
+        Color cr = touchRight ? Color.cyan : Color.red;
+        Color cl = touchLeft ? Color.cyan : Color.red;
+        Debug.DrawRay(top, Vector2.right * rayDistance, cr);
+        Debug.DrawRay(center, Vector2.right * rayDistance, cr);
+        Debug.DrawRay(bottom, Vector2.right * rayDistance, cr);
+        Debug.DrawRay(top, Vector2.left * rayDistance, cl);
+        Debug.DrawRay(center, Vector2.left * rayDistance, cl);
+        Debug.DrawRay(bottom, Vector2.left * rayDistance, cl);
     }
-
-    Vector2 center = col2d.bounds.center;
-    float rayDistance = col2d.bounds.extents.x + wallCheckDistance;
-    float halfHeight  = col2d.bounds.extents.y * 0.8f;
-
-    Vector2 top    = center + Vector2.up   * halfHeight;
-    Vector2 bottom = center + Vector2.down * halfHeight;
-
-    bool rightTop    = Physics2D.Raycast(top,    Vector2.right, rayDistance, wallLayer).collider != null;
-    bool rightMid    = Physics2D.Raycast(center, Vector2.right, rayDistance, wallLayer).collider != null;
-    bool rightBottom = Physics2D.Raycast(bottom, Vector2.right, rayDistance, wallLayer).collider != null;
-
-    bool leftTop     = Physics2D.Raycast(top,    Vector2.left, rayDistance, wallLayer).collider != null;
-    bool leftMid     = Physics2D.Raycast(center, Vector2.left, rayDistance, wallLayer).collider != null;
-    bool leftBottom  = Physics2D.Raycast(bottom, Vector2.left, rayDistance, wallLayer).collider != null;
-
-    bool touchRight = rightTop || rightMid || rightBottom;
-    bool touchLeft  = leftTop  || leftMid  || leftBottom;
-
-    if (touchRight)
-    {
-        isTouchingWall = true;
-        wallDirection = 1;
-    }
-    else if (touchLeft)
-    {
-        isTouchingWall = true;
-        wallDirection = -1;
-    }
-    else
-    {
-        isTouchingWall = false;
-        wallDirection = 0;
-    }
-
-    Color cr = touchRight ? Color.cyan : Color.red;
-    Color cl = touchLeft  ? Color.cyan : Color.red;
-    Debug.DrawRay(top,    Vector2.right * rayDistance, cr);
-    Debug.DrawRay(center, Vector2.right * rayDistance, cr);
-    Debug.DrawRay(bottom, Vector2.right * rayDistance, cr);
-    Debug.DrawRay(top,    Vector2.left  * rayDistance, cl);
-    Debug.DrawRay(center, Vector2.left  * rayDistance, cl);
-    Debug.DrawRay(bottom, Vector2.left  * rayDistance, cl);
-}
 
     private void ApplyCrouchCollider()
     {
@@ -443,7 +485,6 @@ private void CheckWall()
             float heightDifference = originalColliderSize.y - newHeight;
 
             col2d.size = new Vector2(originalColliderSize.x, newHeight);
-
             col2d.offset = new Vector2(
                 originalColliderOffset.x,
                 originalColliderOffset.y - heightDifference / 2f
@@ -451,7 +492,6 @@ private void CheckWall()
         }
         else
         {
-            // Verifica se o espaço para expandir está livre antes de restaurar o collider
             Vector2 futureCenter = (Vector2)transform.position + originalColliderOffset;
             Collider2D overlap = Physics2D.OverlapCapsule(
                 futureCenter,
@@ -473,12 +513,10 @@ private void CheckWall()
     {
         if (isWallSliding && isTouchingWall)
         {
-            // Vira para longe da parede automaticamente
             transform.localScale = new Vector3(-wallDirection, transform.localScale.y, 1f);
             return;
         }
 
-        // Durante o coyote time (acabou de sair da parede) ou no chão: vira normal
         if (moveX > 0)
             transform.localScale = new Vector3(1f, transform.localScale.y, 1f);
 
@@ -492,18 +530,10 @@ private void CheckWall()
         if (box == null) return;
 
         float groundRayDistance = box.bounds.extents.y + groundExtraDistance;
-
-        Gizmos.DrawLine(
-            box.bounds.center,
-            box.bounds.center + Vector3.down * groundRayDistance
-        );
+        Gizmos.DrawLine(box.bounds.center, box.bounds.center + Vector3.down * groundRayDistance);
 
         int direction = transform.localScale.x > 0 ? 1 : -1;
         float wallRayDistance = box.bounds.extents.x + wallCheckDistance;
-
-        Gizmos.DrawLine(
-            box.bounds.center,
-            box.bounds.center + Vector3.right * direction * wallRayDistance
-        );
+        Gizmos.DrawLine(box.bounds.center, box.bounds.center + Vector3.right * direction * wallRayDistance);
     }
 }

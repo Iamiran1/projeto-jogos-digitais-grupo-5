@@ -174,3 +174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9631ac5eb68b45044b9e2aef5266f915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrapFire
+  somFogo: {fileID: 8300000, guid: 705dcf8a0e9d63747bbec8d3af7bb9e1, type: 3}
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7

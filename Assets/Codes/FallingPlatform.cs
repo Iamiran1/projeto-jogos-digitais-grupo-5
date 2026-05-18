@@ -4,24 +4,46 @@ using UnityEngine;
 public class FallingPlatform : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private AudioSource audioSource;
+    private Transform player;
 
     [Header("Configurações")]
-    public float fallDelay = 0.01f; // Tempo em segundos que ela treme/espera antes de cair
-    public float destroyDelay = 2f; // Tempo para ser deletada depois de cair (para não pesar o jogo)
+    public float fallDelay = 0.01f;
+    public float destroyDelay = 2f;
+
+    [Header("Som")]
+    public AudioClip somQueda;
+    public float distanciaMaxSom = 8f;
+    [Range(0f, 1f)]
+    public float volumeMaximo = 0.7f;
 
     private bool isFalling = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.spatialBlend = 0f;
+        audioSource.playOnAwake = false;
+        audioSource.loop = false;
+
+        GameObject playerObj = GameObject.FindWithTag("Player");
+        if (playerObj != null)
+            player = playerObj.transform;
+    }
+
+    private float GetVolumeByDistance()
+    {
+        if (player == null) return 0f;
+        float distancia = Vector2.Distance(transform.position, player.position);
+        return Mathf.Clamp01(1f - (distancia / distanciaMaxSom)) * volumeMaximo;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // Se quem tocou foi o Player e a plataforma ainda não está caindo
         if (collision.gameObject.CompareTag("Player") && !isFalling)
         {
-            // Verifica se o player encostou por cima (pisou) e não bateu a cabeça por baixo
             if (collision.contacts[0].normal.y < -0.5f)
             {
                 StartCoroutine(Fall());
@@ -33,15 +55,13 @@ public class FallingPlatform : MonoBehaviour
     {
         isFalling = true;
 
-        // Aqui você pode colocar uma animação de "tremer" no futuro, se quiser!
+        // Toca o som quando começa a cair
+        if (somQueda != null)
+            audioSource.PlayOneShot(somQueda, GetVolumeByDistance());
 
-        // Espera o tempo definido
         yield return new WaitForSeconds(fallDelay);
 
-        // Muda o corpo para Dinâmico, fazendo a gravidade puxar ela para baixo na hora!
         rb.bodyType = RigidbodyType2D.Dynamic;
-
-        // Destrói o objeto depois de um tempo para não encher o "limbo" do jogo de lixo
         Destroy(gameObject, destroyDelay);
     }
 }

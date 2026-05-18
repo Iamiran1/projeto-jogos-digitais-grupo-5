@@ -273,6 +273,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &56468400
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,6 +429,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &75180443
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,6 +585,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &114917435
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,6 +741,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &148840128
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,6 +897,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &169509420
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,6 +1144,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &194056253
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,6 +1300,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &200099612
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,6 +1456,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &204525097
 GameObject:
   m_ObjectHideFlags: 0
@@ -1596,6 +1612,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &240854811
 GameObject:
   m_ObjectHideFlags: 0
@@ -1750,6 +1768,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &244250783
 GameObject:
   m_ObjectHideFlags: 0
@@ -4216,6 +4236,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &317524790
 GameObject:
   m_ObjectHideFlags: 0
@@ -4370,6 +4392,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &348414278
 GameObject:
   m_ObjectHideFlags: 0
@@ -4524,6 +4548,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &357144097
 GameObject:
   m_ObjectHideFlags: 0
@@ -4678,6 +4704,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &363353771
 GameObject:
   m_ObjectHideFlags: 0
@@ -4832,6 +4860,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &385374023
 GameObject:
   m_ObjectHideFlags: 0
@@ -4986,6 +5016,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &408310049
 GameObject:
   m_ObjectHideFlags: 0
@@ -5140,6 +5172,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &414083051
 GameObject:
   m_ObjectHideFlags: 0
@@ -5294,6 +5328,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &435023303
 GameObject:
   m_ObjectHideFlags: 0
@@ -5448,6 +5484,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &464126156
 GameObject:
   m_ObjectHideFlags: 0
@@ -5602,6 +5640,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &467717296
 GameObject:
   m_ObjectHideFlags: 0
@@ -5756,6 +5796,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &483890391
 GameObject:
   m_ObjectHideFlags: 0
@@ -5910,6 +5952,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &492751331
 GameObject:
   m_ObjectHideFlags: 0
@@ -6064,6 +6108,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &501087059
 GameObject:
   m_ObjectHideFlags: 0
@@ -6218,6 +6264,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &506842752
 GameObject:
   m_ObjectHideFlags: 0
@@ -6372,6 +6420,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &509049633
 GameObject:
   m_ObjectHideFlags: 0
@@ -6526,6 +6576,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &516977425
 GameObject:
   m_ObjectHideFlags: 0
@@ -6680,6 +6732,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -7049,6 +7103,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &613287622
 GameObject:
   m_ObjectHideFlags: 0
@@ -7203,6 +7259,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -7441,6 +7499,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &640081967
 GameObject:
   m_ObjectHideFlags: 0
@@ -7722,6 +7782,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &683864487
 GameObject:
   m_ObjectHideFlags: 0
@@ -7876,6 +7938,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &700616455
 GameObject:
   m_ObjectHideFlags: 0
@@ -8030,6 +8094,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &744462538
 GameObject:
   m_ObjectHideFlags: 0
@@ -8184,6 +8250,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &747212243
 GameObject:
   m_ObjectHideFlags: 0
@@ -8338,6 +8406,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &790620155
 GameObject:
   m_ObjectHideFlags: 0
@@ -8492,6 +8562,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &822670562
 GameObject:
   m_ObjectHideFlags: 0
@@ -8646,6 +8718,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &825526386
 GameObject:
   m_ObjectHideFlags: 0
@@ -8800,6 +8874,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &878810913
 GameObject:
   m_ObjectHideFlags: 0
@@ -8954,6 +9030,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &929334800
 GameObject:
   m_ObjectHideFlags: 0
@@ -9108,6 +9186,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &930163236
 GameObject:
   m_ObjectHideFlags: 0
@@ -9262,6 +9342,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &988532974
 GameObject:
   m_ObjectHideFlags: 0
@@ -9416,6 +9498,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &990455166
 GameObject:
   m_ObjectHideFlags: 0
@@ -9570,6 +9654,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1001 &1005152590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14989,6 +15075,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1021610074
 GameObject:
   m_ObjectHideFlags: 0
@@ -15143,6 +15231,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1049187699
 GameObject:
   m_ObjectHideFlags: 0
@@ -15388,6 +15478,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1118873423
 GameObject:
   m_ObjectHideFlags: 0
@@ -15542,6 +15634,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1142635177
 GameObject:
   m_ObjectHideFlags: 0
@@ -15741,6 +15835,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1196599808
 GameObject:
   m_ObjectHideFlags: 0
@@ -15895,6 +15991,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1197376619
 GameObject:
   m_ObjectHideFlags: 0
@@ -16049,6 +16147,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1202866411
 GameObject:
   m_ObjectHideFlags: 0
@@ -16563,6 +16663,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1234973428
 GameObject:
   m_ObjectHideFlags: 0
@@ -16765,6 +16867,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1240456229
 GameObject:
   m_ObjectHideFlags: 0
@@ -16919,6 +17023,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1244297058
 GameObject:
   m_ObjectHideFlags: 0
@@ -17073,6 +17179,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1277405983
 GameObject:
   m_ObjectHideFlags: 0
@@ -17318,6 +17426,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1328142464
 GameObject:
   m_ObjectHideFlags: 0
@@ -17472,6 +17582,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!4 &1361189594 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1405814863174533926, guid: 2f9566b7ebc99be498edd7943845a521, type: 3}
@@ -17631,6 +17743,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1392927008
 GameObject:
   m_ObjectHideFlags: 0
@@ -17785,6 +17899,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1404600777
 GameObject:
   m_ObjectHideFlags: 0
@@ -17939,6 +18055,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1422174599
 GameObject:
   m_ObjectHideFlags: 0
@@ -18093,6 +18211,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1422242848
 GameObject:
   m_ObjectHideFlags: 0
@@ -18247,98 +18367,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
---- !u!1 &1430402964
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1430402967}
-  - component: {fileID: 1430402966}
-  - component: {fileID: 1430402965}
-  m_Layer: 0
-  m_Name: FimDeFase
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1430402965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430402964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d80828a13df2c0a4b97ce6ce5189b6e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LevelEnd
-  levelIndex: 2
---- !u!61 &1430402966
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430402964}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0.005103484, y: -0.004809171}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.9795742, y: 0.99038166}
-  m_EdgeRadius: 0
---- !u!4 &1430402967
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430402964}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 69.736, y: 5.744, z: 0}
-  m_LocalScale: {x: 0.95, y: 1.5125, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1433474616
 GameObject:
   m_ObjectHideFlags: 0
@@ -18493,6 +18523,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 1
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1435190043
 GameObject:
   m_ObjectHideFlags: 0
@@ -18647,6 +18679,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1436803829
 GameObject:
   m_ObjectHideFlags: 0
@@ -18801,6 +18835,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1461605003
 GameObject:
   m_ObjectHideFlags: 0
@@ -18955,6 +18991,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!4 &1518312034 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 207833849941693082, guid: 146e44419b8ca504c87188d693811dab, type: 3}
@@ -19114,6 +19152,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1582974191
 GameObject:
   m_ObjectHideFlags: 0
@@ -19268,6 +19308,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1586455728
 GameObject:
   m_ObjectHideFlags: 0
@@ -19422,6 +19464,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1587510994
 GameObject:
   m_ObjectHideFlags: 0
@@ -19576,6 +19620,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1595382543
 GameObject:
   m_ObjectHideFlags: 0
@@ -19730,6 +19776,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1603603582
 GameObject:
   m_ObjectHideFlags: 0
@@ -19884,6 +19932,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1631879568
 GameObject:
   m_ObjectHideFlags: 0
@@ -20038,6 +20088,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1001 &1643939162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20249,6 +20301,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1710538669
 GameObject:
   m_ObjectHideFlags: 0
@@ -21431,6 +21485,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1758635912
 GameObject:
   m_ObjectHideFlags: 0
@@ -21585,6 +21641,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1760336027
 GameObject:
   m_ObjectHideFlags: 0
@@ -21739,6 +21797,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1795288054
 GameObject:
   m_ObjectHideFlags: 0
@@ -46813,6 +46873,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1814369531
 GameObject:
   m_ObjectHideFlags: 0
@@ -46967,6 +47029,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1816155545
 GameObject:
   m_ObjectHideFlags: 0
@@ -47121,6 +47185,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1832914142
 GameObject:
   m_ObjectHideFlags: 0
@@ -47402,6 +47468,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1861707895
 GameObject:
   m_ObjectHideFlags: 0
@@ -47556,6 +47624,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1870763968
 GameObject:
   m_ObjectHideFlags: 0
@@ -47710,6 +47780,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1877314095
 GameObject:
   m_ObjectHideFlags: 0
@@ -47864,6 +47936,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1908260995
 GameObject:
   m_ObjectHideFlags: 0
@@ -48018,6 +48092,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1931658819
 GameObject:
   m_ObjectHideFlags: 0
@@ -48172,6 +48248,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1962845715
 GameObject:
   m_ObjectHideFlags: 0
@@ -48326,6 +48404,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &1997943122
 GameObject:
   m_ObjectHideFlags: 0
@@ -48571,6 +48651,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &2012346613
 GameObject:
   m_ObjectHideFlags: 0
@@ -48725,6 +48807,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &2016608439
 GameObject:
   m_ObjectHideFlags: 0
@@ -48970,6 +49054,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &2024502282
 GameObject:
   m_ObjectHideFlags: 0
@@ -49124,6 +49210,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &2045038480
 GameObject:
   m_ObjectHideFlags: 0
@@ -49278,6 +49366,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &2090268954
 GameObject:
   m_ObjectHideFlags: 0
@@ -49432,6 +49522,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &2093320470
 GameObject:
   m_ObjectHideFlags: 0
@@ -49586,6 +49678,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &2099478552
 GameObject:
   m_ObjectHideFlags: 0
@@ -49740,6 +49834,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &2121665559
 GameObject:
   m_ObjectHideFlags: 0
@@ -49894,6 +49990,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1 &2136370745
 GameObject:
   m_ObjectHideFlags: 0
@@ -50048,6 +50146,8 @@ MonoBehaviour:
   moveSpeed: 0
   moveDistance: 0
   moveHorizontal: 0
+  distanciaMaxSom: 8
+  volumeMaximo: 0.7
 --- !u!1001 &5559528349311993122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50056,6 +50156,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3290775461195347235, guid: df7cee0b9e2998040bf8a938cc3674e4, type: 3}
+      propertyPath: levelIndex
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6239291525199969493, guid: df7cee0b9e2998040bf8a938cc3674e4, type: 3}
       propertyPath: nomeDaProximaCena
       value: Level3
@@ -50127,4 +50231,3 @@ SceneRoots:
   - {fileID: 1643939162}
   - {fileID: 640081968}
   - {fileID: 566364010}
-  - {fileID: 1430402967}

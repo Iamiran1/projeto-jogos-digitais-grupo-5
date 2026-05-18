@@ -17,10 +17,16 @@ public class PlayerPush : MonoBehaviour
     [SerializeField] private Vector2 pushingSize = new Vector2(0.95f, 1.55f);
     [SerializeField] private float pushingOffsetX = 0.1f;
 
+    [Header("Som")]
+    public AudioClip somCaixa;
+    [Range(0f, 1f)]
+    public float volume = 0.7f;
+
     public bool IsPushing { get; private set; }
 
     private Rigidbody2D contactedBox;
     private int facingDirection = 1;
+    private AudioSource audioSource;
 
     void Awake()
     {
@@ -32,6 +38,15 @@ public class PlayerPush : MonoBehaviour
             normalSize = playerCollider.size;
             normalOffset = playerCollider.offset;
         }
+
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.spatialBlend = 0f; // 2D — sem variação de distância
+        audioSource.loop = true;
+        audioSource.playOnAwake = false;
+        audioSource.volume = volume;
+
+        if (somCaixa != null)
+            audioSource.clip = somCaixa;
     }
 
     void FixedUpdate()
@@ -80,6 +95,15 @@ public class PlayerPush : MonoBehaviour
     {
         IsPushing = pushing;
 
+        // Controla o som — toca enquanto empurra, para quando solta
+        if (somCaixa != null)
+        {
+            if (pushing && !audioSource.isPlaying)
+                audioSource.Play();
+            else if (!pushing && audioSource.isPlaying)
+                audioSource.Stop();
+        }
+
         if (playerCollider == null) return;
 
         if (pushing)
@@ -90,6 +114,5 @@ public class PlayerPush : MonoBehaviour
                 normalOffset.y
             );
         }
-        // Quando não está empurrando, PlayerMoviment cuida do collider
     }
 }

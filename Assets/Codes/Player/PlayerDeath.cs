@@ -9,6 +9,11 @@ public class PlayerDeath : MonoBehaviour
     private Animator animator;
     private bool isDead = false;
 
+    [Header("Som")]
+    public AudioClip somMorte;
+    [Range(0f, 1f)]
+    public float volume = 1f;
+
     void Start()
     {
         playerAnimator = GetComponent<PlayerAnimator>();
@@ -36,24 +41,31 @@ public class PlayerDeath : MonoBehaviour
 
     private IEnumerator DeathSequence()
     {
-        // Desativa movimento
         if (playerMoviment != null)
             playerMoviment.enabled = false;
 
-        // Dispara animação de morte
         if (playerAnimator != null)
             playerAnimator.TriggerDeath();
 
+        // Toca som de morte em objeto persistente
+        if (somMorte != null)
+        {
+            GameObject somTemporario = new GameObject("SomMorte");
+            AudioSource somSource = somTemporario.AddComponent<AudioSource>();
+            somSource.clip = somMorte;
+            somSource.volume = volume;
+            DontDestroyOnLoad(somTemporario);
+            somSource.Play();
+            Destroy(somTemporario, somMorte.length);
+        }
+
         if (animator != null)
         {
-            // Espera 1 frame para o Animator processar o trigger
             yield return null;
 
-            // Aguarda até o estado "dead" estar tocando
             yield return new WaitUntil(() =>
                 animator.GetCurrentAnimatorStateInfo(0).IsName("dead"));
 
-            // Aguarda a animação "dead" terminar completamente
             yield return new WaitUntil(() =>
                 animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f);
         }

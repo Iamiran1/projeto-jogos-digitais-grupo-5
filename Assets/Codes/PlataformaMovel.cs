@@ -6,51 +6,68 @@ public class PlataformaMovel : MonoBehaviour
     public Vector2 direcao;
     public float velocidade = 2.0f;
 
+    [Header("Som")]
+    public AudioClip somMovendo;
+    [Range(0f, 1f)]
+    public float volumeMaximo = 0.7f;
+    public float distanciaMaxSom = 8f;
+
     private Vector2 pontoA;
     private Vector2 pontoB;
     private Vector2 destino;
+    private AudioSource audioSource;
+    private Transform player;
 
     void Start()
     {
         pontoA = transform.position;
         pontoB = pontoA + direcao;
         destino = pontoB;
+
+        audioSource = GetComponent<AudioSource>();
+
+        GameObject playerObj = GameObject.FindWithTag("Player");
+        if (playerObj != null)
+            player = playerObj.transform;
     }
 
     void Update()
     {
-        // Move a plataforma
         transform.position = Vector2.MoveTowards(transform.position, destino, velocidade * Time.deltaTime);
 
-        // Inverte a direção ao chegar no destino
         if (Vector2.Distance(transform.position, destino) < 0.1f)
-        {
             destino = (destino == pontoA) ? pontoB : pontoA;
+
+        // Debug temporário
+        if (player != null)
+            Debug.Log("Posição plataforma: " + transform.position + " | Posição player: " + player.position + " | Distância: " + Vector2.Distance(transform.position, player.position));
+
+        // Controla volume por distância
+        if (player != null && audioSource != null)
+        {
+            float distancia = Vector2.Distance(transform.position, player.position);
+            float volumeCalculado = Mathf.Clamp01(1f - (distancia / distanciaMaxSom));
+            audioSource.volume = volumeCalculado * volumeMaximo;
         }
     }
 
-    // Quando algo encostar na plataforma
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Verifica se quem encostou tem a Tag "Player"
         if (collision.gameObject.CompareTag("Player"))
         {
-            // O Player vira "filho" da plataforma
-            collision.transform.SetParent(transform);
+            if (collision.transform != null && gameObject.activeInHierarchy)
+                collision.transform.SetParent(transform);
         }
     }
 
-    // Quando algo sair de cima da plataforma
     private void OnCollisionExit2D(Collision2D collision)
     {
-        // Verifica se quem saiu foi o Player
         if (collision.gameObject.CompareTag("Player"))
         {
-            // O Player deixa de ser filho da plataforma (volta para a raiz do jogo)
-            collision.transform.SetParent(null);
+            if (collision.transform != null && collision.transform.parent == transform)
+                collision.transform.SetParent(null);
         }
     }
-
 
     private void OnDrawGizmosSelected()
     {

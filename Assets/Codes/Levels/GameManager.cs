@@ -4,8 +4,13 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
     private const string MaxLevelKey = "MaxLevelUnlocked";
+    private const string LastLevelKey = "LastLevelPlayed";
 
-    public static int lastLevelPlayed = 1;
+    public static int lastLevelPlayed
+    {
+        get { return PlayerPrefs.GetInt(LastLevelKey, 1); }
+        set { PlayerPrefs.SetInt(LastLevelKey, value); PlayerPrefs.Save(); }
+    }
 
     private void Awake()
     {
@@ -38,7 +43,6 @@ public class GameManager : MonoBehaviour
 
     public static string GetSceneName(int level)
     {
-        // Mapeia número do nível para nome da cena
         switch (level)
         {
             case 1: return "Level1";

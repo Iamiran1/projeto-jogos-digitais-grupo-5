@@ -13,8 +13,15 @@ public class EnemyMovement : MonoBehaviour
     [Header("Referências")]
     public Transform player;
 
+    [Header("Som")]
+    public AudioClip somPatrulha;
+    [Range(0f, 1f)]
+    public float volumePatrulha = 0.7f;
+    public float distanciaMaxSom = 10f;
+
     private Rigidbody2D rb;
     private EnemyAnimator enemyAnimator;
+    private AudioSource audioSource;
     private Vector2 startPosition;
     private bool movingRight = true;
     private Vector3 originalScale;
@@ -28,6 +35,16 @@ public class EnemyMovement : MonoBehaviour
 
         if (player == null)
             player = GameObject.FindWithTag("Player").transform;
+
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.clip = somPatrulha;
+        audioSource.loop = true;
+        audioSource.spatialBlend = 0f;
+        audioSource.playOnAwake = false;
+        audioSource.volume = 0f;
+
+        if (somPatrulha != null)
+            audioSource.Play();
     }
 
     void Update()
@@ -38,6 +55,14 @@ public class EnemyMovement : MonoBehaviour
             ChasePlayer();
         else
             Patrol();
+
+        // Controla volume por distância
+        if (player != null && audioSource != null)
+        {
+            float distancia = Vector2.Distance(transform.position, player.position);
+            float volumeCalculado = Mathf.Clamp01(1f - (distancia / distanciaMaxSom));
+            audioSource.volume = volumeCalculado * volumePatrulha;
+        }
     }
 
     void Patrol()

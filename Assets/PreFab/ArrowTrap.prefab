@@ -180,6 +180,8 @@ MonoBehaviour:
   shootRight: 0
   arrowPrefab: {fileID: 6105639215095613480, guid: 38180b99246bb084d8c8d398a861004b, type: 3}
   firePoint: {fileID: 8356790011791850084}
+  somFlecha: {fileID: 8300000, guid: dab7f82df8a19b847bae83c0df834ba2, type: 3}
+  antecipacaoSom: 0.25
 --- !u!1 &6657386957965892398
 GameObject:
   m_ObjectHideFlags: 0

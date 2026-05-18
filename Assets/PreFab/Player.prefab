@@ -76,6 +76,12 @@ MonoBehaviour:
   wallJumpForce: {x: 8, y: 10}
   wallJumpLockTime: 0.15
   wallCoyoteTime: 0.15
+  somWallSlide: {fileID: 8300000, guid: ebad60ed1fe357f4685ba718e9646d5e, type: 3}
+  volumeWallSlide: 1
+  somJump: {fileID: 8300000, guid: a895b1ab0ce1bf14283cd50b52f5c17d, type: 3}
+  volumeJump: 1
+  somDash: {fileID: 8300000, guid: 361bbc476b2432b4c9143dbdcf8fac56, type: 3}
+  volumeDash: 1
 --- !u!50 &823547202012573450
 Rigidbody2D:
   serializedVersion: 5
@@ -134,6 +140,8 @@ MonoBehaviour:
   normalOffset: {x: 0, y: 0.05}
   pushingSize: {x: 0.95, y: 2.16}
   pushingOffsetX: 0.42
+  somCaixa: {fileID: 8300000, guid: 3c50442a74257f546ac4385aaa0b1c51, type: 3}
+  volume: 0.7
 --- !u!114 &2198614382240677404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,6 +274,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69da2d33715d5b4c925d0a8f074a67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDeath
+  somMorte: {fileID: 8300000, guid: b6ec9c09594b5844b8434711b1d07e06, type: 3}
+  volume: 1
 --- !u!1 &5666305508130982736
 GameObject:
   m_ObjectHideFlags: 0

@@ -178,6 +178,9 @@ MonoBehaviour:
   chaseSpeed: 4
   detectionRange: 5
   player: {fileID: 0}
+  somPatrulha: {fileID: 8300000, guid: 7b2351e88a331d54299cc03d66e865ab, type: 3}
+  volumePatrulha: 0.7
+  distanciaMaxSom: 10
 --- !u!114 &2741310961689659497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,6 +197,9 @@ MonoBehaviour:
   attackCooldown: 2
   attackDamage: 10
   player: {fileID: 0}
+  somAtaque: {fileID: 8300000, guid: 4f289949ac8e1b3449170e6a9a32c6ca, type: 3}
+  volumeAtaque: 1
+  distanciaMaxSom: 10
 --- !u!114 &4850020540866079810
 MonoBehaviour:
   m_ObjectHideFlags: 0
