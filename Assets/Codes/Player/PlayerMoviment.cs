@@ -52,6 +52,7 @@ public class PlayerMoviment : MonoBehaviour
     private CapsuleCollider2D col2d;
     private PlayerPush playerPush;
     private PlayerAnimator playerAnimator;
+    private PlayerDeath playerDeath;   // FIX: referência ao PlayerDeath
     private AudioSource audioSource;
 
     private Vector2 originalColliderSize;
@@ -95,6 +96,7 @@ public class PlayerMoviment : MonoBehaviour
         col2d = GetComponent<CapsuleCollider2D>();
         playerPush = GetComponent<PlayerPush>();
         playerAnimator = GetComponent<PlayerAnimator>();
+        playerDeath = GetComponent<PlayerDeath>();   // FIX
 
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
 
@@ -112,6 +114,16 @@ public class PlayerMoviment : MonoBehaviour
 
     void Update()
     {
+        // FIX: se o player está morto, NÃO processamos nada. Isso resolve a
+        // race condition em que o dash/jump aplicaria velocidade residual
+        // por mais um frame antes do enabled=false do PlayerDeath ter efeito.
+        // Adicionalmente, zeramos a velocidade aqui como dupla segurança.
+        if (playerDeath != null && playerDeath.IsDead)
+        {
+            if (rb != null) rb.linearVelocity = Vector2.zero;
+            return;
+        }
+
         CheckGround();
 
         float moveX = Input.GetAxisRaw("Horizontal");

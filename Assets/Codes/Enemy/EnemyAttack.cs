@@ -7,7 +7,7 @@ public class EnemyAttack : MonoBehaviour
     public float attackCooldown = 1f;
     public int attackDamage = 10;
 
-    [Header("Refer�ncias")]
+    [Header("Refer�ncias")]
     public Transform player;
 
     [Header("Som")]
@@ -22,6 +22,7 @@ public class EnemyAttack : MonoBehaviour
     private AudioSource audioSource;
     private float lastAttackTime;
     private bool isAttacking = false;
+    private PlayerDeath playerDeath;   // FIX: cachear p/ checar morte do player
 
     void Start()
     {
@@ -31,6 +32,10 @@ public class EnemyAttack : MonoBehaviour
 
         if (player == null)
             player = GameObject.FindWithTag("Player").transform;
+
+        // FIX: cacheamos PlayerDeath para abortar ataques quando o player morrer.
+        if (player != null)
+            playerDeath = player.GetComponent<PlayerDeath>();
 
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.spatialBlend = 0f;
@@ -42,6 +47,16 @@ public class EnemyAttack : MonoBehaviour
 
     void Update()
     {
+        // FIX: se o player está morto, não atacamos mais e zeramos a velocidade
+        // do inimigo. Evita que o inimigo continue tentando atacar durante a
+        // sequência de morte do player.
+        if (playerDeath != null && playerDeath.IsDead)
+        {
+            if (rb != null) rb.linearVelocity = Vector2.zero;
+            isAttacking = false;
+            return;
+        }
+
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
         if (distanceToPlayer <= attackRange)

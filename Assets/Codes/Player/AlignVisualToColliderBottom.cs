@@ -38,4 +38,13 @@ public class AlignVisualToColliderBottom : MonoBehaviour
 
         visual.position += new Vector3(0f, difference, 0f);
     }
+
+    // FIX: método público para forçar realinhamento imediato (sem esperar o
+    // próximo LateUpdate). O PlayerDeath chama isso após teleportar o player
+    // de volta à posição pré-impulso, garantindo que o sprite morto apareça
+    // na posição certa já no mesmo frame, não 1 frame depois.
+    public void ForceAlign()
+    {
+        AlignBottom();
+    }
 }

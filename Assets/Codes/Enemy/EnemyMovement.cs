@@ -6,11 +6,11 @@ public class EnemyMovement : MonoBehaviour
     public float patrolSpeed = 2f;
     public float patrolDistance = 3f;
 
-    [Header("Persegui��o")]
+    [Header("Persegui��o")]
     public float chaseSpeed = 4f;
     public float detectionRange = 5f;
 
-    [Header("Refer�ncias")]
+    [Header("Refer�ncias")]
     public Transform player;
 
     [Header("Som")]
@@ -25,6 +25,7 @@ public class EnemyMovement : MonoBehaviour
     private Vector2 startPosition;
     private bool movingRight = true;
     private Vector3 originalScale;
+    private PlayerDeath playerDeath;   // FIX: cachear PlayerDeath p/ checar IsDead
 
     void Start()
     {
@@ -35,6 +36,12 @@ public class EnemyMovement : MonoBehaviour
 
         if (player == null)
             player = GameObject.FindWithTag("Player").transform;
+
+        // FIX: cachear PlayerDeath para checar se o player morreu — evita
+        // que o inimigo continue perseguindo o corpo durante a animação
+        // de morte e gere interferência visual.
+        if (player != null)
+            playerDeath = player.GetComponent<PlayerDeath>();
 
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = somPatrulha;
@@ -49,6 +56,19 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
+        // FIX: se o player está morto, paramos o inimigo no lugar. Isso
+        // impede que o inimigo continue se movendo em direção ao corpo
+        // morto e cause qualquer interferência visual durante a morte.
+        if (playerDeath != null && playerDeath.IsDead)
+        {
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+            if (enemyAnimator != null)
+                enemyAnimator.SetMoving(false);
+            if (audioSource != null)
+                audioSource.volume = 0f;
+            return;
+        }
+
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
         if (distanceToPlayer <= detectionRange)
@@ -56,7 +76,7 @@ public class EnemyMovement : MonoBehaviour
         else
             Patrol();
 
-        // Controla volume por dist�ncia
+        // Controla volume por dist�ncia
         if (player != null && audioSource != null)
         {
             float distancia = Vector2.Distance(transform.position, player.position);
