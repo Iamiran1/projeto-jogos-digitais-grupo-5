@@ -123,10 +123,11 @@ public class PlayerMoviment : MonoBehaviour
             if (rb != null) rb.linearVelocity = Vector2.zero;
             return;
         }
+        if (MobileHUD.IsPaused) return;
 
         CheckGround();
 
-        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveX = Mathf.Clamp(Input.GetAxisRaw("Horizontal") + MobileInput.HorizontalAxis, -1f, 1f);
 
         CheckWall();
         HandleCrouch();
@@ -243,7 +244,10 @@ public class PlayerMoviment : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) &&
+        bool dashDown = Input.GetKeyDown(KeyCode.LeftShift) || MobileInput.DashPressed;
+        MobileInput.DashPressed = false;
+
+        if (dashDown &&
             dashCooldownCounter <= 0f &&
             !isCrouching &&
             !isWallSliding)
@@ -259,7 +263,13 @@ public class PlayerMoviment : MonoBehaviour
 
     private void HandleJump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isWallSliding)
+        bool jumpDown = Input.GetKeyDown(KeyCode.Space) || MobileInput.JumpPressed;
+        bool jumpHeld = Input.GetKey(KeyCode.Space) || MobileInput.JumpHeld;
+        bool jumpUp = Input.GetKeyUp(KeyCode.Space) || MobileInput.JumpReleased;
+        MobileInput.JumpPressed = false;
+        MobileInput.JumpReleased = false;
+
+        if (jumpDown && isWallSliding)
         {
             isWallJumping = true;
             isWallSliding = false;
@@ -289,7 +299,7 @@ public class PlayerMoviment : MonoBehaviour
             coyoteTimeCounter -= Time.deltaTime;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (jumpDown)
             jumpBufferCounter = jumpBufferTime;
         else
             jumpBufferCounter -= Time.deltaTime;
@@ -313,7 +323,7 @@ public class PlayerMoviment : MonoBehaviour
             PlayJumpSound();
         }
 
-        if (Input.GetKeyUp(KeyCode.Space) && isJumping)
+        if (jumpUp && isJumping)
         {
             if (rb.linearVelocity.y > 0f)
             {
@@ -352,7 +362,8 @@ public class PlayerMoviment : MonoBehaviour
     private void HandleCrouch()
     {
         bool crouchKeyHeld = Input.GetKey(KeyCode.S) ||
-                             Input.GetKey(KeyCode.DownArrow);
+                             Input.GetKey(KeyCode.DownArrow) ||
+                             MobileInput.CrouchHeld;
 
         if (crouchKeyHeld && isGrounded)
             isCrouching = true;

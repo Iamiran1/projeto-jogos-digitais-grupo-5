@@ -74,7 +74,14 @@ public class PlayerDeath : MonoBehaviour
         if (isDead) return;
 
         if (Input.GetKeyDown(KeyCode.R))
+        if (MobileHUD.IsPaused) return;
+
+        bool restart = Input.GetKeyDown(KeyCode.R) || MobileInput.RestartPressed;
+        if (restart)
+        {
+            MobileInput.RestartPressed = false;
             RestartLevel();
+        }
     }
 
     // FIX CRÍTICO (causa raiz do "player no ar"):
