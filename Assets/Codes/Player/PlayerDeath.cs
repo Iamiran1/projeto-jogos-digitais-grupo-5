@@ -22,7 +22,7 @@ public class PlayerDeath : MonoBehaviour
         playerMoviment = GetComponent<PlayerMoviment>();
         animator = GetComponentInChildren<Animator>();
 
-        // Problema 2 — salva o nível atual ao iniciar a cena
+        // Problema 2 ï¿½ salva o nï¿½vel atual ao iniciar a cena
         SaveCurrentLevel();
     }
 
@@ -44,6 +44,17 @@ public class PlayerDeath : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+            RestartLevel();
+    }
+
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Trap") && !isDead)
@@ -53,16 +64,7 @@ public class PlayerDeath : MonoBehaviour
         }
     }
 
-    void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.CompareTag("Trap") && !isDead)
-        {
-            isDead = true;
-            StartCoroutine(DeathSequence());
-        }
-    }
-
-    // Problema 1 — método público para KillZone chamar
+    // Problema 1 â€” mÃ©todo pÃºblico para KillZone chamar
     public void TriggerDeath()
     {
         if (!isDead)
@@ -76,6 +78,9 @@ public class PlayerDeath : MonoBehaviour
     {
         if (playerMoviment != null)
             playerMoviment.enabled = false;
+
+        var rb = GetComponent<Rigidbody2D>();
+        if (rb != null) rb.simulated = false;
 
         if (playerAnimator != null)
             playerAnimator.TriggerDeath();
